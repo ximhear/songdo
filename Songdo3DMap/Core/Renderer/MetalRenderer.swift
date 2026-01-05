@@ -155,8 +155,8 @@ final class MetalRenderer: NSObject {
             device: device
         )
 
-        // 송도현대아울렛 고정 위치 (GPS: 37.3806, 126.6567)
-        locationMarkerPosition = SIMD3<Float>(3677, 0, 2842)
+        // 송도현대아울렛 고정 위치 (GPS: 37.381659, 126.657836)
+        locationMarkerPosition = SIMD3<Float>(3778, 0, 2959)
     }
 
     private func createMarkerBoxMesh() -> Mesh? {
@@ -236,8 +236,9 @@ final class MetalRenderer: NSObject {
     // MARK: - Location Marker Update
 
     func updateLocationMarker(position: SIMD3<Float>?) {
-        locationMarkerPosition = position
+        // GPS 위치가 있으면 업데이트, 없으면 기존 위치 유지
         if let pos = position {
+            locationMarkerPosition = pos
             print("Location marker updated: (\(pos.x), \(pos.z))")
         }
     }
