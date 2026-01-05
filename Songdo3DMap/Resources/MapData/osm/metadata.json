@@ -1,0 +1,12 @@
+{
+  "bbox": {
+    "south": 37.355,
+    "west": 126.615,
+    "north": 37.425,
+    "east": 126.725
+  },
+  "building_count": 7654,
+  "road_count": 6333,
+  "total_road_length_km": 1235.3366831025512,
+  "extracted_at": "2026-01-06 00:25:52"
+}

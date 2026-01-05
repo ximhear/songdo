@@ -1,0 +1,2171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007618D03F2C1FAC39A87F72 /* chunk_1_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3E665AF6E321C5CE838A546A /* chunk_1_8.bin */; };
+		017AAD6578FA57A35428F380 /* chunk_19_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 72A9A212385D5D990CD39641 /* chunk_19_14.bin */; };
+		019721DA7F80DCD53C538E7B /* chunk_15_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 90B619CB331CD157E9D1EA11 /* chunk_15_16.bin */; };
+		01C5DFEBD1C1AB67B285FD8A /* chunk_3_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 40F8B9C526D58D13A49560EE /* chunk_3_2.bin */; };
+		02905E1C9DB06E33AD2A33F9 /* chunk_2_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 67F9824CE81DC0B8043DE910 /* chunk_2_1.bin */; };
+		0308D14403FE79A4B9F69235 /* chunk_6_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5DBE65449D75319B52EDCD66 /* chunk_6_4.bin */; };
+		0365E6B2F1152321B0DA4203 /* chunk_4_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = B75264E1433288CCC285B63E /* chunk_4_12.bin */; };
+		04DBA6EBADE7FCBA9727C9DA /* chunk_-1_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB810555AC5D15B24D31B4 /* chunk_-1_0.bin */; };
+		05619E93FC0C0967E4BA9C22 /* chunk_4_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 39BFA620B3191A919F7845F6 /* chunk_4_0.bin */; };
+		05B32647989DF16495D91429 /* chunk_2_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0062A82A0979A69949B56580 /* chunk_2_0.bin */; };
+		05FE5B47CCF4B3F14BD38DB7 /* chunk_3_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3B140D4ACAC5C96E32D31C0D /* chunk_3_4.bin */; };
+		0770400100C756B8D2E031F4 /* chunk_0_18.bin in Resources */ = {isa = PBXBuildFile; fileRef = 91E699B0195F7CB61E97422F /* chunk_0_18.bin */; };
+		07DA76F68178BA6459E50071 /* chunk_9_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 147D462D1128867ECBE4E5FE /* chunk_9_4.bin */; };
+		07EB6A8D0142B0B1C1D3F475 /* chunk_10_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = F4E3F21EEAA9DA7E419A9F51 /* chunk_10_4.bin */; };
+		0A2C7ED1E37E6EEC6A29AD8F /* chunk_18_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = EA317BDDDD623A5CC157ABD1 /* chunk_18_3.bin */; };
+		0A8AC588E860DFFB7523B7CE /* chunk_11_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = CD64BCC8851D5C587E30C6E8 /* chunk_11_7.bin */; };
+		0B512DB7FF56AD630290321F /* chunk_2_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5936F8DADE58FE256C303C2B /* chunk_2_14.bin */; };
+		0CCCA6566D6E85E48859D5EF /* chunk_13_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 085A458760D9EB2BEB0247FF /* chunk_13_15.bin */; };
+		0E618E56D9973086B3A02C3A /* chunk_4_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9CB633EED25D37E0B9E5EAC2 /* chunk_4_15.bin */; };
+		0EF33BD65ED7D41ACF638740 /* chunk_14_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8DA03D4895718BE9E739BC52 /* chunk_14_6.bin */; };
+		10212F23070A349F9865F6B5 /* chunk_8_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2C58F834D91CA0C6A04BE619 /* chunk_8_2.bin */; };
+		10E51B40B921AA6CA49E1EEE /* chunk_3_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = F60FB612855BE9B75EC31527 /* chunk_3_9.bin */; };
+		115E972947095322679EFF73 /* chunk_2_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = E7D96404D710EBF4977CF002 /* chunk_2_4.bin */; };
+		123E1EAC2A67ED3169E78115 /* chunk_11_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = C30241F11A27F0D496B10708 /* chunk_11_9.bin */; };
+		12A2E4C032C288BDD8B81D45 /* chunk_11_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3D43C13835F9A5DEAA02A1ED /* chunk_11_11.bin */; };
+		12E83A9B3A290660BA809388 /* chunk_20_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = D0A86A71F2344B2614D7D2E4 /* chunk_20_10.bin */; };
+		13AEC9CB1EF758C2FE52D3C4 /* chunk_8_-3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0310B16BE3A68EBB40A35B58 /* chunk_8_-3.bin */; };
+		1421B04BD70127AA45F959F8 /* chunk_21_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9BCBE538E10B7FFBB952981B /* chunk_21_-1.bin */; };
+		14E16F488371DACD2FAA0A3E /* chunk_10_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303B4EDD0C6F25D07EB9B77 /* chunk_10_9.bin */; };
+		1557706106027DBB487DBB17 /* chunk_8_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 922CCA85B4FF4F7BA96BC760 /* chunk_8_0.bin */; };
+		15E02F45DE9243FD2FD6B27E /* chunk_18_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 079951DE2C36C1D40101DB2E /* chunk_18_8.bin */; };
+		16B6E3CDCC4B91C004249078 /* chunk_16_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 741615A753D57975B0609DC1 /* chunk_16_12.bin */; };
+		16E9D709154797FD9FB17D3C /* chunk_11_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = A0C78E16F56DB21FC35B5735 /* chunk_11_4.bin */; };
+		17687998972DCDBDB9456859 /* chunk_12_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = A2A575F6AE7174785AA832C9 /* chunk_12_12.bin */; };
+		183968837535C2EE359ECD31 /* chunk_19_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6B7C2A2208204A8353C8EE18 /* chunk_19_-2.bin */; };
+		18B8BBF1D8ED5CE788E0D031 /* chunk_0_17.bin in Resources */ = {isa = PBXBuildFile; fileRef = 69B1650AF1D094982E887741 /* chunk_0_17.bin */; };
+		1BF240B3937690B1CA5A1068 /* chunk_10_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5B764B7EB74BB118D689A031 /* chunk_10_10.bin */; };
+		1C4612B64B84723D5A78FDA3 /* chunk_4_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = B11A9D01755D5AB383E74FAD /* chunk_4_1.bin */; };
+		1C641981B8337A9A41D2AE0D /* chunk_17_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = CE2A16598F0825F16E9E2534 /* chunk_17_3.bin */; };
+		1CF80C4A9F202020561DE3CF /* chunk_5_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 00F0AED65B65342946E7464F /* chunk_5_10.bin */; };
+		1DFCE645663707A7F18DB2BA /* chunk_3_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = A8CE82E884D2B931867DD1A6 /* chunk_3_5.bin */; };
+		204630332ED6D58222601F8C /* chunk_4_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7893EDF90148FDBF04D93A9C /* chunk_4_10.bin */; };
+		208BAAF487FE4F5D40CCC204 /* chunk_2_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = E82636B1371E670C94B5D10E /* chunk_2_2.bin */; };
+		20C0FA799102FCC111E613E7 /* chunk_2_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 493AB759E8EE815C5F47D1E6 /* chunk_2_-1.bin */; };
+		20CFC9183DBD4525C5182BA2 /* chunk_3_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3F56A3388D83EAD043BCA3B8 /* chunk_3_10.bin */; };
+		212DCD195A46E6B4FA531909 /* chunk_8_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 188AD5F97951DABA8EF5790D /* chunk_8_14.bin */; };
+		21404540B4685805302E838C /* chunk_16_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = F854144783BF3AB54CE78D80 /* chunk_16_7.bin */; };
+		21CCE3BDD198398D2FBA6EFE /* chunk_7_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3B7921929992E273595D4B21 /* chunk_7_15.bin */; };
+		2228C672F9B8AB8CF4CBBCC5 /* chunk_9_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1A1FCE78518D6F86D0E48E01 /* chunk_9_14.bin */; };
+		22F73EAF90EF5098FA7DE955 /* chunk_4_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = E160CA2E0EB5BDFBDD35335D /* chunk_4_-1.bin */; };
+		23B8FFB589500CE015DD4A9A /* chunk_19_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = C74E1FE32409120F39530E71 /* chunk_19_-1.bin */; };
+		23DCC2B9B94DD014D41B2608 /* chunk_7_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = E9041F8C5A8635E3AA2A2C3E /* chunk_7_6.bin */; };
+		24EE981CAF1A235F9F484CA9 /* chunk_0_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = AC570ACD6D319CD79FC1D5A1 /* chunk_0_8.bin */; };
+		25412EDF505EB0781D2C23C4 /* chunk_17_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = DF80194C2B932914054809E4 /* chunk_17_14.bin */; };
+		2575FEB31EE0B000AC47FC12 /* chunk_13_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = BEC26DDEEB7C8E0817F9F1D3 /* chunk_13_8.bin */; };
+		25C8A9EC454A7D7CE744F648 /* chunk_5_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = CA61DDC53345A31CEDCE8B51 /* chunk_5_0.bin */; };
+		2667D853B012B7A851681F5C /* chunk_8_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = A1E1405130381E670CD67BCB /* chunk_8_9.bin */; };
+		26885C27892B823AFBFB4155 /* chunk_6_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 34D965AD8743185FB69B0D3F /* chunk_6_8.bin */; };
+		26974D41BB1226304A11A70C /* chunk_13_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7452BA0DF6F17D4E69809505 /* chunk_13_4.bin */; };
+		274ABE5B27CB0BB9B6430504 /* chunk_11_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = BDC3BE9A2ED563B45DC94F39 /* chunk_11_13.bin */; };
+		276A568C929E672AEEB99C9F /* chunk_7_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0B394E8038739600843D60CD /* chunk_7_10.bin */; };
+		2956135978A8B439A999FEBB /* chunk_12_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = E75CACC98E985CF875DC532E /* chunk_12_16.bin */; };
+		2A0A61CDD0333C9D997691F2 /* chunk_6_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = F743DC5F2BE373D359CB69C5 /* chunk_6_-2.bin */; };
+		2AAFED898BF0A745D70BD3A7 /* chunk_-1_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 141EE7759F3EBBFAEA438AF9 /* chunk_-1_13.bin */; };
+		2C197E145326DEC1F8FF3EB4 /* chunk_9_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = EB66A43797756FAC2670AFCE /* chunk_9_12.bin */; };
+		2CA2ECD750ECA7C1CA95E1DA /* chunk_-1_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 42C4B930592554F1758AE8CC /* chunk_-1_5.bin */; };
+		2D21E05BB5C9F62FE4F78172 /* Building.metal in Sources */ = {isa = PBXBuildFile; fileRef = DC3B39AA43378CCB9224CCF3 /* Building.metal */; };
+		2DEBEF5D597A10DC77D1A0C7 /* chunk_-1_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5735C747AF648A8C0DF418D5 /* chunk_-1_15.bin */; };
+		2E2CC6C328AA67E0902DFDE1 /* chunk_18_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 929B2EAD2CA72D4A4D957DC2 /* chunk_18_2.bin */; };
+		2E81FF0050749272A9D19AF3 /* chunk_17_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47C6ABC77DCD94789C47159B /* chunk_17_2.bin */; };
+		2ECEA447C775A1C03407A3AB /* ChunkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0103EE7B83BD65E571DE1127 /* ChunkManager.swift */; };
+		3058F3EBD052D595F103BCF0 /* chunk_1_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7CFBEDBDC203AB158CD9EFFC /* chunk_1_6.bin */; };
+		30660A1B845AD0AAC1069C2B /* chunk_6_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = ADF2659A3A988DA58F220757 /* chunk_6_12.bin */; };
+		319B0C22072970C53D3E5AE3 /* chunk_7_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = A7BD86C95F468FDA0F054D1A /* chunk_7_14.bin */; };
+		31EB34AE0048B0C366AB9F31 /* chunk_14_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = D70C995EF027614FCF364489 /* chunk_14_14.bin */; };
+		32157083D9E226778C8A3931 /* chunk_4_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = A95C80A1A6C53044774D7141 /* chunk_4_7.bin */; };
+		32590AC3B91DA8005F3A45D3 /* chunk_7_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0CD560396FF4E6A4D13342DC /* chunk_7_2.bin */; };
+		32F758908D51094663CD8E7A /* chunk_3_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = CD90AB30B3BA8F69493FDDCE /* chunk_3_12.bin */; };
+		3300D72A1D7AFED8254DDADD /* chunk_2_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 90C45B7AC6FF3EA83D340E5C /* chunk_2_8.bin */; };
+		33A0FBDBA1C2C6BA623B3985 /* BoxGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279429618D9AA7B001915A1 /* BoxGenerator.swift */; };
+		33C21173B081F6506BC6E350 /* chunk_15_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = C0360D52F37371EB10463BAD /* chunk_15_13.bin */; };
+		3553EDD39377A02411126E06 /* chunk_5_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = E8A2695A5EA0C7ED23C1AEA1 /* chunk_5_1.bin */; };
+		35D6A0FE170C0F180CC9714B /* chunk_15_18.bin in Resources */ = {isa = PBXBuildFile; fileRef = AB59D5FBC7476A3C20929457 /* chunk_15_18.bin */; };
+		36289E6BD447368BD66A6544 /* chunk_0_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 361D7D46B7A8BF9FA447179B /* chunk_0_4.bin */; };
+		373F604D92F0EC69FC6F7A49 /* chunk_20_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = FE71E9A3983ACC0B645886D4 /* chunk_20_14.bin */; };
+		37C82F06BCDB75C8F37AE17A /* chunk_-2_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4282E5F6C03128B7B971C878 /* chunk_-2_16.bin */; };
+		38447A79D4990CBF40E8F14F /* CylinderGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EA9C2C0C072ED60C80CF2 /* CylinderGenerator.swift */; };
+		3B01B1FA0C82B8177390C5C7 /* chunk_0_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = DF66EED893211CD76292BDA2 /* chunk_0_1.bin */; };
+		3BA29277890A10A5F30FDAB0 /* chunk_8_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3E5581DA65F88BC2117A8761 /* chunk_8_11.bin */; };
+		3CF60CEC623E8E516DE7366A /* chunk_18_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = A00E9564E2B77F79EA467842 /* chunk_18_9.bin */; };
+		3E4D920B4FC409D7359E8270 /* chunk_11_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 822F132BD6E7379987B660AA /* chunk_11_6.bin */; };
+		403CC68252F57269FFB74D8C /* chunk_18_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 53969CF463E4395E3EAE5B90 /* chunk_18_14.bin */; };
+		40DB3D1ADDAE504FA6CBF9BA /* chunk_16_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = D88BB14EEFBD458315D2D0BA /* chunk_16_0.bin */; };
+		417A587F077C6C062836C813 /* chunk_16_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = BCC277182FA9452EB7C7F298 /* chunk_16_11.bin */; };
+		41A9D1D4A1056CDE4FA9CC77 /* chunk_19_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = BA3D8DE85BF68A46CD73EFCC /* chunk_19_13.bin */; };
+		420E3022EEEC1CE0E24D9AFD /* chunk_0_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 13D672BB40E8326F3A973CA4 /* chunk_0_0.bin */; };
+		42469A1B20EC7BAD0B1D406E /* chunk_12_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = D6B577D0ED9782E8E5B9944C /* chunk_12_4.bin */; };
+		425E1DB46C55FEF0DBCEDABE /* chunk_11_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1DDB63C5F852E01AFA53243C /* chunk_11_14.bin */; };
+		42E5E2112641C7ADFB066928 /* chunk_7_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 304306F20C53B1B26B337B4D /* chunk_7_16.bin */; };
+		42F4770F0852D23066E65CE2 /* chunk_18_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = AAF39DE695657BD9FB96ECE2 /* chunk_18_11.bin */; };
+		441A62B2B88FBABE110E64BD /* chunk_6_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = F87CC535E22CD2C94F2420C2 /* chunk_6_9.bin */; };
+		441B229FCA87C23E9EAFC39A /* chunk_4_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = D0EE2684DD728AE75927C08E /* chunk_4_13.bin */; };
+		44C7406EFA6B2A382F88EBF0 /* chunk_1_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1857973E337EFE59C13E1075 /* chunk_1_15.bin */; };
+		455B41E58FCE0082ACB1005A /* chunk_18_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47C206FA2FB4B39D5327F2AB /* chunk_18_4.bin */; };
+		46D5623B209336C68D5654F4 /* chunk_14_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4798D27C978FE1742D94A9B8 /* chunk_14_16.bin */; };
+		476B171F879FB914899B7702 /* chunk_13_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = FCF50A93E1FC62A6B0F1C884 /* chunk_13_11.bin */; };
+		4911C412BA3B44C0DE120424 /* chunk_5_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = E2F7F088949241D4A307D48C /* chunk_5_11.bin */; };
+		4B21C532334DAA9C103F7653 /* chunk_20_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = D2AC3A6C5BDFCF9E54D9347D /* chunk_20_7.bin */; };
+		4B4587D30472D46F0C742F6D /* chunk_9_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 31C2C829846FFACEC77DAE07 /* chunk_9_0.bin */; };
+		4B500430C5CAF651EEDD66EB /* chunk_11_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5629B55CFB496A3186FA8C3E /* chunk_11_3.bin */; };
+		4BA08119F622EE9FD3C5F5B4 /* chunk_1_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = F1AE0745D4D260E52A0982FD /* chunk_1_13.bin */; };
+		4C375606E76C5A0BF0A94FE7 /* chunk_10_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = E778701090EDB0D3B12B8151 /* chunk_10_1.bin */; };
+		4C6F1C0A1B50FC6E7EB97ADD /* chunk_5_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 320B2146931127DE808AFE5D /* chunk_5_5.bin */; };
+		4CC818A8C801CDAF144A36D5 /* chunk_6_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3F63AAB5BB16CEBDD1B0D2E5 /* chunk_6_11.bin */; };
+		4DDF03BDE6A2AF616D5082F8 /* chunk_8_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA58B8DEC57250812C8AC0 /* chunk_8_7.bin */; };
+		4E3D6759FC058279C71ABC0A /* chunk_10_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2EC3A2983EE3DABFC03B8683 /* chunk_10_12.bin */; };
+		4E4B19D47E7A3D7999A7CFE1 /* chunk_12_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1A13BDA2F89DDE912B50A24F /* chunk_12_1.bin */; };
+		4EAB10061F4B8E90D9FE0434 /* chunk_18_17.bin in Resources */ = {isa = PBXBuildFile; fileRef = C19E9D75A9E77C69880E2A45 /* chunk_18_17.bin */; };
+		4ED2E44FCBA1D6BE08036723 /* chunk_5_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = A02CF954AC695720942B417F /* chunk_5_8.bin */; };
+		4F714AD9904EF82342BEB807 /* chunk_17_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9BB39843631DA9779238778D /* chunk_17_12.bin */; };
+		4F9B56AE710F24A9185D1752 /* chunk_3_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE8A0E5A717FDC801FC7A6 /* chunk_3_-1.bin */; };
+		4FA54271FBAA6F2355072667 /* chunk_6_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 26AC097D2164C43BF3B4D121 /* chunk_6_10.bin */; };
+		4FD833A4DB69538CD0CDA4D8 /* chunk_13_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = A30A27DCEDD015B51AB43A82 /* chunk_13_9.bin */; };
+		50447EC964BF37C54C9A8EA1 /* chunk_0_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 409B9B39DB83D0C790868B7C /* chunk_0_-2.bin */; };
+		50736CAA119F4BBD186F66D1 /* chunk_17_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = DC497E5BAC0ECFA7797802C5 /* chunk_17_5.bin */; };
+		529383ABBDA6A5576399CC4D /* chunk_1_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = FAC8E26111C5E87F52A031CD /* chunk_1_9.bin */; };
+		52E154BCB0FC26D9A1A63C85 /* chunk_20_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5CE3689BF34131CF05E8FDA8 /* chunk_20_4.bin */; };
+		5338F9D6123D12E4481BD6C0 /* chunk_11_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FCE6441CF4A6E4E815143 /* chunk_11_8.bin */; };
+		53AB344652157997B869BAAC /* chunk_1_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = CCC6BC1AA832C1005E95D25A /* chunk_1_2.bin */; };
+		540614D704BCD309F74F952C /* chunk_11_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0880C2E1A91CF15F7A4EF8AF /* chunk_11_15.bin */; };
+		54360E5D349B77D1D06C1F42 /* chunk_15_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9C99F1CDABD27183B4C0F584 /* chunk_15_12.bin */; };
+		550CA7917EB3CB996BC4A5EE /* chunk_18_21.bin in Resources */ = {isa = PBXBuildFile; fileRef = 231AA2C3212A59943CA084C1 /* chunk_18_21.bin */; };
+		5616B0BE26FACB2A6074FC97 /* chunk_1_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0D3772D4BBC76396D6727CBB /* chunk_1_10.bin */; };
+		56AEC6DD54B540DAD8B67F4C /* chunk_-2_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9777FC22EAFFC9958C0DE8F4 /* chunk_-2_6.bin */; };
+		58531EC09B047CCADE7EFD16 /* chunk_21_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5CBC52CDDE74B547E1C0B157 /* chunk_21_14.bin */; };
+		5862BFCBDE1361641FE35B2B /* chunk_8_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 40E145D0B40CA9BF93A7DB00 /* chunk_8_15.bin */; };
+		588A1778C2DE87DFAF00CA15 /* chunk_17_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9FA778FA625047DED0D2F374 /* chunk_17_11.bin */; };
+		592DF4A3842636591A45FA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA2DCE146D1554C141B9C7 /* ContentView.swift */; };
+		5D4CA0BC273F2A20E712DD65 /* chunk_13_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = A4C91627DC76EC408A3B110B /* chunk_13_13.bin */; };
+		5D726DA75F493DFC4945AC4E /* chunk_-3_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 007FC55946096EF0A9DB3A6E /* chunk_-3_13.bin */; };
+		5D809C94E7D986B4DF77BB54 /* chunk_21_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 376CE76CE6ABC87A46C27E8D /* chunk_21_4.bin */; };
+		5E14C2B641F1170B426E676B /* chunk_11_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4E533D730F4200B7AAB31B6A /* chunk_11_16.bin */; };
+		5EC2A55C8534E538D6AD92E4 /* chunk_12_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = B952C0E6A8A49F65A8D9AEF7 /* chunk_12_14.bin */; };
+		5EE6CBBFA2528483F32EBC17 /* chunk_5_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5232DDC3A4E2D20EFE997262 /* chunk_5_15.bin */; };
+		60A939855A996925F2A03A1D /* chunk_0_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 79E1613D101B4C2D6216C9C9 /* chunk_0_2.bin */; };
+		6126BF8D846CE3A0ECDB1ED2 /* chunk_0_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A963BBDA4365D8F8B89 /* chunk_0_6.bin */; };
+		6135C23CECE51C1F1D972FC4 /* chunk_-1_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = AD8B19508C8F11BFE965ED4E /* chunk_-1_6.bin */; };
+		6194D48673673B9B0C4E6634 /* chunk_10_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1C07FC4918F735C8912EB2D5 /* chunk_10_15.bin */; };
+		6366097F2CF9A4CEF0E20B54 /* chunk_14_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = E29127D8066B288C1F08CBD9 /* chunk_14_13.bin */; };
+		63FAA874F53EA128E4622A2A /* chunk_6_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 770506FE4B939BC6F76D3376 /* chunk_6_15.bin */; };
+		63FF2BCDF799497BA333A274 /* chunk_3_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = CD67D33DEC92A412B320FB1B /* chunk_3_8.bin */; };
+		645349F1797549A1796B8FE9 /* chunk_5_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3120FB4ECED20D1BDD9016FB /* chunk_5_-2.bin */; };
+		65A9F2477E2B09C0C8862B73 /* chunk_5_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = D91D5ECD44D7D5677CFBA357 /* chunk_5_2.bin */; };
+		65C97A2397AE48DA1CABCDF0 /* chunk_16_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 18D5A0990AB466472623E733 /* chunk_16_13.bin */; };
+		65CC4269907C4B5D6E7D569A /* chunk_9_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = B7F7F60CD698BFE9512B2B71 /* chunk_9_8.bin */; };
+		66C1A48DB5EF3BEE20776403 /* chunk_8_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 49B769BBC3F2E2C12B17A834 /* chunk_8_8.bin */; };
+		6727A2DB449654C68F722A36 /* chunk_4_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = D3A9EDF6EAE5DDD003CBFF48 /* chunk_4_4.bin */; };
+		672AB5545DFE5189FCD38EB9 /* chunk_8_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = B91FC2C85479BE904C809C40 /* chunk_8_16.bin */; };
+		6807A756BA1F49B13304BF65 /* chunk_8_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = FE6868AB8A1D1860A7CB33F3 /* chunk_8_12.bin */; };
+		684532BBC84AB5791A8FC4CA /* chunk_-2_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = BC2622C14D10093DB809337A /* chunk_-2_13.bin */; };
+		68B640B33A9E4CC90D6DA226 /* chunk_9_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = A8755DC94DCC6E62C6D9A6D0 /* chunk_9_1.bin */; };
+		68CCC3B796D167BDFB36350C /* chunk_2_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC96647FF3E19A5C6C1C7 /* chunk_2_10.bin */; };
+		69FFD30691A5FA3486E21FF8 /* chunk_-2_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = FABF0443B570FB9ADC7A7003 /* chunk_-2_7.bin */; };
+		6A287A21E132BB98FC8E1E82 /* chunk_1_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4F5CFEB5FC2C2F3B8ED7066F /* chunk_1_4.bin */; };
+		6A33690030B32934083D7B9C /* chunk_3_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 82B9F16B609F20C1D4B836BD /* chunk_3_15.bin */; };
+		6A833F544A478034A58C5E8E /* chunk_9_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 00EE6E2FC696AEAF70F8E0BB /* chunk_9_2.bin */; };
+		6AB98E5D832A8968C3DEE396 /* chunk_8_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0A5BC8F27F4A35ACF934DD42 /* chunk_8_-1.bin */; };
+		6C21CA0DBB6801FF2C3298E2 /* chunk_3_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3EEACC86CC96E326ABB3F /* chunk_3_14.bin */; };
+		6C59EF3DF2DA2D5CB698E9B8 /* chunk_8_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 50C81C7FA4AE67952B960132 /* chunk_8_13.bin */; };
+		6CC9246982674317F6D66338 /* chunk_16_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE637B110573B1AF74EE61 /* chunk_16_8.bin */; };
+		6CC9ABDC6C646DED9F301BE7 /* chunk_1_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 23723103589FA99D875C69BD /* chunk_1_5.bin */; };
+		6D022475BEB83C8FD6C036B9 /* chunk_12_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7EA87296BF07EF9DEF498E0C /* chunk_12_15.bin */; };
+		6D7706B3D240D6191C100021 /* chunk_8_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 65B0A55114BD838F68F70644 /* chunk_8_4.bin */; };
+		6DE3C1FC605B36D86222DD1D /* chunk_8_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 760F5B7286E8E99193D909E9 /* chunk_8_6.bin */; };
+		6DEE7D686F7268AD053E5344 /* chunk_7_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 909CB950A12AE3B4BC914473 /* chunk_7_-1.bin */; };
+		6EB6EBCD6A4AF01407746F2E /* chunk_6_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6F1376BE7BF55A20E96ED0AD /* chunk_6_1.bin */; };
+		6FEFC258164D5B6921CD60AA /* chunk_12_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 44924776B997C26740243234 /* chunk_12_8.bin */; };
+		705630F3123D4092D76AC74E /* chunk_18_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = B5000861C4EBFDC4FC282C8D /* chunk_18_5.bin */; };
+		7080C118DB3000428F525455 /* chunk_16_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = DCA80988C00198765E324F82 /* chunk_16_9.bin */; };
+		70FF5EF8D066394952B48DA7 /* chunk_6_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7074941945B61437F049BBB5 /* chunk_6_5.bin */; };
+		7153EEB8A011E7C200594B80 /* chunk_11_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6414572377405D969D935623 /* chunk_11_2.bin */; };
+		71E5334A204F94D716181EFF /* chunk_13_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = B94CC00447D64615FCE52747 /* chunk_13_2.bin */; };
+		730AE573947F4C6B8E165B05 /* chunk_17_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = B39770D30D5EDED0FE86A275 /* chunk_17_1.bin */; };
+		7387FF8AD6FC6E8B38E456C7 /* chunk_20_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 90C1DC7D2F1052B8B2452AD8 /* chunk_20_6.bin */; };
+		741F33A5BE699B9ADF9C5AEF /* chunk_17_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = CB0B4B97B3AF87BB31768811 /* chunk_17_-1.bin */; };
+		75CC35D5C28DF787800D6D1C /* chunk_20_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = DBB218F346581C49CDAE6CC6 /* chunk_20_15.bin */; };
+		75F0E129C256D5304D04C19A /* chunk_7_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7F2128C2E06AAA7C254CA65F /* chunk_7_12.bin */; };
+		764DFB7D9B6F89DC46C50821 /* chunk_7_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = FF71E141780CD49D7FC0FA35 /* chunk_7_8.bin */; };
+		767D8F4EA1DF8C77D3C986D3 /* chunk_11_-6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9E6B90DED3AC48C37EFEA47F /* chunk_11_-6.bin */; };
+		76A5F605F0532518DFC0E3CB /* index.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E31292315C2C2928538CEDC /* index.json */; };
+		777337EDDFB6158B1C838F9F /* chunk_6_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3B2CF8CF66A4688F8B99E1E9 /* chunk_6_13.bin */; };
+		781824133948A4B80E775F86 /* chunk_11_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = F68211C1B84032E7759AEE20 /* chunk_11_1.bin */; };
+		787DA602AC018DF85B273B00 /* chunk_19_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = CBBE2224E8E1357864332219 /* chunk_19_0.bin */; };
+		792FBB81E182D67CB941966C /* chunk_12_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1FE3C1EFF26AA7DE5E5EB /* chunk_12_10.bin */; };
+		79CB554C0FF49EAD7D9839FE /* chunk_5_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = F1775A0ACDDB960B1B9BD86E /* chunk_5_4.bin */; };
+		79CFE2720BB6993D561423D0 /* chunk_10_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 02C5CD5FEF805BFA65D107B7 /* chunk_10_6.bin */; };
+		7B5EA5EA76D95A645825C529 /* chunk_19_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 93176863A3F6CB73ECE40F4B /* chunk_19_9.bin */; };
+		7C4F54B0BDF36BFD59415329 /* chunk_15_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FAE7463F4D289614E785B /* chunk_15_8.bin */; };
+		7C7CAC0305620B461AC38AA0 /* chunk_19_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = F8313D281E19E4D59737ABDE /* chunk_19_2.bin */; };
+		7D9CF21B652687D30442BD19 /* chunk_14_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = F3A3C053156EDEFB57E5D731 /* chunk_14_10.bin */; };
+		7DC79A496A18740E2C7C225C /* chunk_-1_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4CE339E04EA990F73480B7C9 /* chunk_-1_10.bin */; };
+		7DD0F3568B62E30B8DDCF969 /* chunk_9_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 01DBD696E7489EB8BCA9FF3F /* chunk_9_10.bin */; };
+		7DE4940E85D50EE092E6C8B4 /* chunk_15_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6C57C66A731D4054429DB3F2 /* chunk_15_14.bin */; };
+		801CE679A52B50160BE245B3 /* chunk_9_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7170ED04470165354383A4BD /* chunk_9_3.bin */; };
+		80591033BD2D1B05C74DB0E2 /* chunk_20_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5AEBFA28191D4623CE92130F /* chunk_20_3.bin */; };
+		8078EA086225F1A9E12806F5 /* chunk_2_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 72D0477E2D51A594E32AF12D /* chunk_2_12.bin */; };
+		80930137BEB22023AC9D55AC /* chunk_16_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5191ACCBFE40152289FA9110 /* chunk_16_2.bin */; };
+		809AF1E3753314B1AF311E7A /* metadata.json in Resources */ = {isa = PBXBuildFile; fileRef = B3CC0ABAFCEBA3AFE7CEC60F /* metadata.json */; };
+		80D9047B331CFF95C0F00C42 /* ChunkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A84B29AC427B4101F122F0 /* ChunkData.swift */; };
+		80ED84FED70C76C3B29E87B7 /* chunk_7_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1546B7A0DD0D43E07319D7D4 /* chunk_7_4.bin */; };
+		81645C6B84481C9831CFFF96 /* chunk_16_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 302AE5BC413BEAF23631F9BD /* chunk_16_14.bin */; };
+		81B1E961294F05F5D3DB2F62 /* chunk_14_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = FE5928A4904CAFA2729CE1A4 /* chunk_14_8.bin */; };
+		81F16FB5BEC19DDA4F7A40DC /* chunk_9_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = E463924E863235BBD69D679D /* chunk_9_5.bin */; };
+		836FFFBB96F09BB5328FE5B4 /* chunk_3_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = E8CA4BBD793A971622DC4BAD /* chunk_3_11.bin */; };
+		83FC2F5DBD4C9CE67FABD4F0 /* chunk_10_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 92672BB478BFED941F66DE2B /* chunk_10_8.bin */; };
+		845821461820A6E04B655F6B /* chunk_15_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = F55241F456E456ECE1A6A0FE /* chunk_15_7.bin */; };
+		8678ED3CCB329F0F1C40355B /* chunk_4_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 355B002FA61BE7CDEA627FD3 /* chunk_4_14.bin */; };
+		87239CB4557F681773F35B25 /* chunk_6_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = FC3CC9860F9B11B3AB93758E /* chunk_6_3.bin */; };
+		87C66D0F03AE6878C54275E8 /* chunk_17_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8F5CFFB569C56DF996895546 /* chunk_17_9.bin */; };
+		88230ED26E485A142A55C8C7 /* chunk_-2_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5B1574A0C3BA2E85DBCFD2D4 /* chunk_-2_8.bin */; };
+		8858A87E32C28E0B836E1ECC /* chunk_4_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6D6C41CD8EF9A89FE0BE77EA /* chunk_4_16.bin */; };
+		885F8956C57358C863BB5765 /* chunk_5_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = AB4C1960C42336B74055EB6E /* chunk_5_7.bin */; };
+		888CCC0DE342FABEBEA49D22 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE454358ADD2E023578813E5 /* Camera.swift */; };
+		890DC5F9D5E371DB9A3A437F /* chunk_2_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3764F426E7C55EBC2370FC09 /* chunk_2_5.bin */; };
+		8C0B119752578CEDCFBE4049 /* chunk_4_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = D421069D6C24288BC1B8B0BB /* chunk_4_3.bin */; };
+		8C12208BB6078C0311AE3116 /* chunk_9_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 89F9EBCF4E8218DF6A25EAA2 /* chunk_9_13.bin */; };
+		8E72F97E42EE38A02FAB99CE /* chunk_21_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5C7E3E5121650ED6E5763A1A /* chunk_21_2.bin */; };
+		8F6FAEBB49ACC0CE31F087F5 /* chunk_4_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = C5CECD95F652A0E20DF24A0A /* chunk_4_9.bin */; };
+		905A1F202EF5E5168BC41A00 /* chunk_6_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = F6C01BB7F091895268F48B94 /* chunk_6_2.bin */; };
+		90F29B0FEA38CE1D955135F1 /* chunk_19_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8ACE946356260DBE4BCDF107 /* chunk_19_7.bin */; };
+		9115D4F342E8AE99CEC00EDF /* chunk_9_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = EA80AE1BC6DEEF03ADF373D7 /* chunk_9_11.bin */; };
+		922E41AC60496BC31961A7FC /* chunk_8_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = C636255024A966F4BF098CDD /* chunk_8_5.bin */; };
+		92BE94D52D2F11DA21C1614C /* Road.metal in Sources */ = {isa = PBXBuildFile; fileRef = 66AA78BCB609D1C9202A6E5E /* Road.metal */; };
+		92F8A19CD9490136B5669019 /* chunk_14_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = C5123AF27BE197813B351DC2 /* chunk_14_15.bin */; };
+		93755AD4B5D74441884C1963 /* chunk_15_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 21E0EFFE52CAD78156B4D442 /* chunk_15_-1.bin */; };
+		93E0456AE0D89A5F85AF0435 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA32800BE2BF3E16B7A560E /* Mesh.swift */; };
+		94964497BD524FDBEE5584A1 /* roads.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 3C32B88B78787A1D479A0237 /* roads.geojson */; };
+		94E972426E379AFFDE6986F2 /* chunk_1_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = F6707096BA6C4E1386E6F034 /* chunk_1_0.bin */; };
+		95B5E12D12DA8D2282A17FAA /* chunk_17_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = C45DEBADD6C5D4DF91F76102 /* chunk_17_13.bin */; };
+		96B979370D5EC9258E768B91 /* chunk_-1_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 07A2C83CBDA27E77BA446322 /* chunk_-1_2.bin */; };
+		978F84925CFEC9FBB18631F7 /* chunk_18_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = CB694EC84C10204C28FEDA59 /* chunk_18_15.bin */; };
+		982015730928975FD5ED135D /* chunk_1_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 136CCFE10747C4E2B224F556 /* chunk_1_7.bin */; };
+		987FD59B8130FC5586E1A76B /* chunk_12_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = CF7CDEE769E01F6624BF8EA1 /* chunk_12_13.bin */; };
+		98A9A1C1FA8558C279D97496 /* chunk_16_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8DF8BF4C1233ACCFE404A2FD /* chunk_16_1.bin */; };
+		98F30774A41F7B1ABF0006ED /* chunk_1_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 40752D7240A84B13BAC963A5 /* chunk_1_-1.bin */; };
+		999FC46BB5305F6D16825C1A /* MapData in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6980A852FB8CFB5165307 /* MapData */; };
+		9A3329F35706B1E22590BF19 /* chunk_21_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = CE078E2CCF646572AFCEF2DE /* chunk_21_15.bin */; };
+		9A7E7FD63C9415595CBBD515 /* chunk_-1_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 081971772CCD668BB8F8B916 /* chunk_-1_1.bin */; };
+		9A99BE2D7123CF4C22DD4DA4 /* chunk_17_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = E099EE73D52527B8FFC32DBF /* chunk_17_0.bin */; };
+		9ABC397C7A2DB2D88015A8FD /* chunk_18_18.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2627FC8335D50FD793F1603B /* chunk_18_18.bin */; };
+		9B16F70E731AE4D54A8CC532 /* chunk_10_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0029E17E410623AC6FB384D7 /* chunk_10_3.bin */; };
+		9B2413848F90209C4066996E /* chunk_3_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = A23D82A03CB60DD70EF104CF /* chunk_3_7.bin */; };
+		9B749DDC29A36F71670405F2 /* chunk_5_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 898B822336FB31E769D64074 /* chunk_5_16.bin */; };
+		9BC037BCB6153B9D2434AAA7 /* chunk_2_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF1BA4C4144045CA59CA4D62 /* chunk_2_9.bin */; };
+		9BFF77A2E848C4F112F4634D /* chunk_12_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9B724011B5FA385C5F7CD16F /* chunk_12_11.bin */; };
+		9C9F0D2E316D8DBDAB421466 /* chunk_18_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 18AEFDCECF5FB28C6A57D9E1 /* chunk_18_10.bin */; };
+		9D15CFC83603693AF2F7294A /* chunk_-1_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73D5F4F525606B7B79F52F3C /* chunk_-1_14.bin */; };
+		9DD9C033FBDB8EFAD1392A45 /* chunk_10_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = A51F3CFAAC1C74939C2C4EB5 /* chunk_10_14.bin */; };
+		9F0FED8179325AA09C7F61A8 /* chunk_10_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 849F8BCFC6015E183C3291E1 /* chunk_10_13.bin */; };
+		9F707485F12FB3AC1B557CDD /* chunk_-2_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = CDAC3ECDBD10EC173FC0E54F /* chunk_-2_15.bin */; };
+		A11A300F3AE65011D678D9F5 /* chunk_18_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = AA809A228332FFCA2EAF7461 /* chunk_18_0.bin */; };
+		A161D50D3D07E8FA476BDC44 /* chunk_2_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2366EF21E8ED4C2AA92743AE /* chunk_2_15.bin */; };
+		A18F8F2CFCA0F53937CD6BCF /* chunk_-1_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 39F9FACA3A744CC72BF3083B /* chunk_-1_12.bin */; };
+		A27C18F1E867C4A448D6B3A8 /* chunk_20_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE0907EA45B2731969DA7B /* chunk_20_2.bin */; };
+		A30A5E3BDBB706E859DD4126 /* chunk_9_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8F5CAEC37367658FC7EFE90E /* chunk_9_6.bin */; };
+		A3651F3A9DD056AAAFFE37DB /* chunk_9_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 68822AB46E4D478BCC4F132B /* chunk_9_7.bin */; };
+		A3DD79EDD34CD55242A59891 /* chunk_18_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = B123451042B94659A09092D8 /* chunk_18_-2.bin */; };
+		A46FE3BB2FDD499D451117E4 /* chunk_18_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = B014661331E3F0E60702B085 /* chunk_18_-1.bin */; };
+		A5A22FC4CE9C8E9772940807 /* chunk_11_-5.bin in Resources */ = {isa = PBXBuildFile; fileRef = CAE71805591A7E1A11B8340A /* chunk_11_-5.bin */; };
+		A6788C59D826B645082D5862 /* chunk_10_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7FBD29BE7515E49AE8E6EDEE /* chunk_10_5.bin */; };
+		A6D63BB0E61D6280AAC4A821 /* chunk_22_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1173A15C90EE602A0961FD5E /* chunk_22_9.bin */; };
+		A782DA6408B023CE7236512F /* chunk_17_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = F66D3EDBAF09900DFB95888A /* chunk_17_8.bin */; };
+		A9696993136809616DDF1F3C /* chunk_10_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = A13234D43E3C8551EBA68777 /* chunk_10_2.bin */; };
+		A9B7C31CB64A0A761F0FB892 /* chunk_5_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 76AD2D78FF25EE0717C3281D /* chunk_5_6.bin */; };
+		AB37F0C193B9A89E019EC00C /* chunk_15_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = DD0C2B7544A198AF8E4699BE /* chunk_15_11.bin */; };
+		AC0B90998C484D1BDD363689 /* chunk_11_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9473D55DFCA554D3AA9AEAB4 /* chunk_11_12.bin */; };
+		AC78E787DF1F8B5D8716D8B1 /* chunk_1_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 436DEF508BF0DDA22567E548 /* chunk_1_3.bin */; };
+		ACC47775D841629A18452EE9 /* chunk_1_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8B4454EE322C0F416C1ECEE8 /* chunk_1_1.bin */; };
+		AD81B6E840CEBE72FF7CA8B3 /* chunk_11_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 90458E29936D7F72F49F4605 /* chunk_11_5.bin */; };
+		AEBE252320DE894702C51088 /* chunk_18_19.bin in Resources */ = {isa = PBXBuildFile; fileRef = C047B065513734C2DFE6FC75 /* chunk_18_19.bin */; };
+		AF0B7CED88945E659BFDBBAF /* chunk_19_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 61DE941934970A6149E41877 /* chunk_19_8.bin */; };
+		B0BDA29836DD1B646A07D051 /* chunk_14_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5913E10941C092F48ABD4679 /* chunk_14_12.bin */; };
+		B16ADB971DC3CF4349085D9D /* chunk_15_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 387C432159C92C8035754620 /* chunk_15_0.bin */; };
+		B1BD2840D914B4BB59A7D6B7 /* chunk_12_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 21D1F7B653B1DAC1ADAFB90D /* chunk_12_6.bin */; };
+		B24A41BCC0612337C662ACE5 /* chunk_20_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9FC61D9915D1CC15B372AF2F /* chunk_20_9.bin */; };
+		B277E95E82FA95A30AC7D603 /* chunk_17_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3432BBD45319B19DAFC25709 /* chunk_17_7.bin */; };
+		B33C0E7A788F821026AC5790 /* chunk_19_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = F8F9BFA1B66A340F137D4F2A /* chunk_19_1.bin */; };
+		B425E08D60F25F2AFB434C52 /* chunk_7_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = B669257AA4AA9B366F6983FF /* chunk_7_9.bin */; };
+		B4D51211A9DF67D951934713 /* chunk_1_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = A7D81CD79BF4DF9902E1238F /* chunk_1_-2.bin */; };
+		B4DDB59F609859277671FCC1 /* chunk_18_20.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0DE44B9C4B5A0F13058A5A9F /* chunk_18_20.bin */; };
+		B50D3CD3B6D972F0F0B4BB7B /* chunk_13_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = FC9FC2CCC05998DF8B2D38D8 /* chunk_13_6.bin */; };
+		B576DED594DB89E9043D74D1 /* chunk_15_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 010C839C8B82A286356B448D /* chunk_15_9.bin */; };
+		B6957A62D73804268C42DC4B /* chunk_10_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7B8F7C9C4FD618F153F457E9 /* chunk_10_7.bin */; };
+		B7E68A65514AE44342B192B5 /* chunk_4_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3B8D05FD3DD7FB3484EA422B /* chunk_4_8.bin */; };
+		B9E35974BACFA99FD7EAA512 /* chunk_5_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1E4DD01DA404023A58E3E809 /* chunk_5_9.bin */; };
+		BADCD8136C25288F8C00D047 /* chunk_2_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9A13FEA79598B0CFE666CBD0 /* chunk_2_13.bin */; };
+		BBC67814291A8F627132F7C9 /* chunk_1_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5A9B1C9A6B5C48714B58C39F /* chunk_1_12.bin */; };
+		BBD4993C9520F23263B1D71C /* chunk_21_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = C497F2323C114E46F6875191 /* chunk_21_9.bin */; };
+		BD988A7FACDCE8081A6E5C24 /* chunk_18_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9ED17A585381494C6968436D /* chunk_18_16.bin */; };
+		BDBAD4ED6003A95D369DEE89 /* chunk_-1_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 36DC20D28D9B08891615655F /* chunk_-1_16.bin */; };
+		BF387DC761AE52054B3DBD9B /* chunk_9_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 49B6CCF3E865735123AF0EC9 /* chunk_9_15.bin */; };
+		BF46071F6F787663C9601370 /* chunk_4_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = B4DA2F7EB1EDDA003C13B778 /* chunk_4_2.bin */; };
+		C0459FCE2823F3193C72B321 /* chunk_19_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E4E4A2B76B1B38DCB662C /* chunk_19_6.bin */; };
+		C118425DF32E628E3B45C4A4 /* chunk_18_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = F3585F752C8CFFF368A761FE /* chunk_18_12.bin */; };
+		C1D21572FB5FD6756B3BC9F0 /* chunk_5_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 141660E57F47791B6B3BDE9C /* chunk_5_12.bin */; };
+		C22F1A6AF78667A067062401 /* chunk_12_2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0FC78E24090B96D58922E97B /* chunk_12_2.bin */; };
+		C2DDC09B79856C5C2B0DF876 /* chunk_15_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 23DA15F9DA9242870E4E8B6D /* chunk_15_6.bin */; };
+		C2F5B6EDCC5856D05F483170 /* chunk_6_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8F7213836265BD48E9F2643D /* chunk_6_6.bin */; };
+		C3E64BC9A87EAB8BD7C65AE7 /* ChunkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDB1B5F41E3321418B21F /* ChunkLoader.swift */; };
+		C423F5918FB45F16F0706C64 /* chunk_3_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 063861BC4ED227CEFB2B3DCE /* chunk_3_16.bin */; };
+		C4522EDE3AF3D3DB3886CF84 /* chunk_19_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = F2A9712D3CFA739C3E952FF0 /* chunk_19_15.bin */; };
+		C522A5171B0415FDF900B110 /* chunk_2_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1232EDB1FC1DCBE48CDF424A /* chunk_2_3.bin */; };
+		C59CA8500534FFF33E2CE7B6 /* chunk_-3_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 57E4E76418F8FD39CB517998 /* chunk_-3_14.bin */; };
+		C67B856F6636C1CB02975FDE /* chunk_15_17.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7873FC19997AC2F70FD18EE6 /* chunk_15_17.bin */; };
+		C7A2564F2C32FA66ADAB1305 /* chunk_6_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6B7AE25E5723DFDEEE72DBCF /* chunk_6_7.bin */; };
+		C91F54F9F6CC751228DA3047 /* chunk_0_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = A1AE836FAE1AF86EE7079D8D /* chunk_0_13.bin */; };
+		C935373416A45E10B8C481A1 /* chunk_1_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = D04B1A5443D82D547E0C0083 /* chunk_1_14.bin */; };
+		C98BDA16C2D06E25EAF37AC3 /* chunk_16_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 575D69C7A114DB623B2B2673 /* chunk_16_-1.bin */; };
+		C9A007D394ACD25108989AF8 /* chunk_19_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0B68179ADEEE375D1E0E4E15 /* chunk_19_10.bin */; };
+		C9A3DDB0CBFBB486739C3D94 /* chunk_6_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = ABCDCD45ADBA72A758C6AF86 /* chunk_6_14.bin */; };
+		CB5CBECCE952F397816E6DA5 /* chunk_8_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = D6B821CCDB1EA1FDA62E0983 /* chunk_8_1.bin */; };
+		CD8C9ED936881F4DB36898B1 /* chunk_20_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = 56A75019FEFE685F052A4E01 /* chunk_20_8.bin */; };
+		CE36AA913446AEB21B242E24 /* chunk_19_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 670C90AA9C475A199CA6AC95 /* chunk_19_5.bin */; };
+		CEAB81945C936928C864B3CE /* chunk_0_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = F6246F36A22DDC6C3D87BFEC /* chunk_0_15.bin */; };
+		CFE4D7F42274229686E1E051 /* chunk_14_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = B9D77E36A5F1F3DDC33771C6 /* chunk_14_11.bin */; };
+		CFF130E4BE7FD2A98D349284 /* chunk_0_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = E105B9538DF32506AA98EB79 /* chunk_0_14.bin */; };
+		D06060417A484476A1235D54 /* chunk_0_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = E3B0E16BA0348B67F14A1A3E /* chunk_0_10.bin */; };
+		D1806D0472F17929E574F974 /* chunk_0_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3EAC927612A98288BB21CCCF /* chunk_0_12.bin */; };
+		D19A08FDDD323EB678A24F42 /* chunk_21_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6D232D562F0DA21B1F979F1F /* chunk_21_3.bin */; };
+		D1B1E0A6C103CD7206FD74FA /* chunk_2_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = B0FAA950DDFBF108B8FF10C0 /* chunk_2_7.bin */; };
+		D293BC0E9784999A520546C1 /* Common.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5D8622EACF0F59E541B90 /* Common.metal */; };
+		D2C3952A3F9AF4CDBEB2794B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48827505A69C8F6CFBC164 /* LocationManager.swift */; };
+		D3731FC9F653F15FA8189699 /* chunk_18_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 773B332BE5CD1C9BCE0688FC /* chunk_18_1.bin */; };
+		D3C2578B00F40103F2A66C53 /* chunk_-1_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9C20A85BDC87A6CFA1E51CEC /* chunk_-1_11.bin */; };
+		D42C060E3620E7810138A538 /* chunk_14_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = B485A6948D1B4B3ADD9AE39C /* chunk_14_7.bin */; };
+		D4B471986E33BA00F382C85F /* chunk_7_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = FA2B1174B2D1F4C0DAF90910 /* chunk_7_0.bin */; };
+		D4CB7AA4BC34EAACD901CA4F /* chunk_15_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8174D34C03693D2450BB16C5 /* chunk_15_15.bin */; };
+		D5BF388AFFA7E5CF356338DB /* chunk_16_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 20B9CCA0D11DF08F0AA738B8 /* chunk_16_10.bin */; };
+		D73A970C796EFAFB5B5706C1 /* Terrain.metal in Sources */ = {isa = PBXBuildFile; fileRef = A8493540412990A6F13AAB44 /* Terrain.metal */; };
+		D768B08F25C9FE0FC7F6E337 /* chunk_13_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = DAD0764FCE07300455C8B11D /* chunk_13_5.bin */; };
+		D7AB6722E95F8C1A668DF3B4 /* chunk_0_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 992456324966E24CB74831A8 /* chunk_0_3.bin */; };
+		D7C683367CD2C0BE7909FEF1 /* chunk_7_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8CE6F47098AF99A8978504C7 /* chunk_7_-2.bin */; };
+		D7F960C696A1729AAC22FA46 /* chunk_0_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = C611D6C06763DD6F64684A2E /* chunk_0_11.bin */; };
+		D82B9C6AED661CD1C78BC963 /* chunk_20_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 115E6EF08736955E8FD51952 /* chunk_20_0.bin */; };
+		D859BEAF4798B404F673F2F2 /* chunk_17_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = DF51F5E206508DAA086C0597 /* chunk_17_6.bin */; };
+		DAE29014F5C8B0D8EDB787D3 /* chunk_7_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 66E988C5612CBC8DCFDEE846 /* chunk_7_3.bin */; };
+		DB14D525AEA07BBB841A2A8A /* chunk_7_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = E097506FD1E00F5CDF330E34 /* chunk_7_13.bin */; };
+		DB2D209D74447008B42CB32C /* chunk_12_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = F7DBE8DD263ED223F14AD7BF /* chunk_12_5.bin */; };
+		DB30A63D73CFE59FAD929BAC /* chunk_13_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = B13738B9AF3CEAA39B1D835A /* chunk_13_10.bin */; };
+		DC7D679484BFA8B1D28DB02B /* chunk_14_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73DFC37C4803747A63149C69 /* chunk_14_9.bin */; };
+		DCA0B9542CC2157599E28922 /* chunk_17_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = C208BEACAB81240D26369F86 /* chunk_17_10.bin */; };
+		DCD27FEF1142946EC0C0AEC6 /* chunk_12_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7D4AEBBC32CF3AC4A4E8E66F /* chunk_12_3.bin */; };
+		DCD54F53177293B9C6FB694C /* chunk_7_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1041386E8EB59487DD557F57 /* chunk_7_1.bin */; };
+		DCE069E05514D525BB794B97 /* chunk_20_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E5947916250B0868A98CF /* chunk_20_-1.bin */; };
+		DE888FC4C32E02CEF0F50101 /* chunk_16_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5F8D593A9CF4C7568EF0441C /* chunk_16_6.bin */; };
+		DF69737B5FF88AAA906D7CE3 /* buildings.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2717ADA0548A62AC66018302 /* buildings.geojson */; };
+		E02D332CD407B9DE17771631 /* chunk_16_17.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8667E887E18AC415CCE1993C /* chunk_16_17.bin */; };
+		E08B1B00003486D2F8278F3D /* chunk_0_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7E9F029650D1189EAE264E7B /* chunk_0_9.bin */; };
+		E0A5825ABEF2BF2177BA34AE /* chunk_10_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = D080D3070019CACD6A2441D6 /* chunk_10_11.bin */; };
+		E0D377CB590A2E052C8C4467 /* chunk_7_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 770DB12538E4739811DD2D96 /* chunk_7_7.bin */; };
+		E1463EE47961A91729EB85A8 /* chunk_18_13.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9817C6CB768DB4AE87896CEF /* chunk_18_13.bin */; };
+		E2A184D89C7D572FCF265FA8 /* chunk_7_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = 673953FB4A2EF5D3F90CDB6A /* chunk_7_5.bin */; };
+		E3438F542BDC88CA2B4C60BC /* chunk_1_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = D1DAD0DF39004B46F826A74A /* chunk_1_11.bin */; };
+		E3BA3F2A3EC2EAB22B503D12 /* chunk_-1_8.bin in Resources */ = {isa = PBXBuildFile; fileRef = D0F162512C680C9005CD78D9 /* chunk_-1_8.bin */; };
+		E40A387581124EA965839B50 /* chunk_18_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 23C35BF94ED3DE7BE6D34238 /* chunk_18_7.bin */; };
+		E4ADEF9EF0C3205A2F49DFBA /* chunk_3_1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 74D610C82ADE3AAE49CE7CF1 /* chunk_3_1.bin */; };
+		E4F5F2549659464525F158B3 /* chunk_16_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = 96AE1CDC1E03F315FDCD6724 /* chunk_16_15.bin */; };
+		E657AFAD5BF2811C0393A6D0 /* chunk_0_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = B541B0CCEC1EE28A810603D4 /* chunk_0_5.bin */; };
+		E67A2DCEC0F4DF710799C37A /* chunk_8_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 171BB5FEA6033C9F7957E8C8 /* chunk_8_10.bin */; };
+		E6C00D3F92685D4B83932722 /* chunk_19_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = FD50C95758C74DF6F1FE6487 /* chunk_19_3.bin */; };
+		E9A0B9F324DD24D2438E49A0 /* chunk_6_16.bin in Resources */ = {isa = PBXBuildFile; fileRef = F5F6968BF9D1218FB1AE2939 /* chunk_6_16.bin */; };
+		EA3EA7F90266921A78124351 /* chunk_18_22.bin in Resources */ = {isa = PBXBuildFile; fileRef = A9F8C486195ADF43605AE487 /* chunk_18_22.bin */; };
+		EC7B6A231DF7C2B61C3774CE /* Songdo3DMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E151EC01ABEFB7F50E56BD /* Songdo3DMapApp.swift */; };
+		EC8E024FD1DB102B2F492B55 /* chunk_11_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = F1C8ED1FA38E050EC18EE777 /* chunk_11_10.bin */; };
+		EC978B6D5B3EF41262846689 /* chunk_13_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = A92EC5743BFF7880DBC0F94C /* chunk_13_7.bin */; };
+		ECB9D6C64A06A86535D3209E /* chunk_4_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = B8EE372BF57CC015DC54BFA9 /* chunk_4_6.bin */; };
+		EE4F8CF6F03EDEBE950BCC74 /* chunk_17_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = D657B216C8245795B20A1E8E /* chunk_17_15.bin */; };
+		EEB581911F59F4DA790A2358 /* chunk_2_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0B7497007BF2A608E6519877 /* chunk_2_11.bin */; };
+		EFC368083BEB74654477B3DB /* chunk_4_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2EA8AE4EC2DC4A57D66E54A7 /* chunk_4_11.bin */; };
+		F14A6176CA6F2694ECBE3189 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBC8714BB7A7C919F4A0233 /* MetalRenderer.swift */; };
+		F2FAEB5B7B3B148087AA5545 /* chunk_4_5.bin in Resources */ = {isa = PBXBuildFile; fileRef = A1BD0FD220E032432D527C42 /* chunk_4_5.bin */; };
+		F3BE97BBEA6982DCE8C16CF1 /* chunk_5_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 43C079989DC98C3FA249A80D /* chunk_5_3.bin */; };
+		F3EA49E15F2ADD7426CFC28E /* chunk_19_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = D8596478ED7FE4D0E127444F /* chunk_19_4.bin */; };
+		F3EF2E1828CA24CBEEE51A89 /* chunk_13_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = EF74B3600AF1B956AEFCD16E /* chunk_13_14.bin */; };
+		F4689D2DB19BE44800C9024F /* chunk_9_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 029BDC9FD1CC9338A723F978 /* chunk_9_9.bin */; };
+		F4F8EE8E22501880B5266674 /* chunk_7_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8807B8EAB002BE04C1CDC25F /* chunk_7_11.bin */; };
+		F59CB24E0C7D1EE374D3E136 /* chunk_4_-2.bin in Resources */ = {isa = PBXBuildFile; fileRef = 56B4893D4DE57500CC3FF399 /* chunk_4_-2.bin */; };
+		F5C29BB3DBB4DDED6C60D316 /* chunk_0_19.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0CA640A7E467134C16D59773 /* chunk_0_19.bin */; };
+		F6B01D221C550D24945AF194 /* chunk_0_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8F59E8462B0E32E9BFAE0641 /* chunk_0_7.bin */; };
+		F77990CD73AD49A7E2A33547 /* chunk_5_14.bin in Resources */ = {isa = PBXBuildFile; fileRef = 53E64C534A19E23C6F3DD6B5 /* chunk_5_14.bin */; };
+		F8AADC898CA5D7799AF68525 /* chunk_3_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 20819D6D553FF46BFFCA0BED /* chunk_3_3.bin */; };
+		F9770CE4C88D601CE4DC8647 /* chunk_3_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0B215B95CE2358F66EDC912C /* chunk_3_0.bin */; };
+		F996F5BD954EED7F39A874D5 /* chunk_12_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = C825D125193D19B049CDF22A /* chunk_12_7.bin */; };
+		F9DC0D15919A5C2CF748CF44 /* chunk_8_3.bin in Resources */ = {isa = PBXBuildFile; fileRef = 90D159B35E1C7FC80E4461D9 /* chunk_8_3.bin */; };
+		F9E474867C39445345B0B513 /* chunk_12_9.bin in Resources */ = {isa = PBXBuildFile; fileRef = D3A34C079881854ABB829AC2 /* chunk_12_9.bin */; };
+		FA2410D8A553693027DF28E9 /* chunk_3_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5333C05CA797C71BC3490041 /* chunk_3_6.bin */; };
+		FADE2A3EE6029BDA11C2F534 /* chunk_18_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 39BE30B8D1A083CF914B9E7E /* chunk_18_6.bin */; };
+		FB07AC2A86AEA0CC278DAAF4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4282C6CF8DAA70C89967979 /* MapView.swift */; };
+		FB6C845D5881DE6B9757795E /* chunk_19_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = 90F83CD7E935FE1850FF7F9E /* chunk_19_12.bin */; };
+		FB73DB320683E52E46201E97 /* chunk_19_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 16507BA273517C85888DDDD0 /* chunk_19_11.bin */; };
+		FC5217D0D806097CCED9BB33 /* chunk_-1_17.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7DC91E061B82EEA1D707730E /* chunk_-1_17.bin */; };
+		FCD227F7F2A89A002B5D49AF /* chunk_2_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 44A6426DB08E65887282F159 /* chunk_2_6.bin */; };
+		FD4BD6AADCAF7233346BEAD7 /* chunk_0_-1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 59607233C63F2F0CA40D8156 /* chunk_0_-1.bin */; };
+		FEC60A577030445FA7030920 /* chunk_15_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2AE182F9604629B2D8B18D8C /* chunk_15_10.bin */; };
+		FEE4017DFFEA0056A938B9C3 /* chunk_6_0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 6E16286965306D4A98F0BB7C /* chunk_6_0.bin */; };
+		FEEC9C31A8B3B46601762B6A /* chunk_-1_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E477CAA445E6AC4D20544 /* chunk_-1_7.bin */; };
+		FFE7AF6F599816DA841F12DA /* chunk_13_12.bin in Resources */ = {isa = PBXBuildFile; fileRef = B1A577C6D930AB4D25870E4C /* chunk_13_12.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0029E17E410623AC6FB384D7 /* chunk_10_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_3.bin; sourceTree = "<group>"; };
+		0062A82A0979A69949B56580 /* chunk_2_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_0.bin; sourceTree = "<group>"; };
+		007FC55946096EF0A9DB3A6E /* chunk_-3_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-3_13.bin"; sourceTree = "<group>"; };
+		00EE6E2FC696AEAF70F8E0BB /* chunk_9_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_2.bin; sourceTree = "<group>"; };
+		00F0AED65B65342946E7464F /* chunk_5_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_10.bin; sourceTree = "<group>"; };
+		0103EE7B83BD65E571DE1127 /* ChunkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkManager.swift; sourceTree = "<group>"; };
+		010C839C8B82A286356B448D /* chunk_15_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_9.bin; sourceTree = "<group>"; };
+		01DBD696E7489EB8BCA9FF3F /* chunk_9_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_10.bin; sourceTree = "<group>"; };
+		029BDC9FD1CC9338A723F978 /* chunk_9_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_9.bin; sourceTree = "<group>"; };
+		02C5CD5FEF805BFA65D107B7 /* chunk_10_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_6.bin; sourceTree = "<group>"; };
+		0310B16BE3A68EBB40A35B58 /* chunk_8_-3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_8_-3.bin"; sourceTree = "<group>"; };
+		063861BC4ED227CEFB2B3DCE /* chunk_3_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_16.bin; sourceTree = "<group>"; };
+		079951DE2C36C1D40101DB2E /* chunk_18_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_8.bin; sourceTree = "<group>"; };
+		07A2C83CBDA27E77BA446322 /* chunk_-1_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_2.bin"; sourceTree = "<group>"; };
+		081971772CCD668BB8F8B916 /* chunk_-1_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_1.bin"; sourceTree = "<group>"; };
+		085A458760D9EB2BEB0247FF /* chunk_13_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_15.bin; sourceTree = "<group>"; };
+		0880C2E1A91CF15F7A4EF8AF /* chunk_11_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_15.bin; sourceTree = "<group>"; };
+		0A5BC8F27F4A35ACF934DD42 /* chunk_8_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_8_-1.bin"; sourceTree = "<group>"; };
+		0B215B95CE2358F66EDC912C /* chunk_3_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_0.bin; sourceTree = "<group>"; };
+		0B394E8038739600843D60CD /* chunk_7_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_10.bin; sourceTree = "<group>"; };
+		0B68179ADEEE375D1E0E4E15 /* chunk_19_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_10.bin; sourceTree = "<group>"; };
+		0B7497007BF2A608E6519877 /* chunk_2_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_11.bin; sourceTree = "<group>"; };
+		0CA640A7E467134C16D59773 /* chunk_0_19.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_19.bin; sourceTree = "<group>"; };
+		0CD560396FF4E6A4D13342DC /* chunk_7_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_2.bin; sourceTree = "<group>"; };
+		0D3772D4BBC76396D6727CBB /* chunk_1_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_10.bin; sourceTree = "<group>"; };
+		0DE44B9C4B5A0F13058A5A9F /* chunk_18_20.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_20.bin; sourceTree = "<group>"; };
+		0FC78E24090B96D58922E97B /* chunk_12_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_2.bin; sourceTree = "<group>"; };
+		1041386E8EB59487DD557F57 /* chunk_7_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_1.bin; sourceTree = "<group>"; };
+		115E6EF08736955E8FD51952 /* chunk_20_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_0.bin; sourceTree = "<group>"; };
+		1173A15C90EE602A0961FD5E /* chunk_22_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_22_9.bin; sourceTree = "<group>"; };
+		1232EDB1FC1DCBE48CDF424A /* chunk_2_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_3.bin; sourceTree = "<group>"; };
+		136CCFE10747C4E2B224F556 /* chunk_1_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_7.bin; sourceTree = "<group>"; };
+		13D672BB40E8326F3A973CA4 /* chunk_0_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_0.bin; sourceTree = "<group>"; };
+		141660E57F47791B6B3BDE9C /* chunk_5_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_12.bin; sourceTree = "<group>"; };
+		141EE7759F3EBBFAEA438AF9 /* chunk_-1_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_13.bin"; sourceTree = "<group>"; };
+		147D462D1128867ECBE4E5FE /* chunk_9_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_4.bin; sourceTree = "<group>"; };
+		1546B7A0DD0D43E07319D7D4 /* chunk_7_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_4.bin; sourceTree = "<group>"; };
+		16507BA273517C85888DDDD0 /* chunk_19_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_11.bin; sourceTree = "<group>"; };
+		16E151EC01ABEFB7F50E56BD /* Songdo3DMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songdo3DMapApp.swift; sourceTree = "<group>"; };
+		171BB5FEA6033C9F7957E8C8 /* chunk_8_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_10.bin; sourceTree = "<group>"; };
+		1857973E337EFE59C13E1075 /* chunk_1_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_15.bin; sourceTree = "<group>"; };
+		188AD5F97951DABA8EF5790D /* chunk_8_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_14.bin; sourceTree = "<group>"; };
+		18AEFDCECF5FB28C6A57D9E1 /* chunk_18_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_10.bin; sourceTree = "<group>"; };
+		18D5A0990AB466472623E733 /* chunk_16_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_13.bin; sourceTree = "<group>"; };
+		1A13BDA2F89DDE912B50A24F /* chunk_12_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_1.bin; sourceTree = "<group>"; };
+		1A1FCE78518D6F86D0E48E01 /* chunk_9_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_14.bin; sourceTree = "<group>"; };
+		1A6EA9C2C0C072ED60C80CF2 /* CylinderGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderGenerator.swift; sourceTree = "<group>"; };
+		1C07FC4918F735C8912EB2D5 /* chunk_10_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_15.bin; sourceTree = "<group>"; };
+		1CC5D8622EACF0F59E541B90 /* Common.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Common.metal; sourceTree = "<group>"; };
+		1CE65BCDE9DF3E45867DAD02 /* Songdo3DMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Songdo3DMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDB63C5F852E01AFA53243C /* chunk_11_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_14.bin; sourceTree = "<group>"; };
+		1E4DD01DA404023A58E3E809 /* chunk_5_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_9.bin; sourceTree = "<group>"; };
+		1F6FAE7463F4D289614E785B /* chunk_15_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_8.bin; sourceTree = "<group>"; };
+		20819D6D553FF46BFFCA0BED /* chunk_3_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_3.bin; sourceTree = "<group>"; };
+		20B9CCA0D11DF08F0AA738B8 /* chunk_16_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_10.bin; sourceTree = "<group>"; };
+		21D1F7B653B1DAC1ADAFB90D /* chunk_12_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_6.bin; sourceTree = "<group>"; };
+		21E0EFFE52CAD78156B4D442 /* chunk_15_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_15_-1.bin"; sourceTree = "<group>"; };
+		231AA2C3212A59943CA084C1 /* chunk_18_21.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_21.bin; sourceTree = "<group>"; };
+		2366EF21E8ED4C2AA92743AE /* chunk_2_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_15.bin; sourceTree = "<group>"; };
+		23723103589FA99D875C69BD /* chunk_1_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_5.bin; sourceTree = "<group>"; };
+		23C35BF94ED3DE7BE6D34238 /* chunk_18_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_7.bin; sourceTree = "<group>"; };
+		23DA15F9DA9242870E4E8B6D /* chunk_15_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_6.bin; sourceTree = "<group>"; };
+		2627FC8335D50FD793F1603B /* chunk_18_18.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_18.bin; sourceTree = "<group>"; };
+		26AC097D2164C43BF3B4D121 /* chunk_6_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_10.bin; sourceTree = "<group>"; };
+		2717ADA0548A62AC66018302 /* buildings.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = buildings.geojson; sourceTree = "<group>"; };
+		27DA2DCE146D1554C141B9C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AE182F9604629B2D8B18D8C /* chunk_15_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_10.bin; sourceTree = "<group>"; };
+		2C58F834D91CA0C6A04BE619 /* chunk_8_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_2.bin; sourceTree = "<group>"; };
+		2CD6980A852FB8CFB5165307 /* MapData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MapData; path = Songdo3DMap/Resources/MapData; sourceTree = SOURCE_ROOT; };
+		2EA8AE4EC2DC4A57D66E54A7 /* chunk_4_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_11.bin; sourceTree = "<group>"; };
+		2EC3A2983EE3DABFC03B8683 /* chunk_10_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_12.bin; sourceTree = "<group>"; };
+		302AE5BC413BEAF23631F9BD /* chunk_16_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_14.bin; sourceTree = "<group>"; };
+		304306F20C53B1B26B337B4D /* chunk_7_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_16.bin; sourceTree = "<group>"; };
+		3120FB4ECED20D1BDD9016FB /* chunk_5_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_5_-2.bin"; sourceTree = "<group>"; };
+		31C2C829846FFACEC77DAE07 /* chunk_9_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_0.bin; sourceTree = "<group>"; };
+		320B2146931127DE808AFE5D /* chunk_5_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_5.bin; sourceTree = "<group>"; };
+		3279429618D9AA7B001915A1 /* BoxGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxGenerator.swift; sourceTree = "<group>"; };
+		3432BBD45319B19DAFC25709 /* chunk_17_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_7.bin; sourceTree = "<group>"; };
+		3475707990805DF785FD04D1 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		34D965AD8743185FB69B0D3F /* chunk_6_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_8.bin; sourceTree = "<group>"; };
+		355B002FA61BE7CDEA627FD3 /* chunk_4_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_14.bin; sourceTree = "<group>"; };
+		361D7D46B7A8BF9FA447179B /* chunk_0_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_4.bin; sourceTree = "<group>"; };
+		36DC20D28D9B08891615655F /* chunk_-1_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_16.bin"; sourceTree = "<group>"; };
+		3764F426E7C55EBC2370FC09 /* chunk_2_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_5.bin; sourceTree = "<group>"; };
+		376CE76CE6ABC87A46C27E8D /* chunk_21_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_21_4.bin; sourceTree = "<group>"; };
+		387C432159C92C8035754620 /* chunk_15_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_0.bin; sourceTree = "<group>"; };
+		39BE30B8D1A083CF914B9E7E /* chunk_18_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_6.bin; sourceTree = "<group>"; };
+		39BFA620B3191A919F7845F6 /* chunk_4_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_0.bin; sourceTree = "<group>"; };
+		39F9FACA3A744CC72BF3083B /* chunk_-1_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_12.bin"; sourceTree = "<group>"; };
+		3A7E5947916250B0868A98CF /* chunk_20_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_20_-1.bin"; sourceTree = "<group>"; };
+		3B140D4ACAC5C96E32D31C0D /* chunk_3_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_4.bin; sourceTree = "<group>"; };
+		3B2CF8CF66A4688F8B99E1E9 /* chunk_6_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_13.bin; sourceTree = "<group>"; };
+		3B7921929992E273595D4B21 /* chunk_7_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_15.bin; sourceTree = "<group>"; };
+		3B8D05FD3DD7FB3484EA422B /* chunk_4_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_8.bin; sourceTree = "<group>"; };
+		3C32B88B78787A1D479A0237 /* roads.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = roads.geojson; sourceTree = "<group>"; };
+		3D43C13835F9A5DEAA02A1ED /* chunk_11_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_11.bin; sourceTree = "<group>"; };
+		3E5581DA65F88BC2117A8761 /* chunk_8_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_11.bin; sourceTree = "<group>"; };
+		3E665AF6E321C5CE838A546A /* chunk_1_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_8.bin; sourceTree = "<group>"; };
+		3EAC927612A98288BB21CCCF /* chunk_0_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_12.bin; sourceTree = "<group>"; };
+		3F56A3388D83EAD043BCA3B8 /* chunk_3_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_10.bin; sourceTree = "<group>"; };
+		3F63AAB5BB16CEBDD1B0D2E5 /* chunk_6_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_11.bin; sourceTree = "<group>"; };
+		40752D7240A84B13BAC963A5 /* chunk_1_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_1_-1.bin"; sourceTree = "<group>"; };
+		409B9B39DB83D0C790868B7C /* chunk_0_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_0_-2.bin"; sourceTree = "<group>"; };
+		40E145D0B40CA9BF93A7DB00 /* chunk_8_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_15.bin; sourceTree = "<group>"; };
+		40F8B9C526D58D13A49560EE /* chunk_3_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_2.bin; sourceTree = "<group>"; };
+		4282E5F6C03128B7B971C878 /* chunk_-2_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-2_16.bin"; sourceTree = "<group>"; };
+		42C4B930592554F1758AE8CC /* chunk_-1_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_5.bin"; sourceTree = "<group>"; };
+		436DEF508BF0DDA22567E548 /* chunk_1_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_3.bin; sourceTree = "<group>"; };
+		43C079989DC98C3FA249A80D /* chunk_5_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_3.bin; sourceTree = "<group>"; };
+		44924776B997C26740243234 /* chunk_12_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_8.bin; sourceTree = "<group>"; };
+		44A6426DB08E65887282F159 /* chunk_2_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_6.bin; sourceTree = "<group>"; };
+		4798D27C978FE1742D94A9B8 /* chunk_14_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_16.bin; sourceTree = "<group>"; };
+		47C206FA2FB4B39D5327F2AB /* chunk_18_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_4.bin; sourceTree = "<group>"; };
+		47C6ABC77DCD94789C47159B /* chunk_17_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_2.bin; sourceTree = "<group>"; };
+		493AB759E8EE815C5F47D1E6 /* chunk_2_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_2_-1.bin"; sourceTree = "<group>"; };
+		49B6CCF3E865735123AF0EC9 /* chunk_9_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_15.bin; sourceTree = "<group>"; };
+		49B769BBC3F2E2C12B17A834 /* chunk_8_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_8.bin; sourceTree = "<group>"; };
+		4CAE8A0E5A717FDC801FC7A6 /* chunk_3_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_3_-1.bin"; sourceTree = "<group>"; };
+		4CE339E04EA990F73480B7C9 /* chunk_-1_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_10.bin"; sourceTree = "<group>"; };
+		4E533D730F4200B7AAB31B6A /* chunk_11_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_16.bin; sourceTree = "<group>"; };
+		4F5CFEB5FC2C2F3B8ED7066F /* chunk_1_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_4.bin; sourceTree = "<group>"; };
+		50C81C7FA4AE67952B960132 /* chunk_8_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_13.bin; sourceTree = "<group>"; };
+		5191ACCBFE40152289FA9110 /* chunk_16_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_2.bin; sourceTree = "<group>"; };
+		5232DDC3A4E2D20EFE997262 /* chunk_5_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_15.bin; sourceTree = "<group>"; };
+		5333C05CA797C71BC3490041 /* chunk_3_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_6.bin; sourceTree = "<group>"; };
+		53969CF463E4395E3EAE5B90 /* chunk_18_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_14.bin; sourceTree = "<group>"; };
+		53E64C534A19E23C6F3DD6B5 /* chunk_5_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_14.bin; sourceTree = "<group>"; };
+		5629B55CFB496A3186FA8C3E /* chunk_11_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_3.bin; sourceTree = "<group>"; };
+		56A75019FEFE685F052A4E01 /* chunk_20_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_8.bin; sourceTree = "<group>"; };
+		56B4893D4DE57500CC3FF399 /* chunk_4_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_4_-2.bin"; sourceTree = "<group>"; };
+		5735C747AF648A8C0DF418D5 /* chunk_-1_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_15.bin"; sourceTree = "<group>"; };
+		575D69C7A114DB623B2B2673 /* chunk_16_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_16_-1.bin"; sourceTree = "<group>"; };
+		57E4E76418F8FD39CB517998 /* chunk_-3_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-3_14.bin"; sourceTree = "<group>"; };
+		5913E10941C092F48ABD4679 /* chunk_14_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_12.bin; sourceTree = "<group>"; };
+		5936F8DADE58FE256C303C2B /* chunk_2_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_14.bin; sourceTree = "<group>"; };
+		59607233C63F2F0CA40D8156 /* chunk_0_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_0_-1.bin"; sourceTree = "<group>"; };
+		5A9B1C9A6B5C48714B58C39F /* chunk_1_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_12.bin; sourceTree = "<group>"; };
+		5AEBFA28191D4623CE92130F /* chunk_20_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_3.bin; sourceTree = "<group>"; };
+		5B1574A0C3BA2E85DBCFD2D4 /* chunk_-2_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-2_8.bin"; sourceTree = "<group>"; };
+		5B764B7EB74BB118D689A031 /* chunk_10_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_10.bin; sourceTree = "<group>"; };
+		5C7E3E5121650ED6E5763A1A /* chunk_21_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_21_2.bin; sourceTree = "<group>"; };
+		5CA1FE3C1EFF26AA7DE5E5EB /* chunk_12_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_10.bin; sourceTree = "<group>"; };
+		5CBC52CDDE74B547E1C0B157 /* chunk_21_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_21_14.bin; sourceTree = "<group>"; };
+		5CE3689BF34131CF05E8FDA8 /* chunk_20_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_4.bin; sourceTree = "<group>"; };
+		5DBE65449D75319B52EDCD66 /* chunk_6_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_4.bin; sourceTree = "<group>"; };
+		5F8D593A9CF4C7568EF0441C /* chunk_16_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_6.bin; sourceTree = "<group>"; };
+		61DE941934970A6149E41877 /* chunk_19_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_8.bin; sourceTree = "<group>"; };
+		6414572377405D969D935623 /* chunk_11_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_2.bin; sourceTree = "<group>"; };
+		65B0A55114BD838F68F70644 /* chunk_8_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_4.bin; sourceTree = "<group>"; };
+		66AA78BCB609D1C9202A6E5E /* Road.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Road.metal; sourceTree = "<group>"; };
+		66E988C5612CBC8DCFDEE846 /* chunk_7_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_3.bin; sourceTree = "<group>"; };
+		670C90AA9C475A199CA6AC95 /* chunk_19_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_5.bin; sourceTree = "<group>"; };
+		673953FB4A2EF5D3F90CDB6A /* chunk_7_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_5.bin; sourceTree = "<group>"; };
+		67F9824CE81DC0B8043DE910 /* chunk_2_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_1.bin; sourceTree = "<group>"; };
+		68822AB46E4D478BCC4F132B /* chunk_9_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_7.bin; sourceTree = "<group>"; };
+		69B1650AF1D094982E887741 /* chunk_0_17.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_17.bin; sourceTree = "<group>"; };
+		6B7AE25E5723DFDEEE72DBCF /* chunk_6_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_7.bin; sourceTree = "<group>"; };
+		6B7C2A2208204A8353C8EE18 /* chunk_19_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_19_-2.bin"; sourceTree = "<group>"; };
+		6BAB810555AC5D15B24D31B4 /* chunk_-1_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_0.bin"; sourceTree = "<group>"; };
+		6BEE0907EA45B2731969DA7B /* chunk_20_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_2.bin; sourceTree = "<group>"; };
+		6C3DC96647FF3E19A5C6C1C7 /* chunk_2_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_10.bin; sourceTree = "<group>"; };
+		6C57C66A731D4054429DB3F2 /* chunk_15_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_14.bin; sourceTree = "<group>"; };
+		6D232D562F0DA21B1F979F1F /* chunk_21_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_21_3.bin; sourceTree = "<group>"; };
+		6D6C41CD8EF9A89FE0BE77EA /* chunk_4_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_16.bin; sourceTree = "<group>"; };
+		6E16286965306D4A98F0BB7C /* chunk_6_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_0.bin; sourceTree = "<group>"; };
+		6E8FCE6441CF4A6E4E815143 /* chunk_11_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_8.bin; sourceTree = "<group>"; };
+		6F1376BE7BF55A20E96ED0AD /* chunk_6_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_1.bin; sourceTree = "<group>"; };
+		7074941945B61437F049BBB5 /* chunk_6_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_5.bin; sourceTree = "<group>"; };
+		7170ED04470165354383A4BD /* chunk_9_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_3.bin; sourceTree = "<group>"; };
+		72A9A212385D5D990CD39641 /* chunk_19_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_14.bin; sourceTree = "<group>"; };
+		72D0477E2D51A594E32AF12D /* chunk_2_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_12.bin; sourceTree = "<group>"; };
+		7303B4EDD0C6F25D07EB9B77 /* chunk_10_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_9.bin; sourceTree = "<group>"; };
+		73D5F4F525606B7B79F52F3C /* chunk_-1_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_14.bin"; sourceTree = "<group>"; };
+		73DFC37C4803747A63149C69 /* chunk_14_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_9.bin; sourceTree = "<group>"; };
+		741615A753D57975B0609DC1 /* chunk_16_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_12.bin; sourceTree = "<group>"; };
+		7452BA0DF6F17D4E69809505 /* chunk_13_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_4.bin; sourceTree = "<group>"; };
+		74D610C82ADE3AAE49CE7CF1 /* chunk_3_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_1.bin; sourceTree = "<group>"; };
+		760F5B7286E8E99193D909E9 /* chunk_8_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_6.bin; sourceTree = "<group>"; };
+		76AD2D78FF25EE0717C3281D /* chunk_5_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_6.bin; sourceTree = "<group>"; };
+		770506FE4B939BC6F76D3376 /* chunk_6_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_15.bin; sourceTree = "<group>"; };
+		770DB12538E4739811DD2D96 /* chunk_7_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_7.bin; sourceTree = "<group>"; };
+		773B332BE5CD1C9BCE0688FC /* chunk_18_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_1.bin; sourceTree = "<group>"; };
+		7873FC19997AC2F70FD18EE6 /* chunk_15_17.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_17.bin; sourceTree = "<group>"; };
+		7893EDF90148FDBF04D93A9C /* chunk_4_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_10.bin; sourceTree = "<group>"; };
+		79E1613D101B4C2D6216C9C9 /* chunk_0_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_2.bin; sourceTree = "<group>"; };
+		7B8F7C9C4FD618F153F457E9 /* chunk_10_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_7.bin; sourceTree = "<group>"; };
+		7CFBEDBDC203AB158CD9EFFC /* chunk_1_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_6.bin; sourceTree = "<group>"; };
+		7D4AEBBC32CF3AC4A4E8E66F /* chunk_12_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_3.bin; sourceTree = "<group>"; };
+		7DB3EEACC86CC96E326ABB3F /* chunk_3_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_14.bin; sourceTree = "<group>"; };
+		7DC91E061B82EEA1D707730E /* chunk_-1_17.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_17.bin"; sourceTree = "<group>"; };
+		7E9F029650D1189EAE264E7B /* chunk_0_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_9.bin; sourceTree = "<group>"; };
+		7EA87296BF07EF9DEF498E0C /* chunk_12_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_15.bin; sourceTree = "<group>"; };
+		7F2128C2E06AAA7C254CA65F /* chunk_7_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_12.bin; sourceTree = "<group>"; };
+		7FBD29BE7515E49AE8E6EDEE /* chunk_10_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_5.bin; sourceTree = "<group>"; };
+		8174D34C03693D2450BB16C5 /* chunk_15_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_15.bin; sourceTree = "<group>"; };
+		822F132BD6E7379987B660AA /* chunk_11_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_6.bin; sourceTree = "<group>"; };
+		82B9F16B609F20C1D4B836BD /* chunk_3_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_15.bin; sourceTree = "<group>"; };
+		849F8BCFC6015E183C3291E1 /* chunk_10_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_13.bin; sourceTree = "<group>"; };
+		8667E887E18AC415CCE1993C /* chunk_16_17.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_17.bin; sourceTree = "<group>"; };
+		8807B8EAB002BE04C1CDC25F /* chunk_7_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_11.bin; sourceTree = "<group>"; };
+		898B822336FB31E769D64074 /* chunk_5_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_16.bin; sourceTree = "<group>"; };
+		89F9EBCF4E8218DF6A25EAA2 /* chunk_9_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_13.bin; sourceTree = "<group>"; };
+		8A4E477CAA445E6AC4D20544 /* chunk_-1_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_7.bin"; sourceTree = "<group>"; };
+		8A5E4E4A2B76B1B38DCB662C /* chunk_19_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_6.bin; sourceTree = "<group>"; };
+		8ACE946356260DBE4BCDF107 /* chunk_19_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_7.bin; sourceTree = "<group>"; };
+		8B4454EE322C0F416C1ECEE8 /* chunk_1_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_1.bin; sourceTree = "<group>"; };
+		8CE6F47098AF99A8978504C7 /* chunk_7_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_7_-2.bin"; sourceTree = "<group>"; };
+		8DA03D4895718BE9E739BC52 /* chunk_14_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_6.bin; sourceTree = "<group>"; };
+		8DF8BF4C1233ACCFE404A2FD /* chunk_16_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_1.bin; sourceTree = "<group>"; };
+		8E31292315C2C2928538CEDC /* index.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = index.json; sourceTree = "<group>"; };
+		8F59E8462B0E32E9BFAE0641 /* chunk_0_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_7.bin; sourceTree = "<group>"; };
+		8F5CAEC37367658FC7EFE90E /* chunk_9_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_6.bin; sourceTree = "<group>"; };
+		8F5CFFB569C56DF996895546 /* chunk_17_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_9.bin; sourceTree = "<group>"; };
+		8F7213836265BD48E9F2643D /* chunk_6_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_6.bin; sourceTree = "<group>"; };
+		8FA32800BE2BF3E16B7A560E /* Mesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		90458E29936D7F72F49F4605 /* chunk_11_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_5.bin; sourceTree = "<group>"; };
+		909CB950A12AE3B4BC914473 /* chunk_7_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_7_-1.bin"; sourceTree = "<group>"; };
+		90B619CB331CD157E9D1EA11 /* chunk_15_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_16.bin; sourceTree = "<group>"; };
+		90C1DC7D2F1052B8B2452AD8 /* chunk_20_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_6.bin; sourceTree = "<group>"; };
+		90C45B7AC6FF3EA83D340E5C /* chunk_2_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_8.bin; sourceTree = "<group>"; };
+		90D159B35E1C7FC80E4461D9 /* chunk_8_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_3.bin; sourceTree = "<group>"; };
+		90F83CD7E935FE1850FF7F9E /* chunk_19_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_12.bin; sourceTree = "<group>"; };
+		91E699B0195F7CB61E97422F /* chunk_0_18.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_18.bin; sourceTree = "<group>"; };
+		922CCA85B4FF4F7BA96BC760 /* chunk_8_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_0.bin; sourceTree = "<group>"; };
+		92672BB478BFED941F66DE2B /* chunk_10_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_8.bin; sourceTree = "<group>"; };
+		929B2EAD2CA72D4A4D957DC2 /* chunk_18_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_2.bin; sourceTree = "<group>"; };
+		93176863A3F6CB73ECE40F4B /* chunk_19_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_9.bin; sourceTree = "<group>"; };
+		93F67A963BBDA4365D8F8B89 /* chunk_0_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_6.bin; sourceTree = "<group>"; };
+		9473D55DFCA554D3AA9AEAB4 /* chunk_11_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_12.bin; sourceTree = "<group>"; };
+		96AE1CDC1E03F315FDCD6724 /* chunk_16_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_15.bin; sourceTree = "<group>"; };
+		9777FC22EAFFC9958C0DE8F4 /* chunk_-2_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-2_6.bin"; sourceTree = "<group>"; };
+		9817C6CB768DB4AE87896CEF /* chunk_18_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_13.bin; sourceTree = "<group>"; };
+		992456324966E24CB74831A8 /* chunk_0_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_3.bin; sourceTree = "<group>"; };
+		9A13FEA79598B0CFE666CBD0 /* chunk_2_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_13.bin; sourceTree = "<group>"; };
+		9B724011B5FA385C5F7CD16F /* chunk_12_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_11.bin; sourceTree = "<group>"; };
+		9BB39843631DA9779238778D /* chunk_17_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_12.bin; sourceTree = "<group>"; };
+		9BCBE538E10B7FFBB952981B /* chunk_21_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_21_-1.bin"; sourceTree = "<group>"; };
+		9C20A85BDC87A6CFA1E51CEC /* chunk_-1_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_11.bin"; sourceTree = "<group>"; };
+		9C99F1CDABD27183B4C0F584 /* chunk_15_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_12.bin; sourceTree = "<group>"; };
+		9CB633EED25D37E0B9E5EAC2 /* chunk_4_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_15.bin; sourceTree = "<group>"; };
+		9CEE637B110573B1AF74EE61 /* chunk_16_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_8.bin; sourceTree = "<group>"; };
+		9E6B90DED3AC48C37EFEA47F /* chunk_11_-6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_11_-6.bin"; sourceTree = "<group>"; };
+		9ED17A585381494C6968436D /* chunk_18_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_16.bin; sourceTree = "<group>"; };
+		9FA778FA625047DED0D2F374 /* chunk_17_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_11.bin; sourceTree = "<group>"; };
+		9FC61D9915D1CC15B372AF2F /* chunk_20_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_9.bin; sourceTree = "<group>"; };
+		9FDA58B8DEC57250812C8AC0 /* chunk_8_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_7.bin; sourceTree = "<group>"; };
+		A00E9564E2B77F79EA467842 /* chunk_18_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_9.bin; sourceTree = "<group>"; };
+		A02CF954AC695720942B417F /* chunk_5_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_8.bin; sourceTree = "<group>"; };
+		A0C78E16F56DB21FC35B5735 /* chunk_11_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_4.bin; sourceTree = "<group>"; };
+		A13234D43E3C8551EBA68777 /* chunk_10_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_2.bin; sourceTree = "<group>"; };
+		A1AE836FAE1AF86EE7079D8D /* chunk_0_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_13.bin; sourceTree = "<group>"; };
+		A1BD0FD220E032432D527C42 /* chunk_4_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_5.bin; sourceTree = "<group>"; };
+		A1E1405130381E670CD67BCB /* chunk_8_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_9.bin; sourceTree = "<group>"; };
+		A23D82A03CB60DD70EF104CF /* chunk_3_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_7.bin; sourceTree = "<group>"; };
+		A2A575F6AE7174785AA832C9 /* chunk_12_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_12.bin; sourceTree = "<group>"; };
+		A30A27DCEDD015B51AB43A82 /* chunk_13_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_9.bin; sourceTree = "<group>"; };
+		A4C91627DC76EC408A3B110B /* chunk_13_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_13.bin; sourceTree = "<group>"; };
+		A51F3CFAAC1C74939C2C4EB5 /* chunk_10_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_14.bin; sourceTree = "<group>"; };
+		A54EDB1B5F41E3321418B21F /* ChunkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkLoader.swift; sourceTree = "<group>"; };
+		A7BD86C95F468FDA0F054D1A /* chunk_7_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_14.bin; sourceTree = "<group>"; };
+		A7D81CD79BF4DF9902E1238F /* chunk_1_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_1_-2.bin"; sourceTree = "<group>"; };
+		A8493540412990A6F13AAB44 /* Terrain.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Terrain.metal; sourceTree = "<group>"; };
+		A8755DC94DCC6E62C6D9A6D0 /* chunk_9_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_1.bin; sourceTree = "<group>"; };
+		A8CE82E884D2B931867DD1A6 /* chunk_3_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_5.bin; sourceTree = "<group>"; };
+		A92EC5743BFF7880DBC0F94C /* chunk_13_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_7.bin; sourceTree = "<group>"; };
+		A95C80A1A6C53044774D7141 /* chunk_4_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_7.bin; sourceTree = "<group>"; };
+		A9F8C486195ADF43605AE487 /* chunk_18_22.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_22.bin; sourceTree = "<group>"; };
+		AA809A228332FFCA2EAF7461 /* chunk_18_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_0.bin; sourceTree = "<group>"; };
+		AAF39DE695657BD9FB96ECE2 /* chunk_18_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_11.bin; sourceTree = "<group>"; };
+		AB4C1960C42336B74055EB6E /* chunk_5_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_7.bin; sourceTree = "<group>"; };
+		AB59D5FBC7476A3C20929457 /* chunk_15_18.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_18.bin; sourceTree = "<group>"; };
+		ABCDCD45ADBA72A758C6AF86 /* chunk_6_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_14.bin; sourceTree = "<group>"; };
+		AC570ACD6D319CD79FC1D5A1 /* chunk_0_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_8.bin; sourceTree = "<group>"; };
+		AD8B19508C8F11BFE965ED4E /* chunk_-1_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_6.bin"; sourceTree = "<group>"; };
+		ADF2659A3A988DA58F220757 /* chunk_6_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_12.bin; sourceTree = "<group>"; };
+		AE454358ADD2E023578813E5 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		AFBC8714BB7A7C919F4A0233 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		B014661331E3F0E60702B085 /* chunk_18_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_18_-1.bin"; sourceTree = "<group>"; };
+		B0FAA950DDFBF108B8FF10C0 /* chunk_2_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_7.bin; sourceTree = "<group>"; };
+		B11A9D01755D5AB383E74FAD /* chunk_4_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_1.bin; sourceTree = "<group>"; };
+		B123451042B94659A09092D8 /* chunk_18_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_18_-2.bin"; sourceTree = "<group>"; };
+		B13738B9AF3CEAA39B1D835A /* chunk_13_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_10.bin; sourceTree = "<group>"; };
+		B1A577C6D930AB4D25870E4C /* chunk_13_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_12.bin; sourceTree = "<group>"; };
+		B39770D30D5EDED0FE86A275 /* chunk_17_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_1.bin; sourceTree = "<group>"; };
+		B3CC0ABAFCEBA3AFE7CEC60F /* metadata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metadata.json; sourceTree = "<group>"; };
+		B485A6948D1B4B3ADD9AE39C /* chunk_14_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_7.bin; sourceTree = "<group>"; };
+		B4DA2F7EB1EDDA003C13B778 /* chunk_4_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_2.bin; sourceTree = "<group>"; };
+		B5000861C4EBFDC4FC282C8D /* chunk_18_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_5.bin; sourceTree = "<group>"; };
+		B541B0CCEC1EE28A810603D4 /* chunk_0_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_5.bin; sourceTree = "<group>"; };
+		B669257AA4AA9B366F6983FF /* chunk_7_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_9.bin; sourceTree = "<group>"; };
+		B75264E1433288CCC285B63E /* chunk_4_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_12.bin; sourceTree = "<group>"; };
+		B7F7F60CD698BFE9512B2B71 /* chunk_9_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_8.bin; sourceTree = "<group>"; };
+		B8EE372BF57CC015DC54BFA9 /* chunk_4_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_6.bin; sourceTree = "<group>"; };
+		B91FC2C85479BE904C809C40 /* chunk_8_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_16.bin; sourceTree = "<group>"; };
+		B94CC00447D64615FCE52747 /* chunk_13_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_2.bin; sourceTree = "<group>"; };
+		B952C0E6A8A49F65A8D9AEF7 /* chunk_12_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_14.bin; sourceTree = "<group>"; };
+		B9D77E36A5F1F3DDC33771C6 /* chunk_14_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_11.bin; sourceTree = "<group>"; };
+		BA3D8DE85BF68A46CD73EFCC /* chunk_19_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_13.bin; sourceTree = "<group>"; };
+		BC2622C14D10093DB809337A /* chunk_-2_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-2_13.bin"; sourceTree = "<group>"; };
+		BCC277182FA9452EB7C7F298 /* chunk_16_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_11.bin; sourceTree = "<group>"; };
+		BDC3BE9A2ED563B45DC94F39 /* chunk_11_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_13.bin; sourceTree = "<group>"; };
+		BEC26DDEEB7C8E0817F9F1D3 /* chunk_13_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_8.bin; sourceTree = "<group>"; };
+		C0360D52F37371EB10463BAD /* chunk_15_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_13.bin; sourceTree = "<group>"; };
+		C047B065513734C2DFE6FC75 /* chunk_18_19.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_19.bin; sourceTree = "<group>"; };
+		C19E9D75A9E77C69880E2A45 /* chunk_18_17.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_17.bin; sourceTree = "<group>"; };
+		C208BEACAB81240D26369F86 /* chunk_17_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_10.bin; sourceTree = "<group>"; };
+		C30241F11A27F0D496B10708 /* chunk_11_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_9.bin; sourceTree = "<group>"; };
+		C45DEBADD6C5D4DF91F76102 /* chunk_17_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_13.bin; sourceTree = "<group>"; };
+		C497F2323C114E46F6875191 /* chunk_21_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_21_9.bin; sourceTree = "<group>"; };
+		C5123AF27BE197813B351DC2 /* chunk_14_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_15.bin; sourceTree = "<group>"; };
+		C5CECD95F652A0E20DF24A0A /* chunk_4_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_9.bin; sourceTree = "<group>"; };
+		C611D6C06763DD6F64684A2E /* chunk_0_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_11.bin; sourceTree = "<group>"; };
+		C636255024A966F4BF098CDD /* chunk_8_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_5.bin; sourceTree = "<group>"; };
+		C74E1FE32409120F39530E71 /* chunk_19_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_19_-1.bin"; sourceTree = "<group>"; };
+		C825D125193D19B049CDF22A /* chunk_12_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_7.bin; sourceTree = "<group>"; };
+		CA61DDC53345A31CEDCE8B51 /* chunk_5_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_0.bin; sourceTree = "<group>"; };
+		CAE71805591A7E1A11B8340A /* chunk_11_-5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_11_-5.bin"; sourceTree = "<group>"; };
+		CB0B4B97B3AF87BB31768811 /* chunk_17_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_17_-1.bin"; sourceTree = "<group>"; };
+		CB694EC84C10204C28FEDA59 /* chunk_18_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_15.bin; sourceTree = "<group>"; };
+		CBBE2224E8E1357864332219 /* chunk_19_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_0.bin; sourceTree = "<group>"; };
+		CCC6BC1AA832C1005E95D25A /* chunk_1_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_2.bin; sourceTree = "<group>"; };
+		CD64BCC8851D5C587E30C6E8 /* chunk_11_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_7.bin; sourceTree = "<group>"; };
+		CD67D33DEC92A412B320FB1B /* chunk_3_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_8.bin; sourceTree = "<group>"; };
+		CD90AB30B3BA8F69493FDDCE /* chunk_3_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_12.bin; sourceTree = "<group>"; };
+		CDAC3ECDBD10EC173FC0E54F /* chunk_-2_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-2_15.bin"; sourceTree = "<group>"; };
+		CE078E2CCF646572AFCEF2DE /* chunk_21_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_21_15.bin; sourceTree = "<group>"; };
+		CE2A16598F0825F16E9E2534 /* chunk_17_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_3.bin; sourceTree = "<group>"; };
+		CF7CDEE769E01F6624BF8EA1 /* chunk_12_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_13.bin; sourceTree = "<group>"; };
+		D04B1A5443D82D547E0C0083 /* chunk_1_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_14.bin; sourceTree = "<group>"; };
+		D080D3070019CACD6A2441D6 /* chunk_10_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_11.bin; sourceTree = "<group>"; };
+		D0A86A71F2344B2614D7D2E4 /* chunk_20_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_10.bin; sourceTree = "<group>"; };
+		D0EE2684DD728AE75927C08E /* chunk_4_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_13.bin; sourceTree = "<group>"; };
+		D0F162512C680C9005CD78D9 /* chunk_-1_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-1_8.bin"; sourceTree = "<group>"; };
+		D1DAD0DF39004B46F826A74A /* chunk_1_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_11.bin; sourceTree = "<group>"; };
+		D2AC3A6C5BDFCF9E54D9347D /* chunk_20_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_7.bin; sourceTree = "<group>"; };
+		D3A34C079881854ABB829AC2 /* chunk_12_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_9.bin; sourceTree = "<group>"; };
+		D3A84B29AC427B4101F122F0 /* ChunkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkData.swift; sourceTree = "<group>"; };
+		D3A9EDF6EAE5DDD003CBFF48 /* chunk_4_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_4.bin; sourceTree = "<group>"; };
+		D421069D6C24288BC1B8B0BB /* chunk_4_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_4_3.bin; sourceTree = "<group>"; };
+		D657B216C8245795B20A1E8E /* chunk_17_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_15.bin; sourceTree = "<group>"; };
+		D6B577D0ED9782E8E5B9944C /* chunk_12_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_4.bin; sourceTree = "<group>"; };
+		D6B821CCDB1EA1FDA62E0983 /* chunk_8_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_1.bin; sourceTree = "<group>"; };
+		D70C995EF027614FCF364489 /* chunk_14_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_14.bin; sourceTree = "<group>"; };
+		D8596478ED7FE4D0E127444F /* chunk_19_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_4.bin; sourceTree = "<group>"; };
+		D88BB14EEFBD458315D2D0BA /* chunk_16_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_0.bin; sourceTree = "<group>"; };
+		D91D5ECD44D7D5677CFBA357 /* chunk_5_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_2.bin; sourceTree = "<group>"; };
+		DAD0764FCE07300455C8B11D /* chunk_13_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_5.bin; sourceTree = "<group>"; };
+		DBB218F346581C49CDAE6CC6 /* chunk_20_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_15.bin; sourceTree = "<group>"; };
+		DC3B39AA43378CCB9224CCF3 /* Building.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Building.metal; sourceTree = "<group>"; };
+		DC48827505A69C8F6CFBC164 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DC497E5BAC0ECFA7797802C5 /* chunk_17_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_5.bin; sourceTree = "<group>"; };
+		DCA80988C00198765E324F82 /* chunk_16_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_9.bin; sourceTree = "<group>"; };
+		DD0C2B7544A198AF8E4699BE /* chunk_15_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_11.bin; sourceTree = "<group>"; };
+		DD0DF2F93FF15EE1EF63E4C4 /* Songdo3DMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Songdo3DMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF51F5E206508DAA086C0597 /* chunk_17_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_6.bin; sourceTree = "<group>"; };
+		DF66EED893211CD76292BDA2 /* chunk_0_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_1.bin; sourceTree = "<group>"; };
+		DF80194C2B932914054809E4 /* chunk_17_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_14.bin; sourceTree = "<group>"; };
+		E097506FD1E00F5CDF330E34 /* chunk_7_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_13.bin; sourceTree = "<group>"; };
+		E099EE73D52527B8FFC32DBF /* chunk_17_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_0.bin; sourceTree = "<group>"; };
+		E105B9538DF32506AA98EB79 /* chunk_0_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_14.bin; sourceTree = "<group>"; };
+		E160CA2E0EB5BDFBDD35335D /* chunk_4_-1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_4_-1.bin"; sourceTree = "<group>"; };
+		E29127D8066B288C1F08CBD9 /* chunk_14_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_13.bin; sourceTree = "<group>"; };
+		E2F7F088949241D4A307D48C /* chunk_5_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_11.bin; sourceTree = "<group>"; };
+		E3B0E16BA0348B67F14A1A3E /* chunk_0_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_10.bin; sourceTree = "<group>"; };
+		E463924E863235BBD69D679D /* chunk_9_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_5.bin; sourceTree = "<group>"; };
+		E75CACC98E985CF875DC532E /* chunk_12_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_16.bin; sourceTree = "<group>"; };
+		E778701090EDB0D3B12B8151 /* chunk_10_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_1.bin; sourceTree = "<group>"; };
+		E7D96404D710EBF4977CF002 /* chunk_2_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_4.bin; sourceTree = "<group>"; };
+		E82636B1371E670C94B5D10E /* chunk_2_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_2.bin; sourceTree = "<group>"; };
+		E8A2695A5EA0C7ED23C1AEA1 /* chunk_5_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_1.bin; sourceTree = "<group>"; };
+		E8CA4BBD793A971622DC4BAD /* chunk_3_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_11.bin; sourceTree = "<group>"; };
+		E9041F8C5A8635E3AA2A2C3E /* chunk_7_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_6.bin; sourceTree = "<group>"; };
+		EA317BDDDD623A5CC157ABD1 /* chunk_18_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_3.bin; sourceTree = "<group>"; };
+		EA80AE1BC6DEEF03ADF373D7 /* chunk_9_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_11.bin; sourceTree = "<group>"; };
+		EB66A43797756FAC2670AFCE /* chunk_9_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_12.bin; sourceTree = "<group>"; };
+		EF1BA4C4144045CA59CA4D62 /* chunk_2_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_9.bin; sourceTree = "<group>"; };
+		EF74B3600AF1B956AEFCD16E /* chunk_13_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_14.bin; sourceTree = "<group>"; };
+		F1775A0ACDDB960B1B9BD86E /* chunk_5_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_4.bin; sourceTree = "<group>"; };
+		F1AE0745D4D260E52A0982FD /* chunk_1_13.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_13.bin; sourceTree = "<group>"; };
+		F1C8ED1FA38E050EC18EE777 /* chunk_11_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_10.bin; sourceTree = "<group>"; };
+		F2A9712D3CFA739C3E952FF0 /* chunk_19_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_15.bin; sourceTree = "<group>"; };
+		F3585F752C8CFFF368A761FE /* chunk_18_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_12.bin; sourceTree = "<group>"; };
+		F3A3C053156EDEFB57E5D731 /* chunk_14_10.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_10.bin; sourceTree = "<group>"; };
+		F4282C6CF8DAA70C89967979 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F4E3F21EEAA9DA7E419A9F51 /* chunk_10_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_10_4.bin; sourceTree = "<group>"; };
+		F55241F456E456ECE1A6A0FE /* chunk_15_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_15_7.bin; sourceTree = "<group>"; };
+		F5F6968BF9D1218FB1AE2939 /* chunk_6_16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_16.bin; sourceTree = "<group>"; };
+		F60FB612855BE9B75EC31527 /* chunk_3_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_3_9.bin; sourceTree = "<group>"; };
+		F6246F36A22DDC6C3D87BFEC /* chunk_0_15.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_0_15.bin; sourceTree = "<group>"; };
+		F66D3EDBAF09900DFB95888A /* chunk_17_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_17_8.bin; sourceTree = "<group>"; };
+		F6707096BA6C4E1386E6F034 /* chunk_1_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_0.bin; sourceTree = "<group>"; };
+		F68211C1B84032E7759AEE20 /* chunk_11_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_11_1.bin; sourceTree = "<group>"; };
+		F6C01BB7F091895268F48B94 /* chunk_6_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_2.bin; sourceTree = "<group>"; };
+		F743DC5F2BE373D359CB69C5 /* chunk_6_-2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_6_-2.bin"; sourceTree = "<group>"; };
+		F7DBE8DD263ED223F14AD7BF /* chunk_12_5.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_12_5.bin; sourceTree = "<group>"; };
+		F8313D281E19E4D59737ABDE /* chunk_19_2.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_2.bin; sourceTree = "<group>"; };
+		F854144783BF3AB54CE78D80 /* chunk_16_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_16_7.bin; sourceTree = "<group>"; };
+		F87CC535E22CD2C94F2420C2 /* chunk_6_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_9.bin; sourceTree = "<group>"; };
+		F8F9BFA1B66A340F137D4F2A /* chunk_19_1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_1.bin; sourceTree = "<group>"; };
+		FA2B1174B2D1F4C0DAF90910 /* chunk_7_0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_0.bin; sourceTree = "<group>"; };
+		FABF0443B570FB9ADC7A7003 /* chunk_-2_7.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "chunk_-2_7.bin"; sourceTree = "<group>"; };
+		FAC8E26111C5E87F52A031CD /* chunk_1_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_1_9.bin; sourceTree = "<group>"; };
+		FC3CC9860F9B11B3AB93758E /* chunk_6_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_6_3.bin; sourceTree = "<group>"; };
+		FC9FC2CCC05998DF8B2D38D8 /* chunk_13_6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_6.bin; sourceTree = "<group>"; };
+		FCF50A93E1FC62A6B0F1C884 /* chunk_13_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_11.bin; sourceTree = "<group>"; };
+		FD50C95758C74DF6F1FE6487 /* chunk_19_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_19_3.bin; sourceTree = "<group>"; };
+		FE5928A4904CAFA2729CE1A4 /* chunk_14_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_14_8.bin; sourceTree = "<group>"; };
+		FE6868AB8A1D1860A7CB33F3 /* chunk_8_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_8_12.bin; sourceTree = "<group>"; };
+		FE71E9A3983ACC0B645886D4 /* chunk_20_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_20_14.bin; sourceTree = "<group>"; };
+		FF71E141780CD49D7FC0FA35 /* chunk_7_8.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_7_8.bin; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0755C0AE31242A2D000CA6D2 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				48677EF89E2DB13669B655E0 /* RenderPipeline */,
+				AB14044FCD0982CD928EB5EF /* Shaders */,
+				AFBC8714BB7A7C919F4A0233 /* MetalRenderer.swift */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		0D79763F068819809385E647 /* chunks */ = {
+			isa = PBXGroup;
+			children = (
+				6BAB810555AC5D15B24D31B4 /* chunk_-1_0.bin */,
+				081971772CCD668BB8F8B916 /* chunk_-1_1.bin */,
+				07A2C83CBDA27E77BA446322 /* chunk_-1_2.bin */,
+				42C4B930592554F1758AE8CC /* chunk_-1_5.bin */,
+				AD8B19508C8F11BFE965ED4E /* chunk_-1_6.bin */,
+				8A4E477CAA445E6AC4D20544 /* chunk_-1_7.bin */,
+				D0F162512C680C9005CD78D9 /* chunk_-1_8.bin */,
+				4CE339E04EA990F73480B7C9 /* chunk_-1_10.bin */,
+				9C20A85BDC87A6CFA1E51CEC /* chunk_-1_11.bin */,
+				39F9FACA3A744CC72BF3083B /* chunk_-1_12.bin */,
+				141EE7759F3EBBFAEA438AF9 /* chunk_-1_13.bin */,
+				73D5F4F525606B7B79F52F3C /* chunk_-1_14.bin */,
+				5735C747AF648A8C0DF418D5 /* chunk_-1_15.bin */,
+				36DC20D28D9B08891615655F /* chunk_-1_16.bin */,
+				7DC91E061B82EEA1D707730E /* chunk_-1_17.bin */,
+				9777FC22EAFFC9958C0DE8F4 /* chunk_-2_6.bin */,
+				FABF0443B570FB9ADC7A7003 /* chunk_-2_7.bin */,
+				5B1574A0C3BA2E85DBCFD2D4 /* chunk_-2_8.bin */,
+				BC2622C14D10093DB809337A /* chunk_-2_13.bin */,
+				CDAC3ECDBD10EC173FC0E54F /* chunk_-2_15.bin */,
+				4282E5F6C03128B7B971C878 /* chunk_-2_16.bin */,
+				007FC55946096EF0A9DB3A6E /* chunk_-3_13.bin */,
+				57E4E76418F8FD39CB517998 /* chunk_-3_14.bin */,
+				59607233C63F2F0CA40D8156 /* chunk_0_-1.bin */,
+				409B9B39DB83D0C790868B7C /* chunk_0_-2.bin */,
+				13D672BB40E8326F3A973CA4 /* chunk_0_0.bin */,
+				DF66EED893211CD76292BDA2 /* chunk_0_1.bin */,
+				79E1613D101B4C2D6216C9C9 /* chunk_0_2.bin */,
+				992456324966E24CB74831A8 /* chunk_0_3.bin */,
+				361D7D46B7A8BF9FA447179B /* chunk_0_4.bin */,
+				B541B0CCEC1EE28A810603D4 /* chunk_0_5.bin */,
+				93F67A963BBDA4365D8F8B89 /* chunk_0_6.bin */,
+				8F59E8462B0E32E9BFAE0641 /* chunk_0_7.bin */,
+				AC570ACD6D319CD79FC1D5A1 /* chunk_0_8.bin */,
+				7E9F029650D1189EAE264E7B /* chunk_0_9.bin */,
+				E3B0E16BA0348B67F14A1A3E /* chunk_0_10.bin */,
+				C611D6C06763DD6F64684A2E /* chunk_0_11.bin */,
+				3EAC927612A98288BB21CCCF /* chunk_0_12.bin */,
+				A1AE836FAE1AF86EE7079D8D /* chunk_0_13.bin */,
+				E105B9538DF32506AA98EB79 /* chunk_0_14.bin */,
+				F6246F36A22DDC6C3D87BFEC /* chunk_0_15.bin */,
+				69B1650AF1D094982E887741 /* chunk_0_17.bin */,
+				91E699B0195F7CB61E97422F /* chunk_0_18.bin */,
+				0CA640A7E467134C16D59773 /* chunk_0_19.bin */,
+				40752D7240A84B13BAC963A5 /* chunk_1_-1.bin */,
+				A7D81CD79BF4DF9902E1238F /* chunk_1_-2.bin */,
+				F6707096BA6C4E1386E6F034 /* chunk_1_0.bin */,
+				8B4454EE322C0F416C1ECEE8 /* chunk_1_1.bin */,
+				CCC6BC1AA832C1005E95D25A /* chunk_1_2.bin */,
+				436DEF508BF0DDA22567E548 /* chunk_1_3.bin */,
+				4F5CFEB5FC2C2F3B8ED7066F /* chunk_1_4.bin */,
+				23723103589FA99D875C69BD /* chunk_1_5.bin */,
+				7CFBEDBDC203AB158CD9EFFC /* chunk_1_6.bin */,
+				136CCFE10747C4E2B224F556 /* chunk_1_7.bin */,
+				3E665AF6E321C5CE838A546A /* chunk_1_8.bin */,
+				FAC8E26111C5E87F52A031CD /* chunk_1_9.bin */,
+				0D3772D4BBC76396D6727CBB /* chunk_1_10.bin */,
+				D1DAD0DF39004B46F826A74A /* chunk_1_11.bin */,
+				5A9B1C9A6B5C48714B58C39F /* chunk_1_12.bin */,
+				F1AE0745D4D260E52A0982FD /* chunk_1_13.bin */,
+				D04B1A5443D82D547E0C0083 /* chunk_1_14.bin */,
+				1857973E337EFE59C13E1075 /* chunk_1_15.bin */,
+				493AB759E8EE815C5F47D1E6 /* chunk_2_-1.bin */,
+				0062A82A0979A69949B56580 /* chunk_2_0.bin */,
+				67F9824CE81DC0B8043DE910 /* chunk_2_1.bin */,
+				E82636B1371E670C94B5D10E /* chunk_2_2.bin */,
+				1232EDB1FC1DCBE48CDF424A /* chunk_2_3.bin */,
+				E7D96404D710EBF4977CF002 /* chunk_2_4.bin */,
+				3764F426E7C55EBC2370FC09 /* chunk_2_5.bin */,
+				44A6426DB08E65887282F159 /* chunk_2_6.bin */,
+				B0FAA950DDFBF108B8FF10C0 /* chunk_2_7.bin */,
+				90C45B7AC6FF3EA83D340E5C /* chunk_2_8.bin */,
+				EF1BA4C4144045CA59CA4D62 /* chunk_2_9.bin */,
+				6C3DC96647FF3E19A5C6C1C7 /* chunk_2_10.bin */,
+				0B7497007BF2A608E6519877 /* chunk_2_11.bin */,
+				72D0477E2D51A594E32AF12D /* chunk_2_12.bin */,
+				9A13FEA79598B0CFE666CBD0 /* chunk_2_13.bin */,
+				5936F8DADE58FE256C303C2B /* chunk_2_14.bin */,
+				2366EF21E8ED4C2AA92743AE /* chunk_2_15.bin */,
+				4CAE8A0E5A717FDC801FC7A6 /* chunk_3_-1.bin */,
+				0B215B95CE2358F66EDC912C /* chunk_3_0.bin */,
+				74D610C82ADE3AAE49CE7CF1 /* chunk_3_1.bin */,
+				40F8B9C526D58D13A49560EE /* chunk_3_2.bin */,
+				20819D6D553FF46BFFCA0BED /* chunk_3_3.bin */,
+				3B140D4ACAC5C96E32D31C0D /* chunk_3_4.bin */,
+				A8CE82E884D2B931867DD1A6 /* chunk_3_5.bin */,
+				5333C05CA797C71BC3490041 /* chunk_3_6.bin */,
+				A23D82A03CB60DD70EF104CF /* chunk_3_7.bin */,
+				CD67D33DEC92A412B320FB1B /* chunk_3_8.bin */,
+				F60FB612855BE9B75EC31527 /* chunk_3_9.bin */,
+				3F56A3388D83EAD043BCA3B8 /* chunk_3_10.bin */,
+				E8CA4BBD793A971622DC4BAD /* chunk_3_11.bin */,
+				CD90AB30B3BA8F69493FDDCE /* chunk_3_12.bin */,
+				7DB3EEACC86CC96E326ABB3F /* chunk_3_14.bin */,
+				82B9F16B609F20C1D4B836BD /* chunk_3_15.bin */,
+				063861BC4ED227CEFB2B3DCE /* chunk_3_16.bin */,
+				E160CA2E0EB5BDFBDD35335D /* chunk_4_-1.bin */,
+				56B4893D4DE57500CC3FF399 /* chunk_4_-2.bin */,
+				39BFA620B3191A919F7845F6 /* chunk_4_0.bin */,
+				B11A9D01755D5AB383E74FAD /* chunk_4_1.bin */,
+				B4DA2F7EB1EDDA003C13B778 /* chunk_4_2.bin */,
+				D421069D6C24288BC1B8B0BB /* chunk_4_3.bin */,
+				D3A9EDF6EAE5DDD003CBFF48 /* chunk_4_4.bin */,
+				A1BD0FD220E032432D527C42 /* chunk_4_5.bin */,
+				B8EE372BF57CC015DC54BFA9 /* chunk_4_6.bin */,
+				A95C80A1A6C53044774D7141 /* chunk_4_7.bin */,
+				3B8D05FD3DD7FB3484EA422B /* chunk_4_8.bin */,
+				C5CECD95F652A0E20DF24A0A /* chunk_4_9.bin */,
+				7893EDF90148FDBF04D93A9C /* chunk_4_10.bin */,
+				2EA8AE4EC2DC4A57D66E54A7 /* chunk_4_11.bin */,
+				B75264E1433288CCC285B63E /* chunk_4_12.bin */,
+				D0EE2684DD728AE75927C08E /* chunk_4_13.bin */,
+				355B002FA61BE7CDEA627FD3 /* chunk_4_14.bin */,
+				9CB633EED25D37E0B9E5EAC2 /* chunk_4_15.bin */,
+				6D6C41CD8EF9A89FE0BE77EA /* chunk_4_16.bin */,
+				3120FB4ECED20D1BDD9016FB /* chunk_5_-2.bin */,
+				CA61DDC53345A31CEDCE8B51 /* chunk_5_0.bin */,
+				E8A2695A5EA0C7ED23C1AEA1 /* chunk_5_1.bin */,
+				D91D5ECD44D7D5677CFBA357 /* chunk_5_2.bin */,
+				43C079989DC98C3FA249A80D /* chunk_5_3.bin */,
+				F1775A0ACDDB960B1B9BD86E /* chunk_5_4.bin */,
+				320B2146931127DE808AFE5D /* chunk_5_5.bin */,
+				76AD2D78FF25EE0717C3281D /* chunk_5_6.bin */,
+				AB4C1960C42336B74055EB6E /* chunk_5_7.bin */,
+				A02CF954AC695720942B417F /* chunk_5_8.bin */,
+				1E4DD01DA404023A58E3E809 /* chunk_5_9.bin */,
+				00F0AED65B65342946E7464F /* chunk_5_10.bin */,
+				E2F7F088949241D4A307D48C /* chunk_5_11.bin */,
+				141660E57F47791B6B3BDE9C /* chunk_5_12.bin */,
+				53E64C534A19E23C6F3DD6B5 /* chunk_5_14.bin */,
+				5232DDC3A4E2D20EFE997262 /* chunk_5_15.bin */,
+				898B822336FB31E769D64074 /* chunk_5_16.bin */,
+				F743DC5F2BE373D359CB69C5 /* chunk_6_-2.bin */,
+				6E16286965306D4A98F0BB7C /* chunk_6_0.bin */,
+				6F1376BE7BF55A20E96ED0AD /* chunk_6_1.bin */,
+				F6C01BB7F091895268F48B94 /* chunk_6_2.bin */,
+				FC3CC9860F9B11B3AB93758E /* chunk_6_3.bin */,
+				5DBE65449D75319B52EDCD66 /* chunk_6_4.bin */,
+				7074941945B61437F049BBB5 /* chunk_6_5.bin */,
+				8F7213836265BD48E9F2643D /* chunk_6_6.bin */,
+				6B7AE25E5723DFDEEE72DBCF /* chunk_6_7.bin */,
+				34D965AD8743185FB69B0D3F /* chunk_6_8.bin */,
+				F87CC535E22CD2C94F2420C2 /* chunk_6_9.bin */,
+				26AC097D2164C43BF3B4D121 /* chunk_6_10.bin */,
+				3F63AAB5BB16CEBDD1B0D2E5 /* chunk_6_11.bin */,
+				ADF2659A3A988DA58F220757 /* chunk_6_12.bin */,
+				3B2CF8CF66A4688F8B99E1E9 /* chunk_6_13.bin */,
+				ABCDCD45ADBA72A758C6AF86 /* chunk_6_14.bin */,
+				770506FE4B939BC6F76D3376 /* chunk_6_15.bin */,
+				F5F6968BF9D1218FB1AE2939 /* chunk_6_16.bin */,
+				909CB950A12AE3B4BC914473 /* chunk_7_-1.bin */,
+				8CE6F47098AF99A8978504C7 /* chunk_7_-2.bin */,
+				FA2B1174B2D1F4C0DAF90910 /* chunk_7_0.bin */,
+				1041386E8EB59487DD557F57 /* chunk_7_1.bin */,
+				0CD560396FF4E6A4D13342DC /* chunk_7_2.bin */,
+				66E988C5612CBC8DCFDEE846 /* chunk_7_3.bin */,
+				1546B7A0DD0D43E07319D7D4 /* chunk_7_4.bin */,
+				673953FB4A2EF5D3F90CDB6A /* chunk_7_5.bin */,
+				E9041F8C5A8635E3AA2A2C3E /* chunk_7_6.bin */,
+				770DB12538E4739811DD2D96 /* chunk_7_7.bin */,
+				FF71E141780CD49D7FC0FA35 /* chunk_7_8.bin */,
+				B669257AA4AA9B366F6983FF /* chunk_7_9.bin */,
+				0B394E8038739600843D60CD /* chunk_7_10.bin */,
+				8807B8EAB002BE04C1CDC25F /* chunk_7_11.bin */,
+				7F2128C2E06AAA7C254CA65F /* chunk_7_12.bin */,
+				E097506FD1E00F5CDF330E34 /* chunk_7_13.bin */,
+				A7BD86C95F468FDA0F054D1A /* chunk_7_14.bin */,
+				3B7921929992E273595D4B21 /* chunk_7_15.bin */,
+				304306F20C53B1B26B337B4D /* chunk_7_16.bin */,
+				0A5BC8F27F4A35ACF934DD42 /* chunk_8_-1.bin */,
+				0310B16BE3A68EBB40A35B58 /* chunk_8_-3.bin */,
+				922CCA85B4FF4F7BA96BC760 /* chunk_8_0.bin */,
+				D6B821CCDB1EA1FDA62E0983 /* chunk_8_1.bin */,
+				2C58F834D91CA0C6A04BE619 /* chunk_8_2.bin */,
+				90D159B35E1C7FC80E4461D9 /* chunk_8_3.bin */,
+				65B0A55114BD838F68F70644 /* chunk_8_4.bin */,
+				C636255024A966F4BF098CDD /* chunk_8_5.bin */,
+				760F5B7286E8E99193D909E9 /* chunk_8_6.bin */,
+				9FDA58B8DEC57250812C8AC0 /* chunk_8_7.bin */,
+				49B769BBC3F2E2C12B17A834 /* chunk_8_8.bin */,
+				A1E1405130381E670CD67BCB /* chunk_8_9.bin */,
+				171BB5FEA6033C9F7957E8C8 /* chunk_8_10.bin */,
+				3E5581DA65F88BC2117A8761 /* chunk_8_11.bin */,
+				FE6868AB8A1D1860A7CB33F3 /* chunk_8_12.bin */,
+				50C81C7FA4AE67952B960132 /* chunk_8_13.bin */,
+				188AD5F97951DABA8EF5790D /* chunk_8_14.bin */,
+				40E145D0B40CA9BF93A7DB00 /* chunk_8_15.bin */,
+				B91FC2C85479BE904C809C40 /* chunk_8_16.bin */,
+				31C2C829846FFACEC77DAE07 /* chunk_9_0.bin */,
+				A8755DC94DCC6E62C6D9A6D0 /* chunk_9_1.bin */,
+				00EE6E2FC696AEAF70F8E0BB /* chunk_9_2.bin */,
+				7170ED04470165354383A4BD /* chunk_9_3.bin */,
+				147D462D1128867ECBE4E5FE /* chunk_9_4.bin */,
+				E463924E863235BBD69D679D /* chunk_9_5.bin */,
+				8F5CAEC37367658FC7EFE90E /* chunk_9_6.bin */,
+				68822AB46E4D478BCC4F132B /* chunk_9_7.bin */,
+				B7F7F60CD698BFE9512B2B71 /* chunk_9_8.bin */,
+				029BDC9FD1CC9338A723F978 /* chunk_9_9.bin */,
+				01DBD696E7489EB8BCA9FF3F /* chunk_9_10.bin */,
+				EA80AE1BC6DEEF03ADF373D7 /* chunk_9_11.bin */,
+				EB66A43797756FAC2670AFCE /* chunk_9_12.bin */,
+				89F9EBCF4E8218DF6A25EAA2 /* chunk_9_13.bin */,
+				1A1FCE78518D6F86D0E48E01 /* chunk_9_14.bin */,
+				49B6CCF3E865735123AF0EC9 /* chunk_9_15.bin */,
+				E778701090EDB0D3B12B8151 /* chunk_10_1.bin */,
+				A13234D43E3C8551EBA68777 /* chunk_10_2.bin */,
+				0029E17E410623AC6FB384D7 /* chunk_10_3.bin */,
+				F4E3F21EEAA9DA7E419A9F51 /* chunk_10_4.bin */,
+				7FBD29BE7515E49AE8E6EDEE /* chunk_10_5.bin */,
+				02C5CD5FEF805BFA65D107B7 /* chunk_10_6.bin */,
+				7B8F7C9C4FD618F153F457E9 /* chunk_10_7.bin */,
+				92672BB478BFED941F66DE2B /* chunk_10_8.bin */,
+				7303B4EDD0C6F25D07EB9B77 /* chunk_10_9.bin */,
+				5B764B7EB74BB118D689A031 /* chunk_10_10.bin */,
+				D080D3070019CACD6A2441D6 /* chunk_10_11.bin */,
+				2EC3A2983EE3DABFC03B8683 /* chunk_10_12.bin */,
+				849F8BCFC6015E183C3291E1 /* chunk_10_13.bin */,
+				A51F3CFAAC1C74939C2C4EB5 /* chunk_10_14.bin */,
+				1C07FC4918F735C8912EB2D5 /* chunk_10_15.bin */,
+				CAE71805591A7E1A11B8340A /* chunk_11_-5.bin */,
+				9E6B90DED3AC48C37EFEA47F /* chunk_11_-6.bin */,
+				F68211C1B84032E7759AEE20 /* chunk_11_1.bin */,
+				6414572377405D969D935623 /* chunk_11_2.bin */,
+				5629B55CFB496A3186FA8C3E /* chunk_11_3.bin */,
+				A0C78E16F56DB21FC35B5735 /* chunk_11_4.bin */,
+				90458E29936D7F72F49F4605 /* chunk_11_5.bin */,
+				822F132BD6E7379987B660AA /* chunk_11_6.bin */,
+				CD64BCC8851D5C587E30C6E8 /* chunk_11_7.bin */,
+				6E8FCE6441CF4A6E4E815143 /* chunk_11_8.bin */,
+				C30241F11A27F0D496B10708 /* chunk_11_9.bin */,
+				F1C8ED1FA38E050EC18EE777 /* chunk_11_10.bin */,
+				3D43C13835F9A5DEAA02A1ED /* chunk_11_11.bin */,
+				9473D55DFCA554D3AA9AEAB4 /* chunk_11_12.bin */,
+				BDC3BE9A2ED563B45DC94F39 /* chunk_11_13.bin */,
+				1DDB63C5F852E01AFA53243C /* chunk_11_14.bin */,
+				0880C2E1A91CF15F7A4EF8AF /* chunk_11_15.bin */,
+				4E533D730F4200B7AAB31B6A /* chunk_11_16.bin */,
+				1A13BDA2F89DDE912B50A24F /* chunk_12_1.bin */,
+				0FC78E24090B96D58922E97B /* chunk_12_2.bin */,
+				7D4AEBBC32CF3AC4A4E8E66F /* chunk_12_3.bin */,
+				D6B577D0ED9782E8E5B9944C /* chunk_12_4.bin */,
+				F7DBE8DD263ED223F14AD7BF /* chunk_12_5.bin */,
+				21D1F7B653B1DAC1ADAFB90D /* chunk_12_6.bin */,
+				C825D125193D19B049CDF22A /* chunk_12_7.bin */,
+				44924776B997C26740243234 /* chunk_12_8.bin */,
+				D3A34C079881854ABB829AC2 /* chunk_12_9.bin */,
+				5CA1FE3C1EFF26AA7DE5E5EB /* chunk_12_10.bin */,
+				9B724011B5FA385C5F7CD16F /* chunk_12_11.bin */,
+				A2A575F6AE7174785AA832C9 /* chunk_12_12.bin */,
+				CF7CDEE769E01F6624BF8EA1 /* chunk_12_13.bin */,
+				B952C0E6A8A49F65A8D9AEF7 /* chunk_12_14.bin */,
+				7EA87296BF07EF9DEF498E0C /* chunk_12_15.bin */,
+				E75CACC98E985CF875DC532E /* chunk_12_16.bin */,
+				B94CC00447D64615FCE52747 /* chunk_13_2.bin */,
+				7452BA0DF6F17D4E69809505 /* chunk_13_4.bin */,
+				DAD0764FCE07300455C8B11D /* chunk_13_5.bin */,
+				FC9FC2CCC05998DF8B2D38D8 /* chunk_13_6.bin */,
+				A92EC5743BFF7880DBC0F94C /* chunk_13_7.bin */,
+				BEC26DDEEB7C8E0817F9F1D3 /* chunk_13_8.bin */,
+				A30A27DCEDD015B51AB43A82 /* chunk_13_9.bin */,
+				B13738B9AF3CEAA39B1D835A /* chunk_13_10.bin */,
+				FCF50A93E1FC62A6B0F1C884 /* chunk_13_11.bin */,
+				B1A577C6D930AB4D25870E4C /* chunk_13_12.bin */,
+				A4C91627DC76EC408A3B110B /* chunk_13_13.bin */,
+				EF74B3600AF1B956AEFCD16E /* chunk_13_14.bin */,
+				085A458760D9EB2BEB0247FF /* chunk_13_15.bin */,
+				8DA03D4895718BE9E739BC52 /* chunk_14_6.bin */,
+				B485A6948D1B4B3ADD9AE39C /* chunk_14_7.bin */,
+				FE5928A4904CAFA2729CE1A4 /* chunk_14_8.bin */,
+				73DFC37C4803747A63149C69 /* chunk_14_9.bin */,
+				F3A3C053156EDEFB57E5D731 /* chunk_14_10.bin */,
+				B9D77E36A5F1F3DDC33771C6 /* chunk_14_11.bin */,
+				5913E10941C092F48ABD4679 /* chunk_14_12.bin */,
+				E29127D8066B288C1F08CBD9 /* chunk_14_13.bin */,
+				D70C995EF027614FCF364489 /* chunk_14_14.bin */,
+				C5123AF27BE197813B351DC2 /* chunk_14_15.bin */,
+				4798D27C978FE1742D94A9B8 /* chunk_14_16.bin */,
+				21E0EFFE52CAD78156B4D442 /* chunk_15_-1.bin */,
+				387C432159C92C8035754620 /* chunk_15_0.bin */,
+				23DA15F9DA9242870E4E8B6D /* chunk_15_6.bin */,
+				F55241F456E456ECE1A6A0FE /* chunk_15_7.bin */,
+				1F6FAE7463F4D289614E785B /* chunk_15_8.bin */,
+				010C839C8B82A286356B448D /* chunk_15_9.bin */,
+				2AE182F9604629B2D8B18D8C /* chunk_15_10.bin */,
+				DD0C2B7544A198AF8E4699BE /* chunk_15_11.bin */,
+				9C99F1CDABD27183B4C0F584 /* chunk_15_12.bin */,
+				C0360D52F37371EB10463BAD /* chunk_15_13.bin */,
+				6C57C66A731D4054429DB3F2 /* chunk_15_14.bin */,
+				8174D34C03693D2450BB16C5 /* chunk_15_15.bin */,
+				90B619CB331CD157E9D1EA11 /* chunk_15_16.bin */,
+				7873FC19997AC2F70FD18EE6 /* chunk_15_17.bin */,
+				AB59D5FBC7476A3C20929457 /* chunk_15_18.bin */,
+				575D69C7A114DB623B2B2673 /* chunk_16_-1.bin */,
+				D88BB14EEFBD458315D2D0BA /* chunk_16_0.bin */,
+				8DF8BF4C1233ACCFE404A2FD /* chunk_16_1.bin */,
+				5191ACCBFE40152289FA9110 /* chunk_16_2.bin */,
+				5F8D593A9CF4C7568EF0441C /* chunk_16_6.bin */,
+				F854144783BF3AB54CE78D80 /* chunk_16_7.bin */,
+				9CEE637B110573B1AF74EE61 /* chunk_16_8.bin */,
+				DCA80988C00198765E324F82 /* chunk_16_9.bin */,
+				20B9CCA0D11DF08F0AA738B8 /* chunk_16_10.bin */,
+				BCC277182FA9452EB7C7F298 /* chunk_16_11.bin */,
+				741615A753D57975B0609DC1 /* chunk_16_12.bin */,
+				18D5A0990AB466472623E733 /* chunk_16_13.bin */,
+				302AE5BC413BEAF23631F9BD /* chunk_16_14.bin */,
+				96AE1CDC1E03F315FDCD6724 /* chunk_16_15.bin */,
+				8667E887E18AC415CCE1993C /* chunk_16_17.bin */,
+				CB0B4B97B3AF87BB31768811 /* chunk_17_-1.bin */,
+				E099EE73D52527B8FFC32DBF /* chunk_17_0.bin */,
+				B39770D30D5EDED0FE86A275 /* chunk_17_1.bin */,
+				47C6ABC77DCD94789C47159B /* chunk_17_2.bin */,
+				CE2A16598F0825F16E9E2534 /* chunk_17_3.bin */,
+				DC497E5BAC0ECFA7797802C5 /* chunk_17_5.bin */,
+				DF51F5E206508DAA086C0597 /* chunk_17_6.bin */,
+				3432BBD45319B19DAFC25709 /* chunk_17_7.bin */,
+				F66D3EDBAF09900DFB95888A /* chunk_17_8.bin */,
+				8F5CFFB569C56DF996895546 /* chunk_17_9.bin */,
+				C208BEACAB81240D26369F86 /* chunk_17_10.bin */,
+				9FA778FA625047DED0D2F374 /* chunk_17_11.bin */,
+				9BB39843631DA9779238778D /* chunk_17_12.bin */,
+				C45DEBADD6C5D4DF91F76102 /* chunk_17_13.bin */,
+				DF80194C2B932914054809E4 /* chunk_17_14.bin */,
+				D657B216C8245795B20A1E8E /* chunk_17_15.bin */,
+				B014661331E3F0E60702B085 /* chunk_18_-1.bin */,
+				B123451042B94659A09092D8 /* chunk_18_-2.bin */,
+				AA809A228332FFCA2EAF7461 /* chunk_18_0.bin */,
+				773B332BE5CD1C9BCE0688FC /* chunk_18_1.bin */,
+				929B2EAD2CA72D4A4D957DC2 /* chunk_18_2.bin */,
+				EA317BDDDD623A5CC157ABD1 /* chunk_18_3.bin */,
+				47C206FA2FB4B39D5327F2AB /* chunk_18_4.bin */,
+				B5000861C4EBFDC4FC282C8D /* chunk_18_5.bin */,
+				39BE30B8D1A083CF914B9E7E /* chunk_18_6.bin */,
+				23C35BF94ED3DE7BE6D34238 /* chunk_18_7.bin */,
+				079951DE2C36C1D40101DB2E /* chunk_18_8.bin */,
+				A00E9564E2B77F79EA467842 /* chunk_18_9.bin */,
+				18AEFDCECF5FB28C6A57D9E1 /* chunk_18_10.bin */,
+				AAF39DE695657BD9FB96ECE2 /* chunk_18_11.bin */,
+				F3585F752C8CFFF368A761FE /* chunk_18_12.bin */,
+				9817C6CB768DB4AE87896CEF /* chunk_18_13.bin */,
+				53969CF463E4395E3EAE5B90 /* chunk_18_14.bin */,
+				CB694EC84C10204C28FEDA59 /* chunk_18_15.bin */,
+				9ED17A585381494C6968436D /* chunk_18_16.bin */,
+				C19E9D75A9E77C69880E2A45 /* chunk_18_17.bin */,
+				2627FC8335D50FD793F1603B /* chunk_18_18.bin */,
+				C047B065513734C2DFE6FC75 /* chunk_18_19.bin */,
+				0DE44B9C4B5A0F13058A5A9F /* chunk_18_20.bin */,
+				231AA2C3212A59943CA084C1 /* chunk_18_21.bin */,
+				A9F8C486195ADF43605AE487 /* chunk_18_22.bin */,
+				C74E1FE32409120F39530E71 /* chunk_19_-1.bin */,
+				6B7C2A2208204A8353C8EE18 /* chunk_19_-2.bin */,
+				CBBE2224E8E1357864332219 /* chunk_19_0.bin */,
+				F8F9BFA1B66A340F137D4F2A /* chunk_19_1.bin */,
+				F8313D281E19E4D59737ABDE /* chunk_19_2.bin */,
+				FD50C95758C74DF6F1FE6487 /* chunk_19_3.bin */,
+				D8596478ED7FE4D0E127444F /* chunk_19_4.bin */,
+				670C90AA9C475A199CA6AC95 /* chunk_19_5.bin */,
+				8A5E4E4A2B76B1B38DCB662C /* chunk_19_6.bin */,
+				8ACE946356260DBE4BCDF107 /* chunk_19_7.bin */,
+				61DE941934970A6149E41877 /* chunk_19_8.bin */,
+				93176863A3F6CB73ECE40F4B /* chunk_19_9.bin */,
+				0B68179ADEEE375D1E0E4E15 /* chunk_19_10.bin */,
+				16507BA273517C85888DDDD0 /* chunk_19_11.bin */,
+				90F83CD7E935FE1850FF7F9E /* chunk_19_12.bin */,
+				BA3D8DE85BF68A46CD73EFCC /* chunk_19_13.bin */,
+				72A9A212385D5D990CD39641 /* chunk_19_14.bin */,
+				F2A9712D3CFA739C3E952FF0 /* chunk_19_15.bin */,
+				3A7E5947916250B0868A98CF /* chunk_20_-1.bin */,
+				115E6EF08736955E8FD51952 /* chunk_20_0.bin */,
+				6BEE0907EA45B2731969DA7B /* chunk_20_2.bin */,
+				5AEBFA28191D4623CE92130F /* chunk_20_3.bin */,
+				5CE3689BF34131CF05E8FDA8 /* chunk_20_4.bin */,
+				90C1DC7D2F1052B8B2452AD8 /* chunk_20_6.bin */,
+				D2AC3A6C5BDFCF9E54D9347D /* chunk_20_7.bin */,
+				56A75019FEFE685F052A4E01 /* chunk_20_8.bin */,
+				9FC61D9915D1CC15B372AF2F /* chunk_20_9.bin */,
+				D0A86A71F2344B2614D7D2E4 /* chunk_20_10.bin */,
+				FE71E9A3983ACC0B645886D4 /* chunk_20_14.bin */,
+				DBB218F346581C49CDAE6CC6 /* chunk_20_15.bin */,
+				9BCBE538E10B7FFBB952981B /* chunk_21_-1.bin */,
+				5C7E3E5121650ED6E5763A1A /* chunk_21_2.bin */,
+				6D232D562F0DA21B1F979F1F /* chunk_21_3.bin */,
+				376CE76CE6ABC87A46C27E8D /* chunk_21_4.bin */,
+				C497F2323C114E46F6875191 /* chunk_21_9.bin */,
+				5CBC52CDDE74B547E1C0B157 /* chunk_21_14.bin */,
+				CE078E2CCF646572AFCEF2DE /* chunk_21_15.bin */,
+				1173A15C90EE602A0961FD5E /* chunk_22_9.bin */,
+			);
+			path = chunks;
+			sourceTree = "<group>";
+		};
+		23719BB399E6222A6FE476D6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				95880A34F90E1E18143E603E /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2E859F83CD315C774B5E307D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE65BCDE9DF3E45867DAD02 /* Songdo3DMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		340DB061FA5911A879B45931 /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buildings;
+			sourceTree = "<group>";
+		};
+		344F7C47E1CD1545404B34CE = {
+			isa = PBXGroup;
+			children = (
+				7CDD1D153F62826803D192B9 /* Songdo3DMap */,
+				2CD6980A852FB8CFB5165307 /* MapData */,
+				2E859F83CD315C774B5E307D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB5A8AE30FAF50CA06177A5 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				340DB061FA5911A879B45931 /* Buildings */,
+				BD2DB772E0C03A1D6875AA53 /* Roads */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		3CD23334EF4DD95B59E0BB31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				27DA2DCE146D1554C141B9C7 /* ContentView.swift */,
+				16E151EC01ABEFB7F50E56BD /* Songdo3DMapApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		44731868F58E1600DD9F090C /* MapData */ = {
+			isa = PBXGroup;
+			children = (
+				0D79763F068819809385E647 /* chunks */,
+				DF096F1C8260515A1647DD75 /* osm */,
+				8E31292315C2C2928538CEDC /* index.json */,
+			);
+			path = MapData;
+			sourceTree = "<group>";
+		};
+		48677EF89E2DB13669B655E0 /* RenderPipeline */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RenderPipeline;
+			sourceTree = "<group>";
+		};
+		4D0AA9B9C6E53B791B0DA944 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		4D90E6CD9D9851EF3CA14323 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				DC48827505A69C8F6CFBC164 /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		508FB16BA71541FA48C73FF3 /* Spatial */ = {
+			isa = PBXGroup;
+			children = (
+				0103EE7B83BD65E571DE1127 /* ChunkManager.swift */,
+			);
+			path = Spatial;
+			sourceTree = "<group>";
+		};
+		659A904BD9FDCA7F62E1B18F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BB6DB3218273F037F6CD9F13 /* Cache */,
+				9F8A2C0DAB656EAAF3C33D3D /* Loaders */,
+				B9BAEAA328AF7CB84A929AAF /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7CDD1D153F62826803D192B9 /* Songdo3DMap */ = {
+			isa = PBXGroup;
+			children = (
+				3CD23334EF4DD95B59E0BB31 /* App */,
+				9236EC3B06A0AF61422C55A7 /* Core */,
+				659A904BD9FDCA7F62E1B18F /* Data */,
+				CE99DFD4271D081993B9DCAE /* Resources */,
+				23719BB399E6222A6FE476D6 /* UI */,
+				A0C5497C825A0800889E3CC5 /* Utilities */,
+			);
+			path = Songdo3DMap;
+			sourceTree = "<group>";
+		};
+		9236EC3B06A0AF61422C55A7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93AB90810680AD147C8C876A /* Geometry */,
+				4D90E6CD9D9851EF3CA14323 /* Location */,
+				0755C0AE31242A2D000CA6D2 /* Renderer */,
+				E61B3565CAA208C2E57F21BD /* Scene */,
+				508FB16BA71541FA48C73FF3 /* Spatial */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93AB90810680AD147C8C876A /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				3279429618D9AA7B001915A1 /* BoxGenerator.swift */,
+				1A6EA9C2C0C072ED60C80CF2 /* CylinderGenerator.swift */,
+				8FA32800BE2BF3E16B7A560E /* Mesh.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		95880A34F90E1E18143E603E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4282C6CF8DAA70C89967979 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F8A2C0DAB656EAAF3C33D3D /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				A54EDB1B5F41E3321418B21F /* ChunkLoader.swift */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+		A0C5497C825A0800889E3CC5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE04E3029C3B90E235D9810C /* Extensions */,
+				4D0AA9B9C6E53B791B0DA944 /* Math */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AB14044FCD0982CD928EB5EF /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				DC3B39AA43378CCB9224CCF3 /* Building.metal */,
+				1CC5D8622EACF0F59E541B90 /* Common.metal */,
+				66AA78BCB609D1C9202A6E5E /* Road.metal */,
+				3475707990805DF785FD04D1 /* ShaderTypes.h */,
+				DD0DF2F93FF15EE1EF63E4C4 /* Songdo3DMap-Bridging-Header.h */,
+				A8493540412990A6F13AAB44 /* Terrain.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		B9BAEAA328AF7CB84A929AAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3A84B29AC427B4101F122F0 /* ChunkData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB6DB3218273F037F6CD9F13 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		BD2DB772E0C03A1D6875AA53 /* Roads */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Roads;
+			sourceTree = "<group>";
+		};
+		BE04E3029C3B90E235D9810C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE99DFD4271D081993B9DCAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44731868F58E1600DD9F090C /* MapData */,
+				3CB5A8AE30FAF50CA06177A5 /* Textures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF096F1C8260515A1647DD75 /* osm */ = {
+			isa = PBXGroup;
+			children = (
+				2717ADA0548A62AC66018302 /* buildings.geojson */,
+				B3CC0ABAFCEBA3AFE7CEC60F /* metadata.json */,
+				3C32B88B78787A1D479A0237 /* roads.geojson */,
+			);
+			path = osm;
+			sourceTree = "<group>";
+		};
+		E61B3565CAA208C2E57F21BD /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F62B035CFE786BE8DAED681F /* Camera */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		F62B035CFE786BE8DAED681F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				AE454358ADD2E023578813E5 /* Camera.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28AC8673375D66521A18BFB9 /* Songdo3DMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF0DCDC2F3DD3FC04E027C0 /* Build configuration list for PBXNativeTarget "Songdo3DMap" */;
+			buildPhases = (
+				9E7F38D35312FCC6CB45DC50 /* Sources */,
+				2E4FE284EECAFCB0CA751C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Songdo3DMap;
+			packageProductDependencies = (
+			);
+			productName = Songdo3DMap;
+			productReference = 1CE65BCDE9DF3E45867DAD02 /* Songdo3DMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2A83920394F1CE171DAE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					28AC8673375D66521A18BFB9 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCD1C80C3E3B217CE3C663BC /* Build configuration list for PBXProject "Songdo3DMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 344F7C47E1CD1545404B34CE;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28AC8673375D66521A18BFB9 /* Songdo3DMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E4FE284EECAFCB0CA751C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999FC46BB5305F6D16825C1A /* MapData in Resources */,
+				DF69737B5FF88AAA906D7CE3 /* buildings.geojson in Resources */,
+				04DBA6EBADE7FCBA9727C9DA /* chunk_-1_0.bin in Resources */,
+				9A7E7FD63C9415595CBBD515 /* chunk_-1_1.bin in Resources */,
+				7DC79A496A18740E2C7C225C /* chunk_-1_10.bin in Resources */,
+				D3C2578B00F40103F2A66C53 /* chunk_-1_11.bin in Resources */,
+				A18F8F2CFCA0F53937CD6BCF /* chunk_-1_12.bin in Resources */,
+				2AAFED898BF0A745D70BD3A7 /* chunk_-1_13.bin in Resources */,
+				9D15CFC83603693AF2F7294A /* chunk_-1_14.bin in Resources */,
+				2DEBEF5D597A10DC77D1A0C7 /* chunk_-1_15.bin in Resources */,
+				BDBAD4ED6003A95D369DEE89 /* chunk_-1_16.bin in Resources */,
+				FC5217D0D806097CCED9BB33 /* chunk_-1_17.bin in Resources */,
+				96B979370D5EC9258E768B91 /* chunk_-1_2.bin in Resources */,
+				2CA2ECD750ECA7C1CA95E1DA /* chunk_-1_5.bin in Resources */,
+				6135C23CECE51C1F1D972FC4 /* chunk_-1_6.bin in Resources */,
+				FEEC9C31A8B3B46601762B6A /* chunk_-1_7.bin in Resources */,
+				E3BA3F2A3EC2EAB22B503D12 /* chunk_-1_8.bin in Resources */,
+				684532BBC84AB5791A8FC4CA /* chunk_-2_13.bin in Resources */,
+				9F707485F12FB3AC1B557CDD /* chunk_-2_15.bin in Resources */,
+				37C82F06BCDB75C8F37AE17A /* chunk_-2_16.bin in Resources */,
+				56AEC6DD54B540DAD8B67F4C /* chunk_-2_6.bin in Resources */,
+				69FFD30691A5FA3486E21FF8 /* chunk_-2_7.bin in Resources */,
+				88230ED26E485A142A55C8C7 /* chunk_-2_8.bin in Resources */,
+				5D726DA75F493DFC4945AC4E /* chunk_-3_13.bin in Resources */,
+				C59CA8500534FFF33E2CE7B6 /* chunk_-3_14.bin in Resources */,
+				FD4BD6AADCAF7233346BEAD7 /* chunk_0_-1.bin in Resources */,
+				50447EC964BF37C54C9A8EA1 /* chunk_0_-2.bin in Resources */,
+				420E3022EEEC1CE0E24D9AFD /* chunk_0_0.bin in Resources */,
+				3B01B1FA0C82B8177390C5C7 /* chunk_0_1.bin in Resources */,
+				D06060417A484476A1235D54 /* chunk_0_10.bin in Resources */,
+				D7F960C696A1729AAC22FA46 /* chunk_0_11.bin in Resources */,
+				D1806D0472F17929E574F974 /* chunk_0_12.bin in Resources */,
+				C91F54F9F6CC751228DA3047 /* chunk_0_13.bin in Resources */,
+				CFF130E4BE7FD2A98D349284 /* chunk_0_14.bin in Resources */,
+				CEAB81945C936928C864B3CE /* chunk_0_15.bin in Resources */,
+				18B8BBF1D8ED5CE788E0D031 /* chunk_0_17.bin in Resources */,
+				0770400100C756B8D2E031F4 /* chunk_0_18.bin in Resources */,
+				F5C29BB3DBB4DDED6C60D316 /* chunk_0_19.bin in Resources */,
+				60A939855A996925F2A03A1D /* chunk_0_2.bin in Resources */,
+				D7AB6722E95F8C1A668DF3B4 /* chunk_0_3.bin in Resources */,
+				36289E6BD447368BD66A6544 /* chunk_0_4.bin in Resources */,
+				E657AFAD5BF2811C0393A6D0 /* chunk_0_5.bin in Resources */,
+				6126BF8D846CE3A0ECDB1ED2 /* chunk_0_6.bin in Resources */,
+				F6B01D221C550D24945AF194 /* chunk_0_7.bin in Resources */,
+				24EE981CAF1A235F9F484CA9 /* chunk_0_8.bin in Resources */,
+				E08B1B00003486D2F8278F3D /* chunk_0_9.bin in Resources */,
+				4C375606E76C5A0BF0A94FE7 /* chunk_10_1.bin in Resources */,
+				1BF240B3937690B1CA5A1068 /* chunk_10_10.bin in Resources */,
+				E0A5825ABEF2BF2177BA34AE /* chunk_10_11.bin in Resources */,
+				4E3D6759FC058279C71ABC0A /* chunk_10_12.bin in Resources */,
+				9F0FED8179325AA09C7F61A8 /* chunk_10_13.bin in Resources */,
+				9DD9C033FBDB8EFAD1392A45 /* chunk_10_14.bin in Resources */,
+				6194D48673673B9B0C4E6634 /* chunk_10_15.bin in Resources */,
+				A9696993136809616DDF1F3C /* chunk_10_2.bin in Resources */,
+				9B16F70E731AE4D54A8CC532 /* chunk_10_3.bin in Resources */,
+				07EB6A8D0142B0B1C1D3F475 /* chunk_10_4.bin in Resources */,
+				A6788C59D826B645082D5862 /* chunk_10_5.bin in Resources */,
+				79CFE2720BB6993D561423D0 /* chunk_10_6.bin in Resources */,
+				B6957A62D73804268C42DC4B /* chunk_10_7.bin in Resources */,
+				83FC2F5DBD4C9CE67FABD4F0 /* chunk_10_8.bin in Resources */,
+				14E16F488371DACD2FAA0A3E /* chunk_10_9.bin in Resources */,
+				A5A22FC4CE9C8E9772940807 /* chunk_11_-5.bin in Resources */,
+				767D8F4EA1DF8C77D3C986D3 /* chunk_11_-6.bin in Resources */,
+				781824133948A4B80E775F86 /* chunk_11_1.bin in Resources */,
+				EC8E024FD1DB102B2F492B55 /* chunk_11_10.bin in Resources */,
+				12A2E4C032C288BDD8B81D45 /* chunk_11_11.bin in Resources */,
+				AC0B90998C484D1BDD363689 /* chunk_11_12.bin in Resources */,
+				274ABE5B27CB0BB9B6430504 /* chunk_11_13.bin in Resources */,
+				425E1DB46C55FEF0DBCEDABE /* chunk_11_14.bin in Resources */,
+				540614D704BCD309F74F952C /* chunk_11_15.bin in Resources */,
+				5E14C2B641F1170B426E676B /* chunk_11_16.bin in Resources */,
+				7153EEB8A011E7C200594B80 /* chunk_11_2.bin in Resources */,
+				4B500430C5CAF651EEDD66EB /* chunk_11_3.bin in Resources */,
+				16E9D709154797FD9FB17D3C /* chunk_11_4.bin in Resources */,
+				AD81B6E840CEBE72FF7CA8B3 /* chunk_11_5.bin in Resources */,
+				3E4D920B4FC409D7359E8270 /* chunk_11_6.bin in Resources */,
+				0A8AC588E860DFFB7523B7CE /* chunk_11_7.bin in Resources */,
+				5338F9D6123D12E4481BD6C0 /* chunk_11_8.bin in Resources */,
+				123E1EAC2A67ED3169E78115 /* chunk_11_9.bin in Resources */,
+				4E4B19D47E7A3D7999A7CFE1 /* chunk_12_1.bin in Resources */,
+				792FBB81E182D67CB941966C /* chunk_12_10.bin in Resources */,
+				9BFF77A2E848C4F112F4634D /* chunk_12_11.bin in Resources */,
+				17687998972DCDBDB9456859 /* chunk_12_12.bin in Resources */,
+				987FD59B8130FC5586E1A76B /* chunk_12_13.bin in Resources */,
+				5EC2A55C8534E538D6AD92E4 /* chunk_12_14.bin in Resources */,
+				6D022475BEB83C8FD6C036B9 /* chunk_12_15.bin in Resources */,
+				2956135978A8B439A999FEBB /* chunk_12_16.bin in Resources */,
+				C22F1A6AF78667A067062401 /* chunk_12_2.bin in Resources */,
+				DCD27FEF1142946EC0C0AEC6 /* chunk_12_3.bin in Resources */,
+				42469A1B20EC7BAD0B1D406E /* chunk_12_4.bin in Resources */,
+				DB2D209D74447008B42CB32C /* chunk_12_5.bin in Resources */,
+				B1BD2840D914B4BB59A7D6B7 /* chunk_12_6.bin in Resources */,
+				F996F5BD954EED7F39A874D5 /* chunk_12_7.bin in Resources */,
+				6FEFC258164D5B6921CD60AA /* chunk_12_8.bin in Resources */,
+				F9E474867C39445345B0B513 /* chunk_12_9.bin in Resources */,
+				DB30A63D73CFE59FAD929BAC /* chunk_13_10.bin in Resources */,
+				476B171F879FB914899B7702 /* chunk_13_11.bin in Resources */,
+				FFE7AF6F599816DA841F12DA /* chunk_13_12.bin in Resources */,
+				5D4CA0BC273F2A20E712DD65 /* chunk_13_13.bin in Resources */,
+				F3EF2E1828CA24CBEEE51A89 /* chunk_13_14.bin in Resources */,
+				0CCCA6566D6E85E48859D5EF /* chunk_13_15.bin in Resources */,
+				71E5334A204F94D716181EFF /* chunk_13_2.bin in Resources */,
+				26974D41BB1226304A11A70C /* chunk_13_4.bin in Resources */,
+				D768B08F25C9FE0FC7F6E337 /* chunk_13_5.bin in Resources */,
+				B50D3CD3B6D972F0F0B4BB7B /* chunk_13_6.bin in Resources */,
+				EC978B6D5B3EF41262846689 /* chunk_13_7.bin in Resources */,
+				2575FEB31EE0B000AC47FC12 /* chunk_13_8.bin in Resources */,
+				4FD833A4DB69538CD0CDA4D8 /* chunk_13_9.bin in Resources */,
+				7D9CF21B652687D30442BD19 /* chunk_14_10.bin in Resources */,
+				CFE4D7F42274229686E1E051 /* chunk_14_11.bin in Resources */,
+				B0BDA29836DD1B646A07D051 /* chunk_14_12.bin in Resources */,
+				6366097F2CF9A4CEF0E20B54 /* chunk_14_13.bin in Resources */,
+				31EB34AE0048B0C366AB9F31 /* chunk_14_14.bin in Resources */,
+				92F8A19CD9490136B5669019 /* chunk_14_15.bin in Resources */,
+				46D5623B209336C68D5654F4 /* chunk_14_16.bin in Resources */,
+				0EF33BD65ED7D41ACF638740 /* chunk_14_6.bin in Resources */,
+				D42C060E3620E7810138A538 /* chunk_14_7.bin in Resources */,
+				81B1E961294F05F5D3DB2F62 /* chunk_14_8.bin in Resources */,
+				DC7D679484BFA8B1D28DB02B /* chunk_14_9.bin in Resources */,
+				93755AD4B5D74441884C1963 /* chunk_15_-1.bin in Resources */,
+				B16ADB971DC3CF4349085D9D /* chunk_15_0.bin in Resources */,
+				FEC60A577030445FA7030920 /* chunk_15_10.bin in Resources */,
+				AB37F0C193B9A89E019EC00C /* chunk_15_11.bin in Resources */,
+				54360E5D349B77D1D06C1F42 /* chunk_15_12.bin in Resources */,
+				33C21173B081F6506BC6E350 /* chunk_15_13.bin in Resources */,
+				7DE4940E85D50EE092E6C8B4 /* chunk_15_14.bin in Resources */,
+				D4CB7AA4BC34EAACD901CA4F /* chunk_15_15.bin in Resources */,
+				019721DA7F80DCD53C538E7B /* chunk_15_16.bin in Resources */,
+				C67B856F6636C1CB02975FDE /* chunk_15_17.bin in Resources */,
+				35D6A0FE170C0F180CC9714B /* chunk_15_18.bin in Resources */,
+				C2DDC09B79856C5C2B0DF876 /* chunk_15_6.bin in Resources */,
+				845821461820A6E04B655F6B /* chunk_15_7.bin in Resources */,
+				7C4F54B0BDF36BFD59415329 /* chunk_15_8.bin in Resources */,
+				B576DED594DB89E9043D74D1 /* chunk_15_9.bin in Resources */,
+				C98BDA16C2D06E25EAF37AC3 /* chunk_16_-1.bin in Resources */,
+				40DB3D1ADDAE504FA6CBF9BA /* chunk_16_0.bin in Resources */,
+				98A9A1C1FA8558C279D97496 /* chunk_16_1.bin in Resources */,
+				D5BF388AFFA7E5CF356338DB /* chunk_16_10.bin in Resources */,
+				417A587F077C6C062836C813 /* chunk_16_11.bin in Resources */,
+				16B6E3CDCC4B91C004249078 /* chunk_16_12.bin in Resources */,
+				65C97A2397AE48DA1CABCDF0 /* chunk_16_13.bin in Resources */,
+				81645C6B84481C9831CFFF96 /* chunk_16_14.bin in Resources */,
+				E4F5F2549659464525F158B3 /* chunk_16_15.bin in Resources */,
+				E02D332CD407B9DE17771631 /* chunk_16_17.bin in Resources */,
+				80930137BEB22023AC9D55AC /* chunk_16_2.bin in Resources */,
+				DE888FC4C32E02CEF0F50101 /* chunk_16_6.bin in Resources */,
+				21404540B4685805302E838C /* chunk_16_7.bin in Resources */,
+				6CC9246982674317F6D66338 /* chunk_16_8.bin in Resources */,
+				7080C118DB3000428F525455 /* chunk_16_9.bin in Resources */,
+				741F33A5BE699B9ADF9C5AEF /* chunk_17_-1.bin in Resources */,
+				9A99BE2D7123CF4C22DD4DA4 /* chunk_17_0.bin in Resources */,
+				730AE573947F4C6B8E165B05 /* chunk_17_1.bin in Resources */,
+				DCA0B9542CC2157599E28922 /* chunk_17_10.bin in Resources */,
+				588A1778C2DE87DFAF00CA15 /* chunk_17_11.bin in Resources */,
+				4F714AD9904EF82342BEB807 /* chunk_17_12.bin in Resources */,
+				95B5E12D12DA8D2282A17FAA /* chunk_17_13.bin in Resources */,
+				25412EDF505EB0781D2C23C4 /* chunk_17_14.bin in Resources */,
+				EE4F8CF6F03EDEBE950BCC74 /* chunk_17_15.bin in Resources */,
+				2E81FF0050749272A9D19AF3 /* chunk_17_2.bin in Resources */,
+				1C641981B8337A9A41D2AE0D /* chunk_17_3.bin in Resources */,
+				50736CAA119F4BBD186F66D1 /* chunk_17_5.bin in Resources */,
+				D859BEAF4798B404F673F2F2 /* chunk_17_6.bin in Resources */,
+				B277E95E82FA95A30AC7D603 /* chunk_17_7.bin in Resources */,
+				A782DA6408B023CE7236512F /* chunk_17_8.bin in Resources */,
+				87C66D0F03AE6878C54275E8 /* chunk_17_9.bin in Resources */,
+				A46FE3BB2FDD499D451117E4 /* chunk_18_-1.bin in Resources */,
+				A3DD79EDD34CD55242A59891 /* chunk_18_-2.bin in Resources */,
+				A11A300F3AE65011D678D9F5 /* chunk_18_0.bin in Resources */,
+				D3731FC9F653F15FA8189699 /* chunk_18_1.bin in Resources */,
+				9C9F0D2E316D8DBDAB421466 /* chunk_18_10.bin in Resources */,
+				42F4770F0852D23066E65CE2 /* chunk_18_11.bin in Resources */,
+				C118425DF32E628E3B45C4A4 /* chunk_18_12.bin in Resources */,
+				E1463EE47961A91729EB85A8 /* chunk_18_13.bin in Resources */,
+				403CC68252F57269FFB74D8C /* chunk_18_14.bin in Resources */,
+				978F84925CFEC9FBB18631F7 /* chunk_18_15.bin in Resources */,
+				BD988A7FACDCE8081A6E5C24 /* chunk_18_16.bin in Resources */,
+				4EAB10061F4B8E90D9FE0434 /* chunk_18_17.bin in Resources */,
+				9ABC397C7A2DB2D88015A8FD /* chunk_18_18.bin in Resources */,
+				AEBE252320DE894702C51088 /* chunk_18_19.bin in Resources */,
+				2E2CC6C328AA67E0902DFDE1 /* chunk_18_2.bin in Resources */,
+				B4DDB59F609859277671FCC1 /* chunk_18_20.bin in Resources */,
+				550CA7917EB3CB996BC4A5EE /* chunk_18_21.bin in Resources */,
+				EA3EA7F90266921A78124351 /* chunk_18_22.bin in Resources */,
+				0A2C7ED1E37E6EEC6A29AD8F /* chunk_18_3.bin in Resources */,
+				455B41E58FCE0082ACB1005A /* chunk_18_4.bin in Resources */,
+				705630F3123D4092D76AC74E /* chunk_18_5.bin in Resources */,
+				FADE2A3EE6029BDA11C2F534 /* chunk_18_6.bin in Resources */,
+				E40A387581124EA965839B50 /* chunk_18_7.bin in Resources */,
+				15E02F45DE9243FD2FD6B27E /* chunk_18_8.bin in Resources */,
+				3CF60CEC623E8E516DE7366A /* chunk_18_9.bin in Resources */,
+				23B8FFB589500CE015DD4A9A /* chunk_19_-1.bin in Resources */,
+				183968837535C2EE359ECD31 /* chunk_19_-2.bin in Resources */,
+				787DA602AC018DF85B273B00 /* chunk_19_0.bin in Resources */,
+				B33C0E7A788F821026AC5790 /* chunk_19_1.bin in Resources */,
+				C9A007D394ACD25108989AF8 /* chunk_19_10.bin in Resources */,
+				FB73DB320683E52E46201E97 /* chunk_19_11.bin in Resources */,
+				FB6C845D5881DE6B9757795E /* chunk_19_12.bin in Resources */,
+				41A9D1D4A1056CDE4FA9CC77 /* chunk_19_13.bin in Resources */,
+				017AAD6578FA57A35428F380 /* chunk_19_14.bin in Resources */,
+				C4522EDE3AF3D3DB3886CF84 /* chunk_19_15.bin in Resources */,
+				7C7CAC0305620B461AC38AA0 /* chunk_19_2.bin in Resources */,
+				E6C00D3F92685D4B83932722 /* chunk_19_3.bin in Resources */,
+				F3EA49E15F2ADD7426CFC28E /* chunk_19_4.bin in Resources */,
+				CE36AA913446AEB21B242E24 /* chunk_19_5.bin in Resources */,
+				C0459FCE2823F3193C72B321 /* chunk_19_6.bin in Resources */,
+				90F29B0FEA38CE1D955135F1 /* chunk_19_7.bin in Resources */,
+				AF0B7CED88945E659BFDBBAF /* chunk_19_8.bin in Resources */,
+				7B5EA5EA76D95A645825C529 /* chunk_19_9.bin in Resources */,
+				98F30774A41F7B1ABF0006ED /* chunk_1_-1.bin in Resources */,
+				B4D51211A9DF67D951934713 /* chunk_1_-2.bin in Resources */,
+				94E972426E379AFFDE6986F2 /* chunk_1_0.bin in Resources */,
+				ACC47775D841629A18452EE9 /* chunk_1_1.bin in Resources */,
+				5616B0BE26FACB2A6074FC97 /* chunk_1_10.bin in Resources */,
+				E3438F542BDC88CA2B4C60BC /* chunk_1_11.bin in Resources */,
+				BBC67814291A8F627132F7C9 /* chunk_1_12.bin in Resources */,
+				4BA08119F622EE9FD3C5F5B4 /* chunk_1_13.bin in Resources */,
+				C935373416A45E10B8C481A1 /* chunk_1_14.bin in Resources */,
+				44C7406EFA6B2A382F88EBF0 /* chunk_1_15.bin in Resources */,
+				53AB344652157997B869BAAC /* chunk_1_2.bin in Resources */,
+				AC78E787DF1F8B5D8716D8B1 /* chunk_1_3.bin in Resources */,
+				6A287A21E132BB98FC8E1E82 /* chunk_1_4.bin in Resources */,
+				6CC9ABDC6C646DED9F301BE7 /* chunk_1_5.bin in Resources */,
+				3058F3EBD052D595F103BCF0 /* chunk_1_6.bin in Resources */,
+				982015730928975FD5ED135D /* chunk_1_7.bin in Resources */,
+				007618D03F2C1FAC39A87F72 /* chunk_1_8.bin in Resources */,
+				529383ABBDA6A5576399CC4D /* chunk_1_9.bin in Resources */,
+				DCE069E05514D525BB794B97 /* chunk_20_-1.bin in Resources */,
+				D82B9C6AED661CD1C78BC963 /* chunk_20_0.bin in Resources */,
+				12E83A9B3A290660BA809388 /* chunk_20_10.bin in Resources */,
+				373F604D92F0EC69FC6F7A49 /* chunk_20_14.bin in Resources */,
+				75CC35D5C28DF787800D6D1C /* chunk_20_15.bin in Resources */,
+				A27C18F1E867C4A448D6B3A8 /* chunk_20_2.bin in Resources */,
+				80591033BD2D1B05C74DB0E2 /* chunk_20_3.bin in Resources */,
+				52E154BCB0FC26D9A1A63C85 /* chunk_20_4.bin in Resources */,
+				7387FF8AD6FC6E8B38E456C7 /* chunk_20_6.bin in Resources */,
+				4B21C532334DAA9C103F7653 /* chunk_20_7.bin in Resources */,
+				CD8C9ED936881F4DB36898B1 /* chunk_20_8.bin in Resources */,
+				B24A41BCC0612337C662ACE5 /* chunk_20_9.bin in Resources */,
+				1421B04BD70127AA45F959F8 /* chunk_21_-1.bin in Resources */,
+				58531EC09B047CCADE7EFD16 /* chunk_21_14.bin in Resources */,
+				9A3329F35706B1E22590BF19 /* chunk_21_15.bin in Resources */,
+				8E72F97E42EE38A02FAB99CE /* chunk_21_2.bin in Resources */,
+				D19A08FDDD323EB678A24F42 /* chunk_21_3.bin in Resources */,
+				5D809C94E7D986B4DF77BB54 /* chunk_21_4.bin in Resources */,
+				BBD4993C9520F23263B1D71C /* chunk_21_9.bin in Resources */,
+				A6D63BB0E61D6280AAC4A821 /* chunk_22_9.bin in Resources */,
+				20C0FA799102FCC111E613E7 /* chunk_2_-1.bin in Resources */,
+				05B32647989DF16495D91429 /* chunk_2_0.bin in Resources */,
+				02905E1C9DB06E33AD2A33F9 /* chunk_2_1.bin in Resources */,
+				68CCC3B796D167BDFB36350C /* chunk_2_10.bin in Resources */,
+				EEB581911F59F4DA790A2358 /* chunk_2_11.bin in Resources */,
+				8078EA086225F1A9E12806F5 /* chunk_2_12.bin in Resources */,
+				BADCD8136C25288F8C00D047 /* chunk_2_13.bin in Resources */,
+				0B512DB7FF56AD630290321F /* chunk_2_14.bin in Resources */,
+				A161D50D3D07E8FA476BDC44 /* chunk_2_15.bin in Resources */,
+				208BAAF487FE4F5D40CCC204 /* chunk_2_2.bin in Resources */,
+				C522A5171B0415FDF900B110 /* chunk_2_3.bin in Resources */,
+				115E972947095322679EFF73 /* chunk_2_4.bin in Resources */,
+				890DC5F9D5E371DB9A3A437F /* chunk_2_5.bin in Resources */,
+				FCD227F7F2A89A002B5D49AF /* chunk_2_6.bin in Resources */,
+				D1B1E0A6C103CD7206FD74FA /* chunk_2_7.bin in Resources */,
+				3300D72A1D7AFED8254DDADD /* chunk_2_8.bin in Resources */,
+				9BC037BCB6153B9D2434AAA7 /* chunk_2_9.bin in Resources */,
+				4F9B56AE710F24A9185D1752 /* chunk_3_-1.bin in Resources */,
+				F9770CE4C88D601CE4DC8647 /* chunk_3_0.bin in Resources */,
+				E4ADEF9EF0C3205A2F49DFBA /* chunk_3_1.bin in Resources */,
+				20CFC9183DBD4525C5182BA2 /* chunk_3_10.bin in Resources */,
+				836FFFBB96F09BB5328FE5B4 /* chunk_3_11.bin in Resources */,
+				32F758908D51094663CD8E7A /* chunk_3_12.bin in Resources */,
+				6C21CA0DBB6801FF2C3298E2 /* chunk_3_14.bin in Resources */,
+				6A33690030B32934083D7B9C /* chunk_3_15.bin in Resources */,
+				C423F5918FB45F16F0706C64 /* chunk_3_16.bin in Resources */,
+				01C5DFEBD1C1AB67B285FD8A /* chunk_3_2.bin in Resources */,
+				F8AADC898CA5D7799AF68525 /* chunk_3_3.bin in Resources */,
+				05FE5B47CCF4B3F14BD38DB7 /* chunk_3_4.bin in Resources */,
+				1DFCE645663707A7F18DB2BA /* chunk_3_5.bin in Resources */,
+				FA2410D8A553693027DF28E9 /* chunk_3_6.bin in Resources */,
+				9B2413848F90209C4066996E /* chunk_3_7.bin in Resources */,
+				63FF2BCDF799497BA333A274 /* chunk_3_8.bin in Resources */,
+				10E51B40B921AA6CA49E1EEE /* chunk_3_9.bin in Resources */,
+				22F73EAF90EF5098FA7DE955 /* chunk_4_-1.bin in Resources */,
+				F59CB24E0C7D1EE374D3E136 /* chunk_4_-2.bin in Resources */,
+				05619E93FC0C0967E4BA9C22 /* chunk_4_0.bin in Resources */,
+				1C4612B64B84723D5A78FDA3 /* chunk_4_1.bin in Resources */,
+				204630332ED6D58222601F8C /* chunk_4_10.bin in Resources */,
+				EFC368083BEB74654477B3DB /* chunk_4_11.bin in Resources */,
+				0365E6B2F1152321B0DA4203 /* chunk_4_12.bin in Resources */,
+				441B229FCA87C23E9EAFC39A /* chunk_4_13.bin in Resources */,
+				8678ED3CCB329F0F1C40355B /* chunk_4_14.bin in Resources */,
+				0E618E56D9973086B3A02C3A /* chunk_4_15.bin in Resources */,
+				8858A87E32C28E0B836E1ECC /* chunk_4_16.bin in Resources */,
+				BF46071F6F787663C9601370 /* chunk_4_2.bin in Resources */,
+				8C0B119752578CEDCFBE4049 /* chunk_4_3.bin in Resources */,
+				6727A2DB449654C68F722A36 /* chunk_4_4.bin in Resources */,
+				F2FAEB5B7B3B148087AA5545 /* chunk_4_5.bin in Resources */,
+				ECB9D6C64A06A86535D3209E /* chunk_4_6.bin in Resources */,
+				32157083D9E226778C8A3931 /* chunk_4_7.bin in Resources */,
+				B7E68A65514AE44342B192B5 /* chunk_4_8.bin in Resources */,
+				8F6FAEBB49ACC0CE31F087F5 /* chunk_4_9.bin in Resources */,
+				645349F1797549A1796B8FE9 /* chunk_5_-2.bin in Resources */,
+				25C8A9EC454A7D7CE744F648 /* chunk_5_0.bin in Resources */,
+				3553EDD39377A02411126E06 /* chunk_5_1.bin in Resources */,
+				1CF80C4A9F202020561DE3CF /* chunk_5_10.bin in Resources */,
+				4911C412BA3B44C0DE120424 /* chunk_5_11.bin in Resources */,
+				C1D21572FB5FD6756B3BC9F0 /* chunk_5_12.bin in Resources */,
+				F77990CD73AD49A7E2A33547 /* chunk_5_14.bin in Resources */,
+				5EE6CBBFA2528483F32EBC17 /* chunk_5_15.bin in Resources */,
+				9B749DDC29A36F71670405F2 /* chunk_5_16.bin in Resources */,
+				65A9F2477E2B09C0C8862B73 /* chunk_5_2.bin in Resources */,
+				F3BE97BBEA6982DCE8C16CF1 /* chunk_5_3.bin in Resources */,
+				79CB554C0FF49EAD7D9839FE /* chunk_5_4.bin in Resources */,
+				4C6F1C0A1B50FC6E7EB97ADD /* chunk_5_5.bin in Resources */,
+				A9B7C31CB64A0A761F0FB892 /* chunk_5_6.bin in Resources */,
+				885F8956C57358C863BB5765 /* chunk_5_7.bin in Resources */,
+				4ED2E44FCBA1D6BE08036723 /* chunk_5_8.bin in Resources */,
+				B9E35974BACFA99FD7EAA512 /* chunk_5_9.bin in Resources */,
+				2A0A61CDD0333C9D997691F2 /* chunk_6_-2.bin in Resources */,
+				FEE4017DFFEA0056A938B9C3 /* chunk_6_0.bin in Resources */,
+				6EB6EBCD6A4AF01407746F2E /* chunk_6_1.bin in Resources */,
+				4FA54271FBAA6F2355072667 /* chunk_6_10.bin in Resources */,
+				4CC818A8C801CDAF144A36D5 /* chunk_6_11.bin in Resources */,
+				30660A1B845AD0AAC1069C2B /* chunk_6_12.bin in Resources */,
+				777337EDDFB6158B1C838F9F /* chunk_6_13.bin in Resources */,
+				C9A3DDB0CBFBB486739C3D94 /* chunk_6_14.bin in Resources */,
+				63FAA874F53EA128E4622A2A /* chunk_6_15.bin in Resources */,
+				E9A0B9F324DD24D2438E49A0 /* chunk_6_16.bin in Resources */,
+				905A1F202EF5E5168BC41A00 /* chunk_6_2.bin in Resources */,
+				87239CB4557F681773F35B25 /* chunk_6_3.bin in Resources */,
+				0308D14403FE79A4B9F69235 /* chunk_6_4.bin in Resources */,
+				70FF5EF8D066394952B48DA7 /* chunk_6_5.bin in Resources */,
+				C2F5B6EDCC5856D05F483170 /* chunk_6_6.bin in Resources */,
+				C7A2564F2C32FA66ADAB1305 /* chunk_6_7.bin in Resources */,
+				26885C27892B823AFBFB4155 /* chunk_6_8.bin in Resources */,
+				441A62B2B88FBABE110E64BD /* chunk_6_9.bin in Resources */,
+				6DEE7D686F7268AD053E5344 /* chunk_7_-1.bin in Resources */,
+				D7C683367CD2C0BE7909FEF1 /* chunk_7_-2.bin in Resources */,
+				D4B471986E33BA00F382C85F /* chunk_7_0.bin in Resources */,
+				DCD54F53177293B9C6FB694C /* chunk_7_1.bin in Resources */,
+				276A568C929E672AEEB99C9F /* chunk_7_10.bin in Resources */,
+				F4F8EE8E22501880B5266674 /* chunk_7_11.bin in Resources */,
+				75F0E129C256D5304D04C19A /* chunk_7_12.bin in Resources */,
+				DB14D525AEA07BBB841A2A8A /* chunk_7_13.bin in Resources */,
+				319B0C22072970C53D3E5AE3 /* chunk_7_14.bin in Resources */,
+				21CCE3BDD198398D2FBA6EFE /* chunk_7_15.bin in Resources */,
+				42E5E2112641C7ADFB066928 /* chunk_7_16.bin in Resources */,
+				32590AC3B91DA8005F3A45D3 /* chunk_7_2.bin in Resources */,
+				DAE29014F5C8B0D8EDB787D3 /* chunk_7_3.bin in Resources */,
+				80ED84FED70C76C3B29E87B7 /* chunk_7_4.bin in Resources */,
+				E2A184D89C7D572FCF265FA8 /* chunk_7_5.bin in Resources */,
+				23DCC2B9B94DD014D41B2608 /* chunk_7_6.bin in Resources */,
+				E0D377CB590A2E052C8C4467 /* chunk_7_7.bin in Resources */,
+				764DFB7D9B6F89DC46C50821 /* chunk_7_8.bin in Resources */,
+				B425E08D60F25F2AFB434C52 /* chunk_7_9.bin in Resources */,
+				6AB98E5D832A8968C3DEE396 /* chunk_8_-1.bin in Resources */,
+				13AEC9CB1EF758C2FE52D3C4 /* chunk_8_-3.bin in Resources */,
+				1557706106027DBB487DBB17 /* chunk_8_0.bin in Resources */,
+				CB5CBECCE952F397816E6DA5 /* chunk_8_1.bin in Resources */,
+				E67A2DCEC0F4DF710799C37A /* chunk_8_10.bin in Resources */,
+				3BA29277890A10A5F30FDAB0 /* chunk_8_11.bin in Resources */,
+				6807A756BA1F49B13304BF65 /* chunk_8_12.bin in Resources */,
+				6C59EF3DF2DA2D5CB698E9B8 /* chunk_8_13.bin in Resources */,
+				212DCD195A46E6B4FA531909 /* chunk_8_14.bin in Resources */,
+				5862BFCBDE1361641FE35B2B /* chunk_8_15.bin in Resources */,
+				672AB5545DFE5189FCD38EB9 /* chunk_8_16.bin in Resources */,
+				10212F23070A349F9865F6B5 /* chunk_8_2.bin in Resources */,
+				F9DC0D15919A5C2CF748CF44 /* chunk_8_3.bin in Resources */,
+				6D7706B3D240D6191C100021 /* chunk_8_4.bin in Resources */,
+				922E41AC60496BC31961A7FC /* chunk_8_5.bin in Resources */,
+				6DE3C1FC605B36D86222DD1D /* chunk_8_6.bin in Resources */,
+				4DDF03BDE6A2AF616D5082F8 /* chunk_8_7.bin in Resources */,
+				66C1A48DB5EF3BEE20776403 /* chunk_8_8.bin in Resources */,
+				2667D853B012B7A851681F5C /* chunk_8_9.bin in Resources */,
+				4B4587D30472D46F0C742F6D /* chunk_9_0.bin in Resources */,
+				68B640B33A9E4CC90D6DA226 /* chunk_9_1.bin in Resources */,
+				7DD0F3568B62E30B8DDCF969 /* chunk_9_10.bin in Resources */,
+				9115D4F342E8AE99CEC00EDF /* chunk_9_11.bin in Resources */,
+				2C197E145326DEC1F8FF3EB4 /* chunk_9_12.bin in Resources */,
+				8C12208BB6078C0311AE3116 /* chunk_9_13.bin in Resources */,
+				2228C672F9B8AB8CF4CBBCC5 /* chunk_9_14.bin in Resources */,
+				BF387DC761AE52054B3DBD9B /* chunk_9_15.bin in Resources */,
+				6A833F544A478034A58C5E8E /* chunk_9_2.bin in Resources */,
+				801CE679A52B50160BE245B3 /* chunk_9_3.bin in Resources */,
+				07DA76F68178BA6459E50071 /* chunk_9_4.bin in Resources */,
+				81F16FB5BEC19DDA4F7A40DC /* chunk_9_5.bin in Resources */,
+				A30A5E3BDBB706E859DD4126 /* chunk_9_6.bin in Resources */,
+				A3651F3A9DD056AAAFFE37DB /* chunk_9_7.bin in Resources */,
+				65CC4269907C4B5D6E7D569A /* chunk_9_8.bin in Resources */,
+				F4689D2DB19BE44800C9024F /* chunk_9_9.bin in Resources */,
+				76A5F605F0532518DFC0E3CB /* index.json in Resources */,
+				809AF1E3753314B1AF311E7A /* metadata.json in Resources */,
+				94964497BD524FDBEE5584A1 /* roads.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E7F38D35312FCC6CB45DC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A0FBDBA1C2C6BA623B3985 /* BoxGenerator.swift in Sources */,
+				2D21E05BB5C9F62FE4F78172 /* Building.metal in Sources */,
+				888CCC0DE342FABEBEA49D22 /* Camera.swift in Sources */,
+				80D9047B331CFF95C0F00C42 /* ChunkData.swift in Sources */,
+				C3E64BC9A87EAB8BD7C65AE7 /* ChunkLoader.swift in Sources */,
+				2ECEA447C775A1C03407A3AB /* ChunkManager.swift in Sources */,
+				D293BC0E9784999A520546C1 /* Common.metal in Sources */,
+				592DF4A3842636591A45FA0B /* ContentView.swift in Sources */,
+				38447A79D4990CBF40E8F14F /* CylinderGenerator.swift in Sources */,
+				D2C3952A3F9AF4CDBEB2794B /* LocationManager.swift in Sources */,
+				FB07AC2A86AEA0CC278DAAF4 /* MapView.swift in Sources */,
+				93E0456AE0D89A5F85AF0435 /* Mesh.swift in Sources */,
+				F14A6176CA6F2694ECBE3189 /* MetalRenderer.swift in Sources */,
+				92BE94D52D2F11DA21C1614C /* Road.metal in Sources */,
+				EC7B6A231DF7C2B61C3774CE /* Songdo3DMapApp.swift in Sources */,
+				D73A970C796EFAFB5B5706C1 /* Terrain.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54934812299D398C9789C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WD3LPJ2STX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "송도 3D 지도";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치를 지도에 표시하기 위해 위치 정보가 필요합니다.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				METAL_DEVICE_WRAPPER_TYPE = 1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdo.map3d;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AB7E71D19ED08B5365AE35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/Songdo3DMap/Core/Renderer/Shaders";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Songdo3DMap/Core/Renderer/Shaders/Songdo3DMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		9C5395767EC01673E00F9EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WD3LPJ2STX;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "송도 3D 지도";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치를 지도에 표시하기 위해 위치 정보가 필요합니다.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				METAL_DEVICE_WRAPPER_TYPE = 1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdo.map3d;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F43A8B2C153950B1F804F00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/Songdo3DMap/Core/Renderer/Shaders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Songdo3DMap/Core/Renderer/Shaders/Songdo3DMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF0DCDC2F3DD3FC04E027C0 /* Build configuration list for PBXNativeTarget "Songdo3DMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5395767EC01673E00F9EF0 /* Debug */,
+				54934812299D398C9789C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCD1C80C3E3B217CE3C663BC /* Build configuration list for PBXProject "Songdo3DMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB7E71D19ED08B5365AE35A /* Debug */,
+				F43A8B2C153950B1F804F00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C2A83920394F1CE171DAE08 /* Project object */;
+}
