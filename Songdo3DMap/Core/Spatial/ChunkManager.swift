@@ -107,50 +107,55 @@ final class ChunkManager {
     // MARK: - GPU Buffer Creation
 
     private func createRenderableChunk(from chunk: LoadedChunk) -> RenderableChunk {
-        var buildingMeshes: [RenderableMesh] = []
-        var roadMeshes: [RenderableMesh] = []
+        var buildingMeshes: [RenderableBuildingMesh] = []
+        var roadMeshes: [RenderableRoadMesh] = []
 
         // 건물 메시 생성
         // 주의: 버텍스가 이미 월드 좌표로 저장되어 있으므로 항등 행렬 사용
-        for (index, building) in chunk.buildings.enumerated() {
+        for (_, building) in chunk.buildings.enumerated() {
             if let mesh = createMesh(vertices: building.vertices, indices: building.indices) {
                 // 건물 기본 색상 (회색 계열)
                 let buildingColor = SIMD4<Float>(0.7, 0.7, 0.75, 1.0)
-                let renderableMesh = RenderableMesh(
+
+                // 버텍스에서 바운딩 박스 계산
+                let bounds = computeBoundingBox(from: building.vertices)
+
+                let renderableMesh = RenderableBuildingMesh(
                     mesh: mesh,
                     modelMatrix: simd_float4x4.identity,  // 버텍스가 이미 월드 좌표
-                    color: buildingColor
+                    color: buildingColor,
+                    position: building.position,
+                    height: building.height,
+                    width: building.scale.x,
+                    depth: building.scale.z,
+                    name: building.name,
+                    bounds: bounds
                 )
                 buildingMeshes.append(renderableMesh)
-
-//                if index == 0 {
-//                    print("Building mesh created: \(building.vertices.count) vertices, \(building.indices.count) indices, pos=\(building.position)")
-//                }
             }
         }
 
         // 도로 메시 생성
-        for (index, road) in chunk.roads.enumerated() {
+        for (_, road) in chunk.roads.enumerated() {
             if let mesh = createMesh(vertices: road.vertices, indices: road.indices) {
                 let roadType = RoadType(rawValue: road.roadType) ?? .residential
-                let renderableMesh = RenderableMesh(
+
+                // 버텍스에서 바운딩 박스 계산
+                let bounds = computeBoundingBox(from: road.vertices)
+
+                let renderableMesh = RenderableRoadMesh(
                     mesh: mesh,
                     modelMatrix: simd_float4x4.identity,
-                    color: roadType.color
+                    color: roadType.color,
+                    roadType: roadType,
+                    lanes: Int(road.lanes),
+                    width: road.width,
+                    name: road.name,
+                    bounds: bounds
                 )
                 roadMeshes.append(renderableMesh)
-
-//                if index == 0 {
-//                    print("Road mesh created: \(road.vertices.count) vertices, \(road.indices.count) indices")
-//                    // Debug: Print first few vertex positions
-//                    for (i, v) in road.vertices.prefix(4).enumerated() {
-//                        print("  Road vertex[\(i)]: pos=(\(v.position.x), \(v.position.y), \(v.position.z))")
-//                    }
-//                }
             }
         }
-
-//        print("Chunk \(chunk.id): Created \(buildingMeshes.count) building meshes, \(roadMeshes.count) road meshes")
 
         return RenderableChunk(
             id: chunk.id,
@@ -158,6 +163,22 @@ final class ChunkManager {
             buildings: buildingMeshes,
             roads: roadMeshes
         )
+    }
+
+    private func computeBoundingBox(from vertices: [Vertex]) -> BoundingBox {
+        guard !vertices.isEmpty else {
+            return BoundingBox(min: .zero, max: .zero)
+        }
+
+        var minPoint = SIMD3<Float>(Float.infinity, Float.infinity, Float.infinity)
+        var maxPoint = SIMD3<Float>(-Float.infinity, -Float.infinity, -Float.infinity)
+
+        for vertex in vertices {
+            minPoint = simd_min(minPoint, vertex.position)
+            maxPoint = simd_max(maxPoint, vertex.position)
+        }
+
+        return BoundingBox(min: minPoint, max: maxPoint)
     }
 
     private func createMesh(vertices: [Vertex], indices: [UInt32]) -> Mesh? {
@@ -235,8 +256,8 @@ protocol ChunkManagerDelegate: AnyObject {
 struct RenderableChunk: @unchecked Sendable {
     let id: ChunkID
     let bounds: ChunkBounds
-    let buildings: [RenderableMesh]
-    let roads: [RenderableMesh]
+    let buildings: [RenderableBuildingMesh]
+    let roads: [RenderableRoadMesh]
 
     func distanceToCamera(_ cameraPosition: SIMD3<Float>) -> Float {
         bounds.distance(to: cameraPosition)
@@ -247,6 +268,39 @@ struct RenderableMesh: @unchecked Sendable {
     let mesh: Mesh
     let modelMatrix: simd_float4x4
     let color: SIMD4<Float>
+}
+
+/// 렌더링 가능한 건물 메시 (메타데이터 포함)
+struct RenderableBuildingMesh: @unchecked Sendable {
+    let mesh: Mesh
+    let modelMatrix: simd_float4x4
+    let color: SIMD4<Float>
+
+    // 건물 메타데이터
+    let position: SIMD3<Float>
+    let height: Float
+    let width: Float   // scale.x
+    let depth: Float   // scale.z
+    let name: String?  // 건물 이름
+
+    // 히트 테스트용 바운딩 박스 (버텍스에서 계산)
+    let bounds: BoundingBox
+}
+
+/// 렌더링 가능한 도로 메시 (메타데이터 포함)
+struct RenderableRoadMesh: @unchecked Sendable {
+    let mesh: Mesh
+    let modelMatrix: simd_float4x4
+    let color: SIMD4<Float>
+
+    // 도로 메타데이터
+    let roadType: RoadType
+    let lanes: Int
+    let width: Float
+    let name: String?  // 도로 이름
+
+    // 히트 테스트용 바운딩 박스 (버텍스에서 계산)
+    let bounds: BoundingBox
 }
 
 // MARK: - GPU Vertex

@@ -7,6 +7,7 @@ struct MapView: UIViewRepresentable {
     @Binding var cameraPosition: SIMD3<Float>
     @Binding var cameraTarget: SIMD3<Float>
     var userLocation: SIMD3<Float>?
+    @Binding var selectionResult: SelectionResult
 
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
@@ -88,10 +89,18 @@ struct MapView: UIViewRepresentable {
             let rotationGesture = UIRotationGestureRecognizer(target: self, action: #selector(handleRotation))
             view.addGestureRecognizer(rotationGesture)
 
+            // Single tap for selection
+            let singleTapGesture = UITapGestureRecognizer(target: self, action: #selector(handleSingleTap))
+            singleTapGesture.numberOfTapsRequired = 1
+            view.addGestureRecognizer(singleTapGesture)
+
             // Double tap to reset
             let doubleTapGesture = UITapGestureRecognizer(target: self, action: #selector(handleDoubleTap))
             doubleTapGesture.numberOfTapsRequired = 2
             view.addGestureRecognizer(doubleTapGesture)
+
+            // Single tap should wait for double tap to fail
+            singleTapGesture.require(toFail: doubleTapGesture)
 
             // Allow simultaneous gestures
             panGesture.delegate = self
@@ -162,6 +171,40 @@ struct MapView: UIViewRepresentable {
             updateBindings()
         }
 
+        @objc func handleSingleTap(_ gesture: UITapGestureRecognizer) {
+            guard let view = gesture.view as? MTKView else { return }
+
+            let tapLocation = gesture.location(in: view)
+            let viewportSize = renderer.currentViewportSize
+
+            // 뷰포트 크기가 유효하지 않으면 무시
+            guard viewportSize.width > 0 && viewportSize.height > 0 else { return }
+
+            // Ray 생성
+            // viewMatrix에 flipZ가 포함되어 있으므로, 역행렬 적용 시 자동으로 원본 좌표계로 변환됨
+            let ray = RayCaster.createRay(
+                screenPoint: tapLocation,
+                viewportSize: viewportSize,
+                viewMatrix: renderer.viewMatrix,
+                projectionMatrix: renderer.projectionMatrix
+            )
+
+            print("Tap at: \(tapLocation), Ray origin: \(ray.origin), direction: \(ray.direction)")
+
+            // Hit Test 수행
+            let chunks = renderer.getLoadedChunks()
+            print("Testing against \(chunks.count) chunks")
+
+            if let hitResult = HitTester.performHitTest(ray: ray, chunks: chunks) {
+                parent.selectionResult = hitResult.toSelectionResult()
+                print("Hit: \(hitResult.objectType) at distance \(hitResult.distance)")
+            } else {
+                // 빈 공간 탭 - 선택 해제
+                parent.selectionResult = .none
+                print("No hit")
+            }
+        }
+
         @objc func handleDoubleTap(_ gesture: UITapGestureRecognizer) {
             // Reset camera to default position
             renderer.camera.target = SIMD3(5000, 0, -4250)  // Center of data (Z 반전)
@@ -198,6 +241,7 @@ extension MapView.Coordinator: UIGestureRecognizerDelegate {
     MapView(
         cameraPosition: .constant(SIMD3(0, 500, 500)),
         cameraTarget: .constant(SIMD3(0, 0, 0)),
-        userLocation: nil
+        userLocation: nil,
+        selectionResult: .constant(.none)
     )
 }

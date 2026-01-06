@@ -121,6 +121,7 @@ struct BuildingData {
     let textureId: UInt16
     let flags: UInt16
     let color: UInt32
+    let name: String?  // 건물 이름 (OSM name 태그)
 
     let vertices: [Vertex]
     let indices: [UInt32]
@@ -139,6 +140,7 @@ struct RoadData {
     let lanes: UInt8
     let width: Float
     let pointCount: UInt32
+    let name: String?  // 도로 이름 (OSM name 태그)
 
     let vertices: [Vertex]
     let indices: [UInt32]
@@ -159,6 +161,16 @@ enum RoadType: UInt8 {
         case .secondary: return SIMD4(0.45, 0.45, 0.48, 1.0)
         case .residential: return SIMD4(0.5, 0.5, 0.52, 1.0)
         case .path: return SIMD4(0.6, 0.58, 0.55, 1.0)
+        }
+    }
+
+    var displayName: String {
+        switch self {
+        case .highway: return "고속도로"
+        case .primary: return "주간선도로"
+        case .secondary: return "보조간선도로"
+        case .residential: return "주거도로"
+        case .path: return "보행로"
         }
     }
 }

@@ -5,6 +5,7 @@ struct ContentView: View {
     @State private var cameraPosition: SIMD3<Float> = SIMD3(0, 500, 500)
     @State private var cameraTarget: SIMD3<Float> = SIMD3(5000, 0, -4250)  // 송도 데이터 중심점 (Z 반전)
     @State private var showControls = true
+    @State private var selectionResult: SelectionResult = .none
     @StateObject private var locationManager = LocationManager()
 
     var body: some View {
@@ -13,7 +14,8 @@ struct ContentView: View {
             MapView(
                 cameraPosition: $cameraPosition,
                 cameraTarget: $cameraTarget,
-                userLocation: locationManager.localPosition
+                userLocation: locationManager.localPosition,
+                selectionResult: $selectionResult
             )
             .ignoresSafeArea()
 
@@ -77,6 +79,24 @@ struct ContentView: View {
                         .padding()
                     }
                 }
+            }
+
+            // Selection Popup Overlay
+            if selectionResult != .none {
+                VStack {
+                    Spacer()
+                    SelectionPopup(
+                        selection: selectionResult,
+                        onDismiss: {
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                selectionResult = .none
+                            }
+                        }
+                    )
+                    .padding()
+                    .transition(.move(edge: .bottom).combined(with: .opacity))
+                }
+                .animation(.spring(response: 0.3, dampingFraction: 0.8), value: selectionResult)
             }
         }
         .statusBarHidden()

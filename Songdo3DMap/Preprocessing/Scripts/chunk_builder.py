@@ -130,7 +130,8 @@ class ChunkBuilder:
                 "local_coords": local_coords,
                 "height": props.get("height", 10.0),
                 "building_type": props.get("building_type", "yes"),
-                "center": (center_x, center_z)
+                "center": (center_x, center_z),
+                "name": props.get("name")  # 건물 이름 추가
             })
 
         # 도로 할당 (여러 청크에 걸칠 수 있음)
@@ -160,7 +161,9 @@ class ChunkBuilder:
                     "coords": coords,
                     "local_coords": local_coords,
                     "highway_type": props.get("highway_type", "residential"),
-                    "width": props.get("width", 6.0)
+                    "width": props.get("width", 6.0),
+                    "name": props.get("name"),  # 도로 이름 추가
+                    "lanes": props.get("lanes", 2)
                 })
 
         return chunks
@@ -209,7 +212,12 @@ class ChunkBuilder:
             for i, mesh in enumerate(chunk_data.building_meshes):
                 building = chunk_data.buildings[i]
 
-                # 인스턴스 데이터 (48 bytes)
+                # 이름 인코딩
+                name = building.get("name") or ""
+                name_bytes = name.encode("utf-8")
+                name_len = len(name_bytes)
+
+                # 인스턴스 데이터 (48 bytes 고정 + 이름)
                 instance_data = struct.pack(
                     "ffffffffHHI",
                     building["center"][0], 0.0, building["center"][1],  # position (12)
@@ -228,6 +236,11 @@ class ChunkBuilder:
                 else:
                     f.write(instance_data[:48])
 
+                # 이름 길이 + 이름 데이터 (2 bytes length + variable)
+                f.write(struct.pack("H", name_len))
+                if name_len > 0:
+                    f.write(name_bytes)
+
                 # 메시 데이터
                 f.write(struct.pack("II", len(mesh.vertices), len(mesh.indices)))
                 for v in mesh.vertices:
@@ -239,6 +252,11 @@ class ChunkBuilder:
             road_offset = f.tell()
             for i, mesh in enumerate(chunk_data.road_meshes):
                 road = chunk_data.roads[i]
+
+                # 이름 인코딩
+                name = road.get("name") or ""
+                name_bytes = name.encode("utf-8")
+                name_len = len(name_bytes)
 
                 # 도로 메타데이터 (16 bytes)
                 highway_types = {
@@ -256,6 +274,11 @@ class ChunkBuilder:
                     len(road["local_coords"])  # point_count (4)
                 ))
                 f.write(b'\x00' * 6)  # padding
+
+                # 이름 길이 + 이름 데이터 (2 bytes length + variable)
+                f.write(struct.pack("H", name_len))
+                if name_len > 0:
+                    f.write(name_bytes)
 
                 # 메시 데이터
                 f.write(struct.pack("II", len(mesh.vertices), len(mesh.indices)))

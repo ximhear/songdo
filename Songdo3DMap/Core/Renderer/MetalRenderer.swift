@@ -628,6 +628,31 @@ extension MetalRenderer: ChunkManagerDelegate {
     }
 }
 
+// MARK: - Hit Testing Support
+
+extension MetalRenderer {
+    /// 로드된 청크 반환 (hit testing용)
+    func getLoadedChunks() -> [RenderableChunk] {
+        guard isChunkManagerInitialized else { return [] }
+        return chunkManager.getLoadedChunks()
+    }
+
+    /// 뷰포트 크기 반환
+    var currentViewportSize: CGSize {
+        viewportSize
+    }
+
+    /// 현재 뷰 매트릭스 (flipZ 적용)
+    var viewMatrix: simd_float4x4 {
+        uniforms.viewMatrix
+    }
+
+    /// 현재 프로젝션 매트릭스
+    var projectionMatrix: simd_float4x4 {
+        uniforms.projectionMatrix
+    }
+}
+
 // MARK: - Camera Controller Integration
 
 extension MetalRenderer {

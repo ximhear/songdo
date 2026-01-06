@@ -147,6 +147,19 @@ final class ChunkLoader {
 
             currentOffset += Self.instanceSize
 
+            // 이름 읽기 (2 bytes length + variable)
+            guard currentOffset + 2 <= data.count else { break }
+            let nameLength: UInt16 = data.read(at: currentOffset)
+            currentOffset += 2
+
+            var name: String? = nil
+            if nameLength > 0 {
+                guard currentOffset + Int(nameLength) <= data.count else { break }
+                let nameData = data.subdata(in: currentOffset..<currentOffset + Int(nameLength))
+                name = String(data: nameData, encoding: .utf8)
+                currentOffset += Int(nameLength)
+            }
+
             // 메시 데이터
             guard currentOffset + 8 <= data.count else { break }
             let vertexCount: UInt32 = data.read(at: currentOffset)
@@ -179,6 +192,7 @@ final class ChunkLoader {
                 textureId: textureId,
                 flags: flags,
                 color: color,
+                name: name,
                 vertices: vertices,
                 indices: indices
             )
@@ -202,15 +216,23 @@ final class ChunkLoader {
 
             currentOffset += 18  // 12 bytes struct + 6 bytes explicit padding
 
+            // 이름 읽기 (2 bytes length + variable)
+            guard currentOffset + 2 <= data.count else { break }
+            let nameLength: UInt16 = data.read(at: currentOffset)
+            currentOffset += 2
+
+            var name: String? = nil
+            if nameLength > 0 {
+                guard currentOffset + Int(nameLength) <= data.count else { break }
+                let nameData = data.subdata(in: currentOffset..<currentOffset + Int(nameLength))
+                name = String(data: nameData, encoding: .utf8)
+                currentOffset += Int(nameLength)
+            }
+
             // 메시 데이터
             guard currentOffset + 8 <= data.count else { break }
             let vertexCount: UInt32 = data.read(at: currentOffset)
             let indexCount: UInt32 = data.read(at: currentOffset + 4)
-
-//            if roadIdx == 0 {
-//                print("Road[\(roadIdx)]: type=\(roadType), lanes=\(lanes), width=\(width), verts=\(vertexCount), indices=\(indexCount)")
-//            }
-
             currentOffset += 8
 
             // 버텍스 읽기
@@ -236,6 +258,7 @@ final class ChunkLoader {
                 lanes: lanes,
                 width: width,
                 pointCount: pointCount,
+                name: name,
                 vertices: vertices,
                 indices: indices
             )
