@@ -82,7 +82,7 @@ final class ChunkManager {
                         self.loadingChunks.remove(id)
                         self.loadedChunks[id] = renderableChunk
                         self.delegate?.chunkManager(self, didLoadChunk: id)
-                        print("Loaded chunk (\(id.x), \(id.y)): \(loadedChunk.buildings.count) buildings, \(loadedChunk.roads.count) roads")
+//                        print("Loaded chunk (\(id.x), \(id.y)): \(loadedChunk.buildings.count) buildings, \(loadedChunk.roads.count) roads")
                     }
                 } else {
                     await MainActor.run {
@@ -123,9 +123,9 @@ final class ChunkManager {
                 )
                 buildingMeshes.append(renderableMesh)
 
-                if index == 0 {
-                    print("Building mesh created: \(building.vertices.count) vertices, \(building.indices.count) indices, pos=\(building.position)")
-                }
+//                if index == 0 {
+//                    print("Building mesh created: \(building.vertices.count) vertices, \(building.indices.count) indices, pos=\(building.position)")
+//                }
             }
         }
 
@@ -140,17 +140,17 @@ final class ChunkManager {
                 )
                 roadMeshes.append(renderableMesh)
 
-                if index == 0 {
-                    print("Road mesh created: \(road.vertices.count) vertices, \(road.indices.count) indices")
-                    // Debug: Print first few vertex positions
-                    for (i, v) in road.vertices.prefix(4).enumerated() {
-                        print("  Road vertex[\(i)]: pos=(\(v.position.x), \(v.position.y), \(v.position.z))")
-                    }
-                }
+//                if index == 0 {
+//                    print("Road mesh created: \(road.vertices.count) vertices, \(road.indices.count) indices")
+//                    // Debug: Print first few vertex positions
+//                    for (i, v) in road.vertices.prefix(4).enumerated() {
+//                        print("  Road vertex[\(i)]: pos=(\(v.position.x), \(v.position.y), \(v.position.z))")
+//                    }
+//                }
             }
         }
 
-        print("Chunk \(chunk.id): Created \(buildingMeshes.count) building meshes, \(roadMeshes.count) road meshes")
+//        print("Chunk \(chunk.id): Created \(buildingMeshes.count) building meshes, \(roadMeshes.count) road meshes")
 
         return RenderableChunk(
             id: chunk.id,

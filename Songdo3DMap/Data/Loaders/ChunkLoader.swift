@@ -207,9 +207,9 @@ final class ChunkLoader {
             let vertexCount: UInt32 = data.read(at: currentOffset)
             let indexCount: UInt32 = data.read(at: currentOffset + 4)
 
-            if roadIdx == 0 {
-                print("Road[\(roadIdx)]: type=\(roadType), lanes=\(lanes), width=\(width), verts=\(vertexCount), indices=\(indexCount)")
-            }
+//            if roadIdx == 0 {
+//                print("Road[\(roadIdx)]: type=\(roadType), lanes=\(lanes), width=\(width), verts=\(vertexCount), indices=\(indexCount)")
+//            }
 
             currentOffset += 8
 

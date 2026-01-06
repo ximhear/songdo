@@ -68,7 +68,7 @@ final class MetalRenderer: NSObject {
         // Initialize camera at a good viewing position for Songdo
         // Data center is (5000, 4250) based on full Songdo chunk bounds
         self.camera = Camera()
-        camera.target = SIMD3<Float>(5000, 0, 4250)  // Center of data
+        camera.target = SIMD3<Float>(5000, 0, -4250)  // Center of data (Z 반전)
         camera.distance = 3000  // 더 넓은 영역을 보기 위해 증가
         camera.pitch = -45
         camera.yaw = 0
@@ -137,7 +137,8 @@ final class MetalRenderer: NSObject {
                 print("ChunkManager initialized successfully")
 
                 // Immediately start loading chunks around the camera
-                let cameraXZ = SIMD3<Float>(camera.target.x, 0, camera.target.z)
+                // ChunkManager는 원본 좌표계 사용, 카메라 타겟은 Z 반전되어 있으므로 다시 반전
+                let cameraXZ = SIMD3<Float>(camera.target.x, 0, -camera.target.z)
                 chunkManager.update(cameraPosition: cameraXZ)
                 print("Initial chunk loading triggered at position: \(cameraXZ)")
             } catch {
@@ -156,6 +157,7 @@ final class MetalRenderer: NSObject {
         )
 
         // 송도현대아울렛 고정 위치 (GPS: 37.381659, 126.657836)
+        // flipZ 매트릭스가 렌더링 시 반전 처리하므로 원본 좌표 사용
         locationMarkerPosition = SIMD3<Float>(3778, 0, 2959)
     }
 
@@ -335,14 +337,31 @@ final class MetalRenderer: NSObject {
     }
 
     func updateCamera(position: SIMD3<Float>, target: SIMD3<Float>) {
-        camera.position = position
+        // orbit 모드에서는 target만 업데이트 (position은 자동 계산됨)
+        print("updateCamera called: target = (\(target.x), \(target.z)), current camera.target = (\(camera.target.x), \(camera.target.z))")
         camera.target = target
     }
 
+    func centerOnLocation(_ position: SIMD3<Float>) {
+        camera.target = position
+        print("Camera centered on: (\(position.x), \(position.z))")
+    }
+
     private func updateUniforms() {
-        uniforms.viewMatrix = camera.viewMatrix
+        // Z축 반전 매트릭스 (북쪽이 화면 위쪽으로)
+        let flipZ = simd_float4x4(
+            SIMD4<Float>(1, 0, 0, 0),
+            SIMD4<Float>(0, 1, 0, 0),
+            SIMD4<Float>(0, 0, -1, 0),
+            SIMD4<Float>(0, 0, 0, 1)
+        )
+
+        // view * flip 으로 월드 Z축 반전
+        let modifiedView = camera.viewMatrix * flipZ
+
+        uniforms.viewMatrix = modifiedView
         uniforms.projectionMatrix = camera.projectionMatrix
-        uniforms.viewProjectionMatrix = camera.projectionMatrix * camera.viewMatrix
+        uniforms.viewProjectionMatrix = camera.projectionMatrix * modifiedView
         uniforms.cameraPosition = camera.position
         uniforms.time = time
 
@@ -375,8 +394,9 @@ extension MetalRenderer: MTKViewDelegate {
         time += 1.0 / 60.0
 
         // Update chunk manager based on camera position
+        // ChunkManager는 원본 좌표계 사용, 카메라 타겟은 Z 반전되어 있으므로 다시 반전
         if isChunkManagerInitialized {
-            let cameraXZ = SIMD3<Float>(camera.target.x, 0, camera.target.z)
+            let cameraXZ = SIMD3<Float>(camera.target.x, 0, -camera.target.z)
             if simd_distance(cameraXZ, lastCameraPosition) > 50 {
                 chunkManager.update(cameraPosition: cameraXZ)
                 lastCameraPosition = cameraXZ

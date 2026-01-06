@@ -3,7 +3,7 @@ import simd
 
 struct ContentView: View {
     @State private var cameraPosition: SIMD3<Float> = SIMD3(0, 500, 500)
-    @State private var cameraTarget: SIMD3<Float> = SIMD3(0, 0, 0)
+    @State private var cameraTarget: SIMD3<Float> = SIMD3(5000, 0, -4250)  // 송도 데이터 중심점 (Z 반전)
     @State private var showControls = true
     @StateObject private var locationManager = LocationManager()
 
@@ -86,8 +86,13 @@ struct ContentView: View {
     }
 
     private func centerOnLocation() {
-        guard let position = locationManager.localPosition else { return }
-        cameraTarget = SIMD3(position.x, 0, position.z)
+        guard let position = locationManager.localPosition else {
+            print("centerOnLocation: No GPS position available")
+            return
+        }
+        print("centerOnLocation: GPS local position = (\(position.x), \(position.z))")
+        // flipZ 매트릭스가 렌더링 시 Z를 반전하므로, 카메라 타겟도 Z 반전
+        cameraTarget = SIMD3(position.x, 0, -position.z)
     }
 
     private func zoomIn() {

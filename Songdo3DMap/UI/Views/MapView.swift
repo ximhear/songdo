@@ -164,8 +164,8 @@ struct MapView: UIViewRepresentable {
 
         @objc func handleDoubleTap(_ gesture: UITapGestureRecognizer) {
             // Reset camera to default position
-            renderer.camera.target = SIMD3(0, 0, 0)
-            renderer.camera.distance = 700
+            renderer.camera.target = SIMD3(5000, 0, -4250)  // Center of data (Z 반전)
+            renderer.camera.distance = 3000
             renderer.camera.pitch = -45
             renderer.camera.yaw = 0
 

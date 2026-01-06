@@ -46,10 +46,12 @@ final class LocationManager: NSObject, ObservableObject {
 
     private func handleLocationUpdate(_ location: CLLocation) {
         currentLocation = location
-        localPosition = coordinator.gpsToLocal(
+        let pos = coordinator.gpsToLocal(
             latitude: location.coordinate.latitude,
             longitude: location.coordinate.longitude
         )
+        localPosition = pos
+        print("GPS: (\(location.coordinate.latitude), \(location.coordinate.longitude)) -> Local: (\(pos.x), \(pos.z))")
     }
 
     private func handleAuthorizationChange(_ status: CLAuthorizationStatus) {
@@ -104,6 +106,7 @@ struct CoordinateConverter {
     static let lonToMeters: Double = 111000.0 * cos(37.39 * .pi / 180.0)
 
     /// GPS 좌표를 로컬 좌표로 변환
+    /// (flipZ 매트릭스가 렌더링 시 Z를 반전시키므로 여기서는 원본 좌표 사용)
     func gpsToLocal(latitude: Double, longitude: Double) -> SIMD3<Float> {
         let x = Float((longitude - Self.originLongitude) * Self.lonToMeters)
         let z = Float((latitude - Self.originLatitude) * Self.latToMeters)
