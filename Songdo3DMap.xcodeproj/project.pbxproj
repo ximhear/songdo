@@ -364,6 +364,7 @@
 		EC7B6A231DF7C2B61C3774CE /* Songdo3DMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E151EC01ABEFB7F50E56BD /* Songdo3DMapApp.swift */; };
 		EC8E024FD1DB102B2F492B55 /* chunk_11_10.bin in Resources */ = {isa = PBXBuildFile; fileRef = F1C8ED1FA38E050EC18EE777 /* chunk_11_10.bin */; };
 		EC978B6D5B3EF41262846689 /* chunk_13_7.bin in Resources */ = {isa = PBXBuildFile; fileRef = A92EC5743BFF7880DBC0F94C /* chunk_13_7.bin */; };
+		ECABA2262F0EC095001B2D3B /* GZLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABA2252F0EC095001B2D3B /* GZLog.swift */; };
 		ECB9D6C64A06A86535D3209E /* chunk_4_6.bin in Resources */ = {isa = PBXBuildFile; fileRef = B8EE372BF57CC015DC54BFA9 /* chunk_4_6.bin */; };
 		EE4F8CF6F03EDEBE950BCC74 /* chunk_17_15.bin in Resources */ = {isa = PBXBuildFile; fileRef = D657B216C8245795B20A1E8E /* chunk_17_15.bin */; };
 		EEB581911F59F4DA790A2358 /* chunk_2_11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0B7497007BF2A608E6519877 /* chunk_2_11.bin */; };
@@ -751,6 +752,7 @@
 		EA317BDDDD623A5CC157ABD1 /* chunk_18_3.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_18_3.bin; sourceTree = "<group>"; };
 		EA80AE1BC6DEEF03ADF373D7 /* chunk_9_11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_11.bin; sourceTree = "<group>"; };
 		EB66A43797756FAC2670AFCE /* chunk_9_12.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_9_12.bin; sourceTree = "<group>"; };
+		ECABA2252F0EC095001B2D3B /* GZLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GZLog.swift; sourceTree = "<group>"; };
 		EF1BA4C4144045CA59CA4D62 /* chunk_2_9.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_2_9.bin; sourceTree = "<group>"; };
 		EF74B3600AF1B956AEFCD16E /* chunk_13_14.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_13_14.bin; sourceTree = "<group>"; };
 		F1775A0ACDDB960B1B9BD86E /* chunk_5_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = chunk_5_4.bin; sourceTree = "<group>"; };
@@ -1322,6 +1324,7 @@
 		A0C5497C825A0800889E3CC5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				ECABA2252F0EC095001B2D3B /* GZLog.swift */,
 				BE04E3029C3B90E235D9810C /* Extensions */,
 				4D0AA9B9C6E53B791B0DA944 /* Math */,
 			);
@@ -1865,6 +1868,7 @@
 				F14A6176CA6F2694ECBE3189 /* MetalRenderer.swift in Sources */,
 				E1B0CF63278E001208622513 /* RayCaster.swift in Sources */,
 				92BE94D52D2F11DA21C1614C /* Road.metal in Sources */,
+				ECABA2262F0EC095001B2D3B /* GZLog.swift in Sources */,
 				3B9F9EEB58F16C4C4B073275 /* SelectionModels.swift in Sources */,
 				01D939722F8E2C537F91F00F /* SelectionPopup.swift in Sources */,
 				EC7B6A231DF7C2B61C3774CE /* Songdo3DMapApp.swift in Sources */,
