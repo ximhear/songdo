@@ -38,19 +38,23 @@ final class ChunkManager {
     // MARK: - Update
 
     func update(cameraPosition: SIMD3<Float>) {
+        GZLogFunc(cameraPosition)
         // 언로드할 청크 찾기
         let chunksToUnload = loadedChunks.filter { id, chunk in
             let distance = chunk.distanceToCamera(cameraPosition)
             return distance > unloadRadius
         }.map { $0.key }
 
+        GZLogFunc("chunksToUnload count: \(chunksToUnload.count)")
         // 청크 언로드
         for id in chunksToUnload {
             unloadChunk(id: id)
         }
 
+        GZLogFunc(loadRadius)
         // 로드할 청크 찾기
         let nearbyChunks = loader.getChunksInRange(center: cameraPosition, radius: loadRadius)
+        GZLogFunc("chunks to load count: \(nearbyChunks.count)")
 
         for id in nearbyChunks {
             if loadedChunks[id] == nil && !loadingChunks.contains(id) {
