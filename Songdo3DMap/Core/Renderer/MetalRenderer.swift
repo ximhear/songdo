@@ -621,10 +621,13 @@ extension MetalRenderer: MTKViewDelegate {
 extension MetalRenderer: ChunkManagerDelegate {
     func chunkManager(_ manager: ChunkManager, didLoadChunk id: ChunkID) {
         // Chunk loaded, will be rendered in next frame
+        //TODO: 한번에 모든 청크를 로드하는 것 같다.
+        GZLogFunc(id)
     }
 
     func chunkManager(_ manager: ChunkManager, didUnloadChunk id: ChunkID) {
         // Chunk unloaded
+        GZLogFunc(id)
     }
 }
 

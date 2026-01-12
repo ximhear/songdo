@@ -26,14 +26,14 @@ final class ChunkLoader {
         // 앱 번들의 MapData 디렉토리
         if let bundleURL = Bundle.main.url(forResource: "MapData", withExtension: nil) {
             self.resourcesURL = bundleURL
-            print("ChunkLoader: Found MapData at \(bundleURL.path)")
+            GZLogFunc("ChunkLoader: Found MapData at \(bundleURL.path)")
         } else if let bundleURL = Bundle.main.resourceURL?.appendingPathComponent("MapData") {
             self.resourcesURL = bundleURL
-            print("ChunkLoader: Using fallback MapData at \(bundleURL.path)")
+            GZLogFunc("ChunkLoader: Using fallback MapData at \(bundleURL.path)")
         } else {
             // 개발 중 fallback
             self.resourcesURL = URL(fileURLWithPath: "/Users/gzonelee/git/songdo/Songdo3DMap/Resources/MapData")
-            print("ChunkLoader: Using development fallback path")
+            GZLogFunc("ChunkLoader: Using development fallback path")
         }
     }
 
@@ -56,7 +56,7 @@ final class ChunkLoader {
             chunkInfoMap[id] = info
         }
 
-        print("Loaded chunk index: \(chunkInfoMap.count) chunks")
+        GZLogFunc("Loaded chunk index: \(chunkInfoMap.count) chunks")
     }
 
     // MARK: - Chunk Loading

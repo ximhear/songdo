@@ -52,7 +52,7 @@ struct ChunkIndex: Codable {
 }
 
 /// 청크 ID
-struct ChunkID: Hashable {
+struct ChunkID: Hashable, CustomStringConvertible {
     let x: Int
     let y: Int
 
@@ -64,6 +64,10 @@ struct ChunkID: Hashable {
     init(from info: ChunkIndex.ChunkInfo) {
         self.x = info.x
         self.y = info.y
+    }
+    
+    var description: String {
+        "ChunkID(x: \(x), y: \(y))"
     }
 }
 
